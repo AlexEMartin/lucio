@@ -1,10 +1,18 @@
 import "./App.css";
-import Navbar from "../src/components/Navbar";
+import Footer from "./components/footer/Footer";
+import Iframe from "./components/iframes/Iframe";
+import Navbar from "./components/navbar/Navbar";
+import Intro from "./components/text/Intro";
+import Slider from "./components/sliders/Slider";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Iframe />
+      <Intro />
+      <Slider />
+      <Footer />
     </div>
   );
 }
