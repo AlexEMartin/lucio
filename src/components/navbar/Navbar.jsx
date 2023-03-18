@@ -10,7 +10,7 @@ const Navbar = () => {
       <img className="nav_logo" src={logo} alt="" />
       <div className={`nav_items ${isOpen && "open"}`}>
         <Link to="/">Inicio</Link>
-        <Link to="/">Agenda</Link>
+        <Link to="/agenda">Agenda</Link>
         <Link to="/">Bio</Link>
         <Link to="/">Director</Link>
         <Link to="/">Maestro</Link>
