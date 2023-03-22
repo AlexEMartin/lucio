@@ -3,6 +3,7 @@ import Iframe from "../..//components/iframes/Iframe";
 import Navbar from "../../components/navbar/Navbar";
 import Intro from "../../components/text/Intro";
 import Slider from "../../components/sliders/Slider";
+import WhappBtn from "../../utils/whatsapp/WhappBtn";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Intro />
       <Slider />
       <Footer />
+      <WhappBtn />
     </div>
   );
 }
