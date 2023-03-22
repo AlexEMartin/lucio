@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="block">
-            <h2 style={{ marginTop: "45px" }} className="title">
+            <h2 style={{ marginTop: "35px" }} className="title">
               Contacto
             </h2>
             <p className="phone">
