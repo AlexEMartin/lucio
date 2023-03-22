@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import facebook from "../../img/facebook.png";
-import instagram from "../../img/instagram.jpg";
-import youtube from "../../img/youtube.jpg";
+import { SlSocialInstagram } from "react-icons/sl";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FiYoutube } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -10,20 +10,20 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-data">
           <div className="block">
-            <h2 className="title">Social Media</h2>
+            <h2 className="title">Redes Sociales</h2>
             <div className="media-box">
-              <img className="logo" src={facebook} alt="" />
-              <img className="logo" src={instagram} alt="" />
-              <img className="logo" src={youtube} alt="" />
+              <SlSocialInstagram className="logo" />
+              <FaFacebookSquare className="logo" />
+              <FiYoutube className="logo" />
             </div>
           </div>
           <div className="block">
-            <h2 className="title">Contacto</h2>
+            <h2 style={{ marginTop: "45px" }} className="title">
+              Contacto
+            </h2>
             <p className="phone">
               <span style={{ color: "#888888" }}>+34 638 496 387</span>
-              <span style={{ color: "#c5c5c5" }}>
-                luciobag@gmail.com
-              </span>
+              <span style={{ color: "#c5c5c5" }}>luciobag@gmail.com</span>
             </p>
           </div>
         </div>
