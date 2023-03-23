@@ -5,7 +5,7 @@ const WhappBtn = () => {
   return (
     <div className="container">
       <a
-        href="https://wa.me/34638496387?text=Hola,%20%C2%BFpuede%20decirme%20m%C3%A1s%20sobre%20vuestros%20servicios?"
+        href="https://wa.link/z8xlez"
         target="_blank"
         rel="noreferrer"
       >

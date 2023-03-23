@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="block">
             <h2 className="title">Redes Sociales</h2>
             <div className="media-box">
-              <SlSocialInstagram className="logo" />
-              <FaFacebookSquare className="logo" />
-              <FiYoutube className="logo" />
+              <SlSocialInstagram style={{ width: '30px' }} className="logo" />
+              <FaFacebookSquare style={{ width: '30px' }} className="logo" />
+              <FiYoutube style={{ width: '35px' }} className="logo" />
             </div>
           </div>
           <div className="block">
