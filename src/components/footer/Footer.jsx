@@ -11,14 +11,14 @@ const Footer = () => {
         <div className="footer-data">
           <div className="block">
             <h2 className="title">Redes Sociales</h2>
-            <div className="media-box">
+            <div>
               <SlSocialInstagram style={{ width: '30px' }} className="logo" />
               <FaFacebookSquare style={{ width: '30px' }} className="logo" />
               <FiYoutube style={{ width: '35px' }} className="logo" />
             </div>
           </div>
           <div className="block">
-            <h2 style={{ marginTop: "35px" }} className="title">
+            <h2 className="title">
               Contacto
             </h2>
             <p className="phone">

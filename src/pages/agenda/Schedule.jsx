@@ -6,6 +6,7 @@ import { ChevronLeftIcon } from "@heroicons/react/24/solid";
 import "./Schedule.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import agenda from "../../img/agenda.jpeg";
 import { months } from "../../utils/schedule/months";
 import { agendas } from "../../utils/schedule/month-data";
@@ -67,6 +68,7 @@ const Schedule = () => {
         </div>
       ))}
       <Footer />
+      <WhappBtn />
     </div>
   );
 };
