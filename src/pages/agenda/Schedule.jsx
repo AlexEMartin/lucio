@@ -7,11 +7,13 @@ import "./Schedule.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import agenda from "../../img/agenda.jpeg";
-import { months } from "../../utils/months";
-import { agendas } from "../../utils/month-data";
+import { months } from "../../utils/schedule/months";
+import { agendas } from "../../utils/schedule/month-data";
+import { events } from "../../utils/schedule/past-events";
 
 const Schedule = () => {
-  const [mes, setMes] = useState(0);
+  // el valor por defecto del hook useState renderiza por defecto el mes de la agenda al ingresar
+  const [mes, setMes] = useState(2);
 
   useEffect(() => {
     AOS.init({ duration: 800 });
@@ -48,6 +50,22 @@ const Schedule = () => {
       <div data-aos="zoom-in" className="info-container">
         <div className="info">{agendas[mes]}</div>
       </div>
+      {events.map((e) => (
+        <div key={e.year} className="events">
+          <h1>{e.year}</h1>
+          {e.months.map((m) => (
+            <div key={m.month} className="eventItems">
+              <h2>{m.month}</h2>
+              {m.activities.map((a) => (
+                <div key={a.event}>
+                  <p>{a.event}</p>
+                  <span>{a.place}</span>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      ))}
       <Footer />
     </div>
   );
