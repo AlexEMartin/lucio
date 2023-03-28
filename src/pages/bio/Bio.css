@@ -1,0 +1,30 @@
+.bio-container {
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bio-title {
+    color: #718a8a;
+    font-size:  35px;
+    font-weight: 100;
+}
+
+.bio-img {
+    width: 100%;
+}
+
+.bio-p-container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.bio-p {
+    width: 90%;
+    margin: -50px auto 0px auto;
+    font-weight: 400;
+    line-height: 30px;
+}

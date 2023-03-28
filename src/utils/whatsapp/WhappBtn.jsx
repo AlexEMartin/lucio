@@ -3,13 +3,13 @@ import "./WhappBtn.css";
 
 const WhappBtn = () => {
   return (
-    <div className="container">
+    <div className="container-whatsapp">
       <a
-        href="https://wa.link/z8xlez"
+        href="https://wa.link/qpfw0e"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="logo" src={whatsapp} alt="whatsapp" />
+        <img className="logo-whatsapp" src={whatsapp} alt="whatsapp" />
       </a>
     </div>
   );

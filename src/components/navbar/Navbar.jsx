@@ -11,11 +11,11 @@ const Navbar = () => {
       <div className={`nav_items ${isOpen && "open"}`}>
         <Link to="/">Inicio</Link>
         <Link to="/agenda">Agenda</Link>
-        <Link to="/">Bio</Link>
-        <Link to="/">Director</Link>
-        <Link to="/">Maestro</Link>
-        <Link to="/">Actor</Link>
-        <Link to="/">Trabajos</Link>
+        <Link to="/bio">Bio</Link>
+        <Link to="/creador">Creador</Link>
+        <Link to="/maestro">Maestro</Link>
+        <Link to="/actor">Actor</Link>
+        <Link to="/trabajos">Trabajos</Link>
       </div>
       <div
         className={`nav_toggle ${isOpen && "open"}`}

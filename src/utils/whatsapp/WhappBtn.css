@@ -1,11 +1,11 @@
-.container {
+.container-whatsapp {
   position: fixed;
   bottom: 0;
   right: 0;
   margin-bottom: 100px;
 }
 
-.logo {
+.logo-whatsapp {
   width: 40px;
   height: 40px;
   opacity: 0.8;
