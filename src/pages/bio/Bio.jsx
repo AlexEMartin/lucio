@@ -3,7 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Bio.css";
 import Navbar from "../../components/navbar/Navbar";
-import WhappBtn from '../../utils/whatsapp/WhappBtn';
+import WhappBtn from "../../utils/whatsapp/WhappBtn";
+import Footer from "../../components/footer/Footer";
 import profile from "../../img/profile.jpeg";
 import profile2 from "../../img/profile2.jpeg";
 import { bioIntro } from "../../utils/biography/intro";
@@ -49,14 +50,21 @@ const Bio = () => {
         />
         {recentProjects.map((i) => (
           <div className="bio-p-container" key={i}>
-            <h2 style={{ color: '#718a8a' }}>{i.title}</h2>
-            <p data-aos="zoom-in" className="bio-p">{i.p1}</p>
-            <p data-aos="zoom-in" className="bio-p">{i.p2}</p>
-            <p data-aos="zoom-in" className="bio-p">{i.p3}</p>
+            <h2 style={{ color: "#718a8a" }}>{i.title}</h2>
+            <p data-aos="zoom-in" className="bio-p">
+              {i.p1}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {i.p2}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {i.p3}
+            </p>
           </div>
         ))}
       </div>
       <WhappBtn />
+      <Footer />
     </>
   );
 };
