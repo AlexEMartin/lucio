@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Bio.css";
 import Navbar from "../../components/navbar/Navbar";
+import WhappBtn from '../../utils/whatsapp/WhappBtn';
 import profile from "../../img/profile.jpeg";
 import profile2 from "../../img/profile2.jpeg";
 import { bioIntro } from "../../utils/biography/intro";
@@ -55,6 +56,7 @@ const Bio = () => {
           </div>
         ))}
       </div>
+      <WhappBtn />
     </>
   );
 };
