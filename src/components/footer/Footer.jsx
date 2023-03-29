@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-data">
           <div className="block">
             <h2 className="title">Redes Sociales</h2>
-            <div>
+            <div className="social-media">
               <a
                 href="https://www.instagram.com/lucio.a.baglivo_lab/"
                 target="_blank"
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="block">
-            <h2 className="title">Contacto</h2>
+            <h2 style={{ marginTop: "42px" }} className="title">Contacto</h2>
             <p className="phone">
               <span style={{ color: "#888888" }}>+34 638 496 387</span>
               <span style={{ color: "#c5c5c5" }}>luciobag@gmail.com</span>
