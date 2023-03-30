@@ -41,7 +41,14 @@ const Schedule = () => {
   return (
     <div>
       <Navbar />
-      <img data-aos="fade-right" className="img-schedule" src={agenda} alt="" />
+      <div className="img-schedule-container">
+        <img
+          data-aos="fade-right"
+          className="img-schedule"
+          src={agenda}
+          alt=""
+        />
+      </div>
       <h2 className="schedule">Agenda</h2>
       <div className="months">
         <ChevronLeftIcon onClick={restaMes} className="arrow left" />

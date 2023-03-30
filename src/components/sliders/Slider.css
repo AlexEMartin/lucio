@@ -6,3 +6,10 @@
   width: 100%;
   margin-top: 50px;
 }
+
+@media only screen and (min-width: 768px) {
+  .slider-container {
+    width: 60%;
+    margin: auto;
+  }
+}

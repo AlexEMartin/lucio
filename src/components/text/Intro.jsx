@@ -17,19 +17,22 @@ const Intro = () => {
         <HeartIcon className="heart" />
         <div className="hr-block"></div>
       </div>
-      <p style={{ marginTop: "20px", width: "90%" }}>
-        (…) «Lucio me ha demostrado su talento, profesionaidad y su sensibilidad
-        realizando cada trabajo. La combinación de sus habilidades como
-        acróbata, bailarin y actor le ha permitido desarrollar un lenguaje
-        artístico único» (…) Robert Wilson, dramaturgo y director.
-      </p>
-      <p style={{ marginTop: "30px", width: "90%" }}>
-        El objetivo de sus obras es lograr un trabajo escénico que, a través de
-        la danza, la acrobacia y el teatro transmita emociones y conecte con el
-        espectador, potenciando todos los sentidos en escena. Cada proyecto
-        busca un lenguaje de movimiento propio y una poética escénica
-        particular.
-      </p>
+      <div className="intro-p-container">
+        <p className="intro-p">
+          (…) «Lucio me ha demostrado su talento, profesionaidad y su
+          sensibilidad realizando cada trabajo. La combinación de sus
+          habilidades como acróbata, bailarin y actor le ha permitido
+          desarrollar un lenguaje artístico único» (…) Robert Wilson, dramaturgo
+          y director.
+        </p>
+        <p className="intro-p">
+          El objetivo de sus obras es lograr un trabajo escénico que, a través
+          de la danza, la acrobacia y el teatro transmita emociones y conecte
+          con el espectador, potenciando todos los sentidos en escena. Cada
+          proyecto busca un lenguaje de movimiento propio y una poética escénica
+          particular.
+        </p>
+      </div>
     </div>
   );
 };
