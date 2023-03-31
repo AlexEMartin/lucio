@@ -1,31 +1,80 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import logo from '../../img/logo.png';
+import logo from "../../img/logo.png";
+import { FiPhone } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+import { FaFacebookF, FaYoutube, FaVimeoV, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="navbar">
-      <img className="nav_logo" src={logo} alt="" />
-      <div className={`nav_items ${isOpen && "open"}`}>
-        <Link to="/">Inicio</Link>
-        <Link to="/agenda">Agenda</Link>
-        <Link to="/bio">Bio</Link>
-        <Link to="/creador">Creador</Link>
-        <Link to="/maestro">Maestro</Link>
-        <Link to="/actor">Actor</Link>
-        <Link to="/trabajos">Trabajos</Link>
+    <>
+      <div className="nav-info">
+        <div className="nav-info-side">
+          <p>
+            <FiPhone className="nav-info-icon" /> <span>+34 638 496 387</span>
+          </p>
+          <p>
+            <FiMail className="nav-info-icon" /> <span>luciobag@gmail.com</span>
+          </p>
+          <p style={{ marginLeft: "20px" }}>Español</p>
+        </div>
+        <div
+          style={{ marginRight: "160px" }}
+          className="nav-info-side socialmedia"
+        >
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/luciobaglivo/"
+          >
+            <FaFacebookF className="nav-info-icon" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/user/luciobag"
+          >
+            <FaYoutube className="nav-info-icon" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://vimeo.com/luciobaglivo"
+          >
+            <FaVimeoV className="nav-info-icon" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/lucio.a.baglivo_lab/"
+          >
+            <FaInstagram className="nav-info-icon" />
+          </a>
+        </div>
       </div>
-      <div
-        className={`nav_toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span></span>
-        <span></span>
-        <span></span>
+      <div className="navbar">
+        <img className="nav_logo" src={logo} alt="" />
+        <div className={`nav_items ${isOpen && "open"}`}>
+          <Link to="/">Inicio</Link>
+          <Link to="/agenda">Agenda</Link>
+          <Link to="/bio">Bio</Link>
+          <Link to="/creador">Creador</Link>
+          <Link to="/maestro">Maestro</Link>
+          <Link to="/actor">Actor</Link>
+          <Link to="/trabajos">Trabajos</Link>
+        </div>
+        <div
+          className={`nav_toggle ${isOpen && "open"}`}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 export default Navbar;
