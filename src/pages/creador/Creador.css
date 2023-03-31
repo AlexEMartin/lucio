@@ -1,0 +1,18 @@
+.creator-noland {
+    width: 100%;
+}
+
+.noland-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .creator-noland {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
