@@ -6,11 +6,14 @@ import noland from "../../img/noland.jpeg";
 import mientrastanto from "../../img/mientras-tanto.jpeg";
 import MyL from "../../img/MYL3.jpeg";
 import solojuntos from "../../img/solo-juntos.jpeg";
+import { HeartIcon } from "@heroicons/react/24/outline";
 import "./Creador.css";
 
 const Creador = () => {
   return (
-    <div style={{ backgroundColor: "#171517", width: "100%", overflowX: 'hidden' }}>
+    <div
+      style={{ backgroundColor: "#171517", width: "100%", overflowX: "hidden" }}
+    >
       <Navbar />
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://www.youtube.com/watch?v=Gy-dify_Fqo" />
@@ -19,6 +22,11 @@ const Creador = () => {
       <div className="noland-container">
         <img className="creator-noland" src={noland} alt="" />
       </div>
+      <div style={{ marginBottom: "-50px", paddingTop: "10px" }} className="hr">
+        <div className="hr-block"></div>
+        <HeartIcon className="heart" />
+        <div className="hr-block"></div>
+      </div>
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://www.youtube.com/watch?v=wHSxI47I1fU" />
       </div>
@@ -26,12 +34,22 @@ const Creador = () => {
       <div className="noland-container">
         <img className="creator-noland" src={mientrastanto} alt="" />
       </div>
+      <div style={{ marginBottom: "-50px", paddingTop: "10px" }} className="hr">
+        <div className="hr-block"></div>
+        <HeartIcon className="heart" />
+        <div className="hr-block"></div>
+      </div>
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://www.youtube.com/watch?v=bphJLHzqGoo" />
       </div>
       <h3 className="creator-title">MyL</h3>
       <div className="noland-container">
         <img className="creator-noland" src={MyL} alt="" />
+      </div>
+      <div style={{ marginBottom: "-50px", paddingTop: "10px" }} className="hr">
+        <div className="hr-block"></div>
+        <HeartIcon className="heart" />
+        <div className="hr-block"></div>
       </div>
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://www.youtube.com/watch?v=yL-qo8MW44k" />
