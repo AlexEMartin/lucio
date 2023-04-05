@@ -10,7 +10,7 @@ import "./Creador.css";
 
 const Creador = () => {
   return (
-    <div style={{ backgroundColor: "#171517" }}>
+    <div style={{ backgroundColor: "#171517", width: "100%", overflowX: 'hidden' }}>
       <Navbar />
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://www.youtube.com/watch?v=Gy-dify_Fqo" />
