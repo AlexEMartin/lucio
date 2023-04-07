@@ -7,7 +7,7 @@ import WhappBtn from "../../utils/whatsapp/WhappBtn";
 
 function Home() {
   return (
-    <div>
+    <div style={{ width: '100%', overflowX: 'hidden' }}>
       <Navbar />
       <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
       <Intro />

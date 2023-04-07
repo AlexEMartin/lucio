@@ -9,7 +9,7 @@ import { FaFacebookF, FaYoutube, FaVimeoV, FaInstagram } from "react-icons/fa";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div style={{ width: '100%' }}>
+    <div>
       <div style={{ width: '100%' }} className="nav-info">
         <div id="phone-mail" className="nav-info-side">
           <p>

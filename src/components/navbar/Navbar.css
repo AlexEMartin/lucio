@@ -133,3 +133,9 @@
     transform: rotate(-45deg) translate(-1.5px, 0px);
   }
 }
+
+@media (min-width: 768px) {
+  .socialmedia {
+    margin-left: 320px;
+  }
+}
