@@ -10,18 +10,17 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="nav-info">
+      <div style={{ width: '100%' }} className="nav-info">
         <div id="phone-mail" className="nav-info-side">
           <p>
-            <FiPhone className="nav-info-icon" /> <span>+34 638 496 387</span>
+            <FiPhone className="nav-info-icon" /> <span style={{ margin: "0px 10px" }}>+34 638 496 387</span>
           </p>
           <p>
-            <FiMail className="nav-info-icon" /> <span>luciobag@gmail.com</span>
+            <FiMail className="nav-info-icon" /> <span style={{ marginLeft: "10px" }}>luciobag@gmail.com</span>
           </p>
           <p style={{ marginLeft: "20px" }}>Español</p>
         </div>
         <div
-          style={{ marginRight: "255px" }}
           className="nav-info-side socialmedia"
         >
           <a
