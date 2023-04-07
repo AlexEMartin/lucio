@@ -20,7 +20,7 @@ const Creador = () => {
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
       </div>
-      <h3 className="creator-title">Me las bailo todas</h3>
+      <h3 className="creator-title">Me las bailo todas (2022)</h3>
       <div className="noland-container">
         <img className="creator-noland" src={melasbailotodas} alt="" />
       </div>
@@ -56,7 +56,7 @@ const Creador = () => {
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://youtu.be/OzqhXJ5XdrM" status={false} />
       </div>
-      <h3 className="creator-title">MyL</h3>
+      <h3 className="creator-title">MyL (2019)</h3>
       <div className="noland-container">
         <img className="creator-noland" src={MyL} alt="" />
       </div>
@@ -68,7 +68,7 @@ const Creador = () => {
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://youtu.be/bphJLHzqGoo" status={false} />
       </div>
-      <h3 className="creator-title">MyL 2.0</h3>
+      <h3 className="creator-title">MyL 2.0 (2019)</h3>
       <div className="noland-container">
         <img className="creator-noland" src={MyL2} alt="" />
       </div>
@@ -80,7 +80,7 @@ const Creador = () => {
       <div style={{ width: "100%", backgroundColor: "black" }}>
         <Iframe url="https://www.youtube.com/watch?v=yL-qo8MW44k" status={false} />
       </div>
-      <h3 className="creator-title">Solo Juntos</h3>
+      <h3 className="creator-title">Solo Juntos (2015)</h3>
       <div className="noland-container">
         <img className="creator-noland" src={solojuntos} alt="" />
       </div>
