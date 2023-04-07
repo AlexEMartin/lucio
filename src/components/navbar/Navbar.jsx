@@ -9,7 +9,7 @@ import { FaFacebookF, FaYoutube, FaVimeoV, FaInstagram } from "react-icons/fa";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <>
+    <div style={{ width: '100%' }}>
       <div style={{ width: '100%' }} className="nav-info">
         <div id="phone-mail" className="nav-info-side">
           <p>
@@ -21,7 +21,7 @@ const Navbar = () => {
           <p style={{ marginLeft: "20px" }}>Español</p>
         </div>
         <div
-          className="nav-info-side socialmedia"
+          className="socialmedia"
         >
           <a
             target="_blank"
@@ -80,7 +80,7 @@ const Navbar = () => {
           <span></span>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Navbar;
