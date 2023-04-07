@@ -5,7 +5,7 @@ import './Iframe.css';
 const Iframe = (props) => {
   return (
     <div className="iframe-container">
-     <ReactPlayer width={'100%'} url={props.url} muted playing controls />
+     <ReactPlayer width={'100%'} url={props.url} muted playing={props.status} controls />
     </div>
   );
 };

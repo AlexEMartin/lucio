@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-info">
-        <div className="nav-info-side">
+        <div id="phone-mail" className="nav-info-side">
           <p>
             <FiPhone className="nav-info-icon" /> <span>+34 638 496 387</span>
           </p>
@@ -21,9 +21,16 @@ const Navbar = () => {
           <p style={{ marginLeft: "20px" }}>Español</p>
         </div>
         <div
-          style={{ marginRight: "160px" }}
+          style={{ marginRight: "255px" }}
           className="nav-info-side socialmedia"
         >
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:luciobag@gmail.com"
+          >
+             <FiMail className="nav-info-icon" />
+          </a>
           <a
             target="_blank"
             rel="noopener noreferrer"

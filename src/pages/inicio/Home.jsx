@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <Iframe url="https://youtu.be/ILK1tGnPpUo" />
+      <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
       <Intro />
       <Slider />
       <Footer />
