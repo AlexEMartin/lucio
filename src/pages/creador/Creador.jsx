@@ -10,7 +10,7 @@ import MyL from "../../img/MyL5.JPG";
 import MyL2 from "../../img/MyL6.jpg";
 import solojuntos from "../../img/solo-juntos.jpeg";
 import melasbailotodas from "../../img/me-las-bailo-todas.jpeg";
-import logosurge from '../../img/logo surge.png';
+import logosurge from "../../img/logo surge.png";
 import apparentlyalone from "../../img/apparently-alone.png";
 import iamtheother from "../../img/iamtheother.jpeg";
 import noland from "../../img/noland.jpeg";
@@ -87,14 +87,7 @@ const Creador = () => {
       </div>
       <HeartHr />
       <Iframe url={video} status={false} />
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          margin: "10px 0px 10px -30px",
-        }}
-        className="creator-title"
-      >
+      <div className="creator-buttons">
         <button
           className="creator-btn"
           onClick={() => setVideo("https://youtu.be/bphJLHzqGoo")}
@@ -123,12 +116,7 @@ const Creador = () => {
       <HeartHr />
       <Iframe url={video2} status={false} />
       <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          margin: "10px 0px 10px -30px",
-        }}
-        className="creator-title"
+        className="creator-buttons"
       >
         <button
           className="creator-btn"

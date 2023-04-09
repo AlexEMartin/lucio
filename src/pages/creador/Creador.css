@@ -21,6 +21,16 @@
   overflow-x: hidden;
 }
 
+.creator-buttons {
+  width: 100%;
+  margin: 20px auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .creator-description {
   width: 90%;
   color: white;
@@ -32,10 +42,9 @@
   font-size: 13px;
   background-color: #8dacad;
   color: #ffffff;
-  margin-left: 20px;
-  margin-bottom: 5px;
-  padding: 10px 15px;
-  height: 45px;
+  margin: 20px auto 0px auto;
+  padding: 15px 0px;
+  width: 80%;
   border-radius: 40px;
   border: none;
 }
@@ -50,11 +59,14 @@
     width: 65%;
     margin: 0 auto;
   }
+
+  .creator-btn {
+    width: 20%;
+    margin: 20px auto 0px 250px;
+  }
+
   .creator-title {
     padding-left: 250px;
-  }
-  .creator-btn {
-    margin-left: 40px;
   }
 
   .creator-description {
