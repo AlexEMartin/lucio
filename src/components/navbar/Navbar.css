@@ -72,10 +72,6 @@
 }
 
 @media (max-width: 768px) {
-  #phone-mail {
-   display: none;
-  }
-
   .nav_items {
     position: absolute;
     padding-top: 10px;
@@ -138,4 +134,10 @@
   .socialmedia {
     margin-left: 320px;
   }
+}
+
+@media only screen and (max-width: 950px) {
+  #phone-mail {
+    display: none;
+   } 
 }
