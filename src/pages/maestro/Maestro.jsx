@@ -7,6 +7,7 @@ import maestro1img from "../../img/maestro.jpeg";
 import { master1 } from "../../utils/master/master";
 import Footer from "../../components/footer/Footer";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
+import Iframe from "../../components/iframes/Iframe";
 
 const Maestro = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const Maestro = () => {
       <Navbar />
       <div className="master-container">
         <h1 className="master-title">Maestro</h1>
+        <Iframe url="https://vimeo.com/581104691" status={true} />
         <div className="master-block">
           <img
             data-aos="fade-right"

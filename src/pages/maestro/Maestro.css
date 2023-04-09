@@ -7,10 +7,15 @@
     flex-direction: column;
 }
 
+.master-block {
+    margin-top: 100px;
+}
+
 .master-title {
     color: #718a8a;
     font-size:  35px;
     font-weight: 100;
+    margin-bottom: -50px;
 }
 
 .master-img {

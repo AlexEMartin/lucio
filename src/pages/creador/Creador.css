@@ -1,8 +1,8 @@
-.creator-noland {
+.creator-img {
   width: 100%;
 }
 
-.noland-container {
+.creator-container {
   width: 100%;
   background-color: black;
   display: flex;
@@ -12,6 +12,7 @@
 
 .creator-title {
   width: 100%;
+  height: 50px;
   background-color: black;
   color: white;
   margin: 0;
@@ -20,12 +21,43 @@
   overflow-x: hidden;
 }
 
-@media only screen and (min-width: 768px) {
-  .creator-noland {
+.creator-description {
+  width: 90%;
+  color: white;
+  margin: 0px auto 30px auto;
+  line-height: 30px;
+}
+
+.creator-btn {
+  font-size: 13px;
+  background-color: #8dacad;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+}
+
+.creator-btn:hover {
+  cursor: pointer;
+  background-color: #9bbfc0;
+}
+
+@media only screen and (min-width: 950px) {
+  .creator-container {
     width: 65%;
     margin: 0 auto;
   }
   .creator-title {
     padding-left: 250px;
+  }
+  .creator-btn {
+    margin-left: 40px;
+  }
+
+  .creator-description {
+    width: 65%;
   }
 }
