@@ -11,30 +11,34 @@
     color: #718a8a;
     font-size:  35px;
     font-weight: 100;
+    margin-bottom: 30px;
 }
 
 .bio-img {
     width: 100%;
+    margin-top: 30px;
 }
 
 .bio-p-container {
-    margin-top: 100px;
-    margin-bottom: 40px;
+    width: 90%;
+    margin: 10px auto;
 }
 
 .bio-p {
-    width: 90%;
-    margin: -50px auto 0px auto;
     font-weight: 400;
     line-height: 30px;
 }
 
 @media only screen and (min-width: 768px) {
     .bio-img {
-        width: 45%;
+        width: 65%;
     }
 
-    .bio-p {
+    .bio-title {
+        margin-bottom: -40px;
+    }
+
+    .bio-p-container {
         width: 60%;
     }
 }

@@ -1,47 +1,38 @@
 export const master1 = [
-  {
-    p: "Actualmente estoy impartiendo dos nuevos Talleres de Creación tanto de manera presencial como online:",
-    id: 1,
-  },
-  {
-    p: "1. MOVIMIENTO LÚCIDO: danza contemporánea, herramientas teatrales y  técnica de acrobacia. De la sensación a la forma. De adentro hacia afuera.",
-    id: 2,
-  },
-  {
-    p: "Este taller busca encontrar una expresión del movimiento singular de cada participante articulando herramientas de danza contemporánea, mecánicas de contacto, teatro y acrobacia.",
-    id: 3,
-  },
-  {
-    p: "Jugaremos con pautas de improvisación concretas para tener muy claro desde dónde partimos, desde dónde estamos haciendo lo que hacemos, con la intención de que esta consciencia nos permita saber dónde estamos poniendo la atención y qué relaciones estamos estableciendo cuando improvisamos; y así podamos profundizar lo más posible en el desarrollo de una idea en una dirección en la búsqueda de un universo particular.",
-    id: 4,
-  },
-  {
-    p: "El objetivo es profundizar  en una Metodología, en una «forma de hacer», que nos brinde una estructura para tomar decisiones coherentes en base a cada improvisación que realizamos; y así comprender qué estamos generando y transmitiendo y al mismo tiempo sentirnos libres de jugar dentro de este mundo creativo.",
-    id: 5,
-  },
-  {
-    p: "Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. No se necesita experiencia previa ni asistir en pareja.",
-    id: 6,
-  },
+  "Trabajo como director y maestro desarrollando y profundizando en mi metodología de creación “Movimiento Lúcido”, de la cual se desprenden sus variantes “Memoria Sensible”, “Contacto Lúcido” y “Acrobacia para tod@s”, que dialoga constantemente con mis creaciones, de manera regular, online y presencial para diferentes Compañías y Escuelas de circo y Conservatorios de danza de España, Alemania, Grecia, Suiza, Italia, Brasil, Bélgica y Argentina. Estas clases se han realizado en el marco de la Escuela de artes vivas del Teatro Pradillo de Madrid, en el Akropoditi Festival en Syros en Grecia, en el programa NOD en Torino , Italia y en el Dance Days Chania Festival en Creta en Grecia, entre otros.",
+  'En los Talleres de Creación que imparto los participantes suelen manifestar cómo el “resultado” del trabajo hecho les hace pensar en sus vidas, en sus situaciones actuales o en cosas que vienen pensando sobre su forma de vivir. Nos hemos encontrando hablando sobre lo trabajado y a la vez, a veces sin hacerlo manifiesto, también cuestionándonos sobre nuestra existencia y nuestra manera de habitarla. El trabajo con el cuerpo revela indefectiblemente un Presente, una realidad actual. El cuerpo se manifiesta más allá de lo que nosotros podamos pretender. Esto me interesa particularmente porque no es algo que busco deliberadamente pero sí soy consciente (además por mi trabajo en mis propios procesos creativos) que sucede y me interesa que se refleje de esta manera. Es decir, que como consecuencia de la búsqueda de la expresión de movimiento consciente, surge un cuestionamiento, un posible cambio a través/mediante/por la danza. Me interesa que en mis talleres pueda asistir cualquier tipo de persona porque, por una lado, creo que la diversidad en los grupos siempre suma y nos hace preguntarnos otros modos posible de expresión y, por consecuencia de existencia, en este mundo. Además creo firmemente que la posibilidad de bailar es accesible para todos/todas/todes y que nos conecta con la esencia de nuestro ser, al igual que la creación. El "crear" nos "devuelve" y nos puede sorprender constantemente si estamos abiertos y disponibles para ello. El enfoque de los diferentes encuentros será el propio trabajo con la expresión del movimiento, con el cuerpo, utilizando pautas inspiradas en la danza contemporánea, el teatro y el uso de la voz. A lo largo de mis diferentes Talleres he presenciado cómo estas propuestas nos sitúan en un lugar en el que debemos reconocer y afrontar nuestras seguridades e inseguridades, nos encontramos con nuestros recursos, fortalezas y debilidades y nos hacen gestionarlos e indefectiblemente sentirnos, pensarnos, cuestionarnos.',
+  "- Movimiento Lúcido, herramientas teatrales, acrobacia y danza contemporánea",
+  "- Memoria Sensible, herramientas teatrales, acrobacia y danza contemporánea + muestra final de los participantes del taller ",
+  "- Contacto Lúcido, mecánicas de contacto+partnering",
+  "- Acrobacia para tod@s, técnica de acrobacia de suelo",
 ];
 
 export const master2 = [
-  {
-    p7: "2. MEMORIA SENSIBLE: recorrido por el que vuelvo a transitar un camino tomando en cuenta, recuperando cada vez, y a su vez renovando y profundizando las relaciones que se establecieron con el tiempo, el espacio, mi cuerpo, mis pensamientos y mis sensaciones.",
-  },
-  {
-    p8: "Al igual que el Taller de Creación Movimiento Lúcido, este taller busca encontrar una expresión del movimiento singular de cada participante articulando herramientas de la danza contemporánea, del teatro y la acrobacia; pero esta vez con el objetivo de realizar una muestra al final del ciclo. El objetivo es generar una Memoria Sensible: un recorrido, abierto y flexible,  en el que podamos re-crear desde las sensaciones y las intenciones y, a través de ellas, la forma que le daremos a nuestro movimiento.",
-  },
-  {
-    p9: "Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. No se necesita experiencia previa ni asistir en pareja.",
-  },
-  {
-    p10: "A partir de 2007 Lucio A. Baglivo reside en Madrid y decide comenzar a mostrar y enseñar su trabajo de investigación en los escenarios y en las clases. Es así, que dicta clases de técnica en acrobacia y de danza acrobática en diferentes escuelas de circo y danza de Madrid. Desde el año 2009 dicta un nuevo curso: Taller de creación. Un curso que propone expandir la imaginación y bucear en los procesos creativos, estimulando la creación y búsqueda de un lenguaje personal para cada persona que participa.",
-  },
-  {
-    p11: "Lucio A. Baglivo ha sido invitado a dictar clases en diferentes escuelas y compañias de circo y danza de España (Bilbao, Huesca, Pamplona, Granada, Murcia) Argentina (Santa Fe, Jujuy, Córdoba, Buenos Aires), Alemania, Belgica, Grecia, Suiza e Italia.",
-  },
-  {
-    p12: "Lucio A. Baglivo comienza dictando clases de circo para niños y adolescentes en el año 2000 en la Escuela de circo La Arena en Buenos Aires. En el año 2003 amplía sus clases dictando técnica de acrobacia para adultos. En paralelo a la enseñanza se interesa en la fusión de la danza contemporánea con la acrobacia de suelo buscando desarrollar su propio lenguaje.",
-  },
+  "1. MOVIMIENTO LÚCIDO: danza contemporánea, herramientas teatrales y técnica de acrobacia. De la sensación a la forma. De adentro hacia afuera.",
+  "Este taller busca encontrar una expresión del movimiento singular de cada participante articulando herramientas de danza contemporánea, mecánicas de contacto, teatro y acrobacia.",
+  "Jugaremos con pautas de improvisación concretas para tener muy claro desde dónde partimos, desde dónde estamos haciendo lo que hacemos, con la intención de que esta consciencia nos permita saber dónde estamos poniendo la atención y qué relaciones estamos estableciendo cuando improvisamos; y así podamos profundizar lo más posible en el desarrollo de una idea en una dirección en la búsqueda de un universo particular.",
+  "El objetivo es profundizar en una Metodología, en una «forma de hacer», que nos brinde una estructura para tomar decisiones coherentes en base a cada improvisación que realizamos; y así comprender qué estamos generando y transmitiendo y al mismo tiempo sentirnos libres de jugar dentro de este mundo creativo.",
+  "Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. ",
+  "2. Memoria Sensible, herramientas teatrales, acrobacia y danza contemporánea + muestra final de los participantes del taller:",
+  "Memoria sensible: Recorrido por el que vuelvo a transitar un mismo camino recuperando y a la vez actualizando y profundizando las relaciones que se establecieron con el tiempo, el espacio, mi cuerpo, mis pensamientos y mis sensaciones y emociones.",
+  "Con estas clases nos proponemos generar una Memoria Sensible: un recorrido, abierto y flexible, en el que podamos re-crear desde las sensaciones y las intenciones y, a través de ellas, la forma que le daremos a nuestro movimiento. Me parece interesante poder compartir mi forma de crear y de darle un sentido a un trabajo creativo con una intención dramatúrgica clara y coherente.",
+  "Pondremos en relación nuestro cuerpo con diferentes acciones y a partir de esto percibir los pensamientos, las sensaciones y las emociones que surgen de este trabajo y poder articularlas en lo que llamo la expresión de movimiento particular y consciente (interno y externo), ya sea individual, en parejas o en grupo . A este trabajo se suma la mirada: tanto mi propia mirada sobre lo que estoy haciendo, “desde adentro”, como la mirada de los otros. Serán encuentros en los que seremos también observadores de cómo otras personas deciden trabajar/jugar sobre las mismas pautas.",
+  "Además nombraremos lo que hacemos y decidiremos sobre lo que nos interesa más y menos de ello. He notado que poner palabras, ponernos de alguna manera de acuerdo sobre lo que estoy haciendo con otro nos sirve para guiarnos, ponernos de acuerdo a la hora de seguir desarrollando un camino. También pondremos el foco en valorar el intento. La atención estará puesta en poner toda mi atención, mi concentración sobre la pauta indicada, liberándome de posibles juicios sobre la acción ejecutada y, así, acercarnos a nuestra expresión particular sobre los objetivos y las ideas y/o conceptos propuestos.",
+  "En la instancia final del taller se abrirán las clases al público general a modo de muestra de lo trabajado hasta ese momento. La idea, además de compartir lo realizado hasta ese momento, es también que los participantes del Taller vivencien lo que (les) sucede con esa mirada externa, desconocida que viene a presenciar esa expresión singular buscada durante los diferentes encuentros realizados.",
+  "Estas clases están dirigidas a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. No se necesita experiencia previa ni asistir en pareja.",
+  "- Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular.",
+  "3. Contacto Lúcido, mecánicas de contacto+partnering: ",
+  "En estos encuentros propongo combinar mi metodología Movimiento Lúcido, que vengo desarrollando en los últimos años, con la técnica de acrobacia de suelo y la investigación de diferentes mecánicas de contacto y partnering, en parejas, tríos y/o grupos.",
+  "En las clases de Movimiento Lúcido buscamos encontrar una expresión del movimiento singular de cada participante articulando herramientas de danza contemporánea, teatro y acrobacia. Jugamos con pautas de improvisación concretas para tener muy claro desde dónde partimos, desde dónde estamos haciendo lo que hacemos, con la intención de que esta consciencia nos permita saber dónde estamos poniendo la atención y qué relaciones estamos estableciendo cuando improvisamos; y así podamos profundizar lo más posible en el desarrollo de una idea en una dirección en la búsqueda de un universo particular.",
+  "En este taller, además, prestaremos especial atención a despertar la sensibilidad de cada participante al entrar en contacto y al ser contactado. ¿Cómo es ese contacto?¿Cómo respondo a él?¿Qué sensaciones me genera?¿Cómo se mueven mis pensamientos en relación a este despertar sensible?¿Y mi cuerpo físico?¿Que vínculo se establece a partir de este contacto y de mi respuesta a él?¿Qué universo particular creamos a partir de este vínculo?Utilizaremos diferentes herramientas de creación provenientes del teatro, el circo y la danza que nos ayudarán a crear un mundo particular y, a su vez, la técnica como apoyo para poder desarrollar cada creación con mayor libertad.",
+  "Sobre las mecánicas de contacto y el partnering: ",
+  "Investigaremos cómo es bailar en parejas intentando fluir y respirar con el otro con el objetivo de lograr una danza orgánica y arriesgada. Se buscará cómo ceder el peso del cuerpo al otro, el fuera de eje, diferentes tipos de portes, lanzarnos hacia atrás, la capacidad de confianza y de riesgo. Se estudiarán mecánicas y maneras de despegar al compañero del suelo usando la técnica a modo de herramienta, intentando reducir al mínimo el uso de la fuerza y respirando con consciencia a favor del movimiento. Además se trabajará en tríos y/o grupos para facilitar algunos ejercicios acrobáticos y de partnering.",
+  "El objetivo es profundizar en una danza de relación con el otro; buscando la mayor compenetración en el vínculo posible. Para esto pondremos el foco en la disposición no sólo del cuerpo sino de nuestro pensamiento y nuestras emociones, abordando el taller de una manera íntegra y con el énfasis puesto en lograr alcanzar un cuerpo disponible y preparado para crear con él.",
+  "- Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. No se necesita experiencia previa ni asistir en pareja.",
+  "4. Acrobacia para tod@s, técnica de acrobacia de suelo: ",
+  "El curso tiene como objetivo acercarnos a la técnica de acrobacia de suelo de una manera metodológica y consciente. La clase cuenta con una parte de trabajo individual y otra de dúos. Durante el taller haremos hincapié en la respiración y su relación con las acrobacias. Nos enfocaremos en las direcciones que proyectamos con nuestro cuerpo: cómo éstas influyen en nuestro sostén y su relación con los impulsos. Intentaremos encontrar el tono justo que nuestro cuerpo necesita en cada momento con la intención de poder reciclar nuestra energía constantemente y utilizar la fuerza muscular mínima posible y sólo cuando sea necesario.",
+  "En el comienzo de la clase abordaremos herramientas que nos permitan calentar el cuerpo y a su vez prepararnos para la segunda parte del encuentro. Trabajaremos sobre inversiones, generar confianza en brazos y manos para poner el peso del cuerpo sobre ellos, proyección del movimiento desde el centro hacia los extremos del cuerpo, la consciencia de las posibilidades del movimiento de la columna por completo. También haremos diferentes ejercicios acrobáticos específicos: paradas de manos, roladas, uso de la columna vertebral: arcos, puentes.",
+  "En relación al trabajo de dúos utilizaremos herramientas del contact-improvisación y de la danza contemporánea para facilitar algunos ejercicios acrobáticos. Investigaremos cómo es fluir y respirar con el otro. Se buscará cómo ceder el peso del cuerpo al otro, el fuera de eje, diferentes tipos de portes, lanzarnos hacia atrás, la capacidad de confianza y de riesgo. Se estudiarán mecánicas y maneras de despegar al compañero del suelo usando la técnica a modo de herramienta, intentando utilizar la mínima fuerza necesaria.",
+  "Durante la clase se busca que cada participante llegue al máximo de sus posibilidades de su desarrollo técnico individual con amabilidad y consciencia sobre su propio cuerpo.",
+  "- Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. No se necesita experiencia previa.",
 ];
