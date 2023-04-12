@@ -21,6 +21,9 @@ export const master2 = [
   "En la instancia final del taller se abrirán las clases al público general a modo de muestra de lo trabajado hasta ese momento. La idea, además de compartir lo realizado hasta ese momento, es también que los participantes del Taller vivencien lo que (les) sucede con esa mirada externa, desconocida que viene a presenciar esa expresión singular buscada durante los diferentes encuentros realizados.",
   "Estas clases están dirigidas a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. No se necesita experiencia previa ni asistir en pareja.",
   "- Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular.",
+];
+
+export const master3 = [
   "3. Contacto Lúcido, mecánicas de contacto + partnering: ",
   "En estos encuentros propongo combinar mi metodología Movimiento Lúcido, que vengo desarrollando en los últimos años, con la técnica de acrobacia de suelo y la investigación de diferentes mecánicas de contacto y partnering, en parejas, tríos y/o grupos.",
   "En las clases de Movimiento Lúcido buscamos encontrar una expresión del movimiento singular de cada participante articulando herramientas de danza contemporánea, teatro y acrobacia. Jugamos con pautas de improvisación concretas para tener muy claro desde dónde partimos, desde dónde estamos haciendo lo que hacemos, con la intención de que esta consciencia nos permita saber dónde estamos poniendo la atención y qué relaciones estamos estableciendo cuando improvisamos; y así podamos profundizar lo más posible en el desarrollo de una idea en una dirección en la búsqueda de un universo particular.",
@@ -35,4 +38,4 @@ export const master2 = [
   "En relación al trabajo de dúos utilizaremos herramientas del contact-improvisación y de la danza contemporánea para facilitar algunos ejercicios acrobáticos. Investigaremos cómo es fluir y respirar con el otro. Se buscará cómo ceder el peso del cuerpo al otro, el fuera de eje, diferentes tipos de portes, lanzarnos hacia atrás, la capacidad de confianza y de riesgo. Se estudiarán mecánicas y maneras de despegar al compañero del suelo usando la técnica a modo de herramienta, intentando utilizar la mínima fuerza necesaria.",
   "Durante la clase se busca que cada participante llegue al máximo de sus posibilidades de su desarrollo técnico individual con amabilidad y consciencia sobre su propio cuerpo.",
   "- Dirigido a cualquier persona que le interese el movimiento y la búsqueda de su expresión particular. No se necesita experiencia previa.",
-];
+]

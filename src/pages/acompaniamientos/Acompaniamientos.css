@@ -62,5 +62,6 @@
 @media only screen and (min-width: 768px) {
   .colab-cards {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }

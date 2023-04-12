@@ -1,6 +1,8 @@
 import React from "react";
 import "./Acompaniamientos.css";
 import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
+import WhappBtn from '../../utils/whatsapp/WhappBtn';
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
 const Acompaniamientos = () => {
@@ -97,6 +99,8 @@ const Acompaniamientos = () => {
           </div>
         </div>
       </div>
+      <WhappBtn />
+      <Footer />
     </>
   );
 };

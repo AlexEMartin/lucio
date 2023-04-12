@@ -37,6 +37,12 @@
     margin: 50px auto;
 }
 
+.colorize {
+  background-color: #718a8a;
+  color: white;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 768px) {
   .master-block {
     width: 100%;
