@@ -19,7 +19,7 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>Espectaculo Spazi.o</span>
-              <span>País Vasco / España</span>
+              <span>País Vasco - España</span>
               <span>
                 <i>Mirada externa</i>
               </span>
@@ -70,7 +70,7 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>La Madeja</span>
-              <span>Almería / España</span>
+              <span>Almería - España</span>
               <span>
                 <i>Asistencia de dirección y coreografía</i>
               </span>
@@ -89,7 +89,7 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>Al Borde</span>
-              <span>Madrid / España</span>
+              <span>Madrid - España</span>
               <span>
                 <i>Mirada externa</i>
               </span>
