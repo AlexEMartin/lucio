@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Maestro.css";
 import Navbar from "../../components/navbar/Navbar";
-import SliderMaster from "../../components/sliders/SliderMaster";
 import { master1, master2 } from "../../utils/master/master";
 import Footer from "../../components/footer/Footer";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
@@ -15,7 +14,7 @@ const Maestro = () => {
   }, []);
 
   return (
-    <>
+    <div style={{ width: '100%', overflow: 'hidden' }}>
       <Navbar />
       <div className="master-container">
         <h1 className="master-title">Maestro</h1>
@@ -28,7 +27,6 @@ const Maestro = () => {
               </p>
             ))}
           </div>
-          <SliderMaster />
           <div className="master-text">
             {master2.map((p) => (
               <p data-aos="zoom-in" className="master-p" key={p}>
@@ -40,7 +38,7 @@ const Maestro = () => {
       </div>
       <WhappBtn />
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -7,7 +7,6 @@ import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import Footer from "../../components/footer/Footer";
 import profile2 from "../../img/MyL2.jpg";
 import { bioIntro } from "../../utils/biography/intro";
-import { recentProjects } from "../../utils/biography/recentProjects";
 import Iframe from "../../components/iframes/Iframe";
 
 const Bio = () => {
@@ -34,14 +33,6 @@ const Bio = () => {
           data-aos="fade-right"
           alt="img_profile"
         />
-        <h2 style={{ color: "#718a8a", marginTop: '50px' }}>PROYECTOS MÁS RECIENTES</h2>
-        {recentProjects.map((i) => (
-          <div className="bio-p-container" key={i}>
-            <p data-aos="zoom-in" className="bio-p">
-              {i}
-            </p>
-          </div>
-        ))}
       </div>
       <WhappBtn />
       <Footer />

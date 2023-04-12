@@ -69,7 +69,7 @@ const Navbar = () => {
           <Link to="/creador">Creador</Link>
           <Link to="/maestro">Maestro</Link>
           <Link to="/actor">Actor</Link>
-          <Link to="/trabajos">Trabajos</Link>
+          <Link to="/acompanamientos">Acompañamientos artísticos</Link>
         </div>
         <div
           className={`nav_toggle ${isOpen && "open"}`}

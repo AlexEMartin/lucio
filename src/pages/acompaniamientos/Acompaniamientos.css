@@ -1,0 +1,66 @@
+.colab-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.colab-title {
+  width: 80%;
+  margin-top: 160px;
+  text-align: center;
+  color: #8dacad;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.colab-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.colab-block {
+  margin: 10px 20px;
+}
+
+.colab-subtitle {
+  color: #8dacad;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.colab-desc a {
+  text-decoration: none;
+}
+
+.colab-subtitle:hover {
+  cursor: pointer;
+  color: #7d9c9e;
+}
+
+.colab-desc {
+  display: flex;
+  align-items: center;
+}
+
+.colab-spans {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  width: 200px;
+}
+
+.right-arrow {
+  width: 20px;
+  color: #8dacad;
+  padding-top: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+  .colab-cards {
+    flex-direction: row;
+  }
+}

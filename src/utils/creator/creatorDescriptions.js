@@ -1,9 +1,9 @@
 const melasbailotodasText = [
-  'Me las bailo todas:  Me las bailo todas".  Esta propuesta busca dar a conocer más la danza en la sociedad a través del movimiento y la palabra, realizando actuaciones en el exterior (calle, patios, parques etc.) y reflexionando sobre la experiencia en el interior de una sala o en el exterior en un ambiente recogido. Para conformar el grupo realizo una convocatoria abierta/o  en la misma ciudad de la actuación para un grupo aproximado de 25 personas de cualquier edad, género e identidad sin importar su formación ni su nivel técnico.',
+  "Me las bailo todas: Esta propuesta busca dar a conocer más la danza en la sociedad a través del movimiento y la palabra, realizando actuaciones en el exterior (calle, patios, parques etc.) y reflexionando sobre la experiencia en el interior de una sala o en el exterior en un ambiente recogido. Para conformar el grupo realizo una convocatoria abierta/o  en la misma ciudad de la actuación para un grupo aproximado de 25 personas de cualquier edad, género e identidad sin importar su formación ni su nivel técnico.",
 ];
 
 const mientrasTantoText = [
-  "Vamos a habitar juntos esto que no es. Simplemente nos iremos sucediendo de una cosa a la otra. Es por esto que este tiempo entre medias no tiene exigencias. Es un tiempo de ser y de estar sin pretensiones. Lo único que nos queda es descansar en lo desconocido hasta que llegue…lo que… creamos que tenga que llegar.",
+  '"Vamos a habitar juntos esto que no es. Simplemente nos iremos sucediendo de una cosa a la otra. Es por esto que este tiempo entre medias no tiene exigencias. Es un tiempo de ser y de estar sin pretensiones. Lo único que nos queda es descansar en lo desconocido hasta que llegue…lo que… creamos que tenga que llegar."',
   "Dos hombres, Raúl y Lucio, se encuentran en escena para crear algo que no existe. Sólo están ellos, sus vidas y sus ideas. Van a hacer todo lo posible para sostener esta situación durante 60 minutos.",
 ];
 
@@ -52,5 +52,5 @@ export {
   myl20Text,
   solojuntosText,
   nolandText,
-  holaquetalText
+  holaquetalText,
 };

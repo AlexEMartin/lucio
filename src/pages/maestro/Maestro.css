@@ -1,5 +1,5 @@
 .master-container {
-  margin-top: 95px;
+  margin-top: 115px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
 
 .master-block {
   width: 100%;
-  margin-top: 20px;
+  margin-top: -40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,7 @@
 
 .master-p {
   width: 90%;
-  margin: 30px auto;
+  margin: 50px auto;
   line-height: 35px;
 }
 
@@ -40,7 +40,6 @@
 @media only screen and (min-width: 768px) {
   .master-block {
     width: 100%;
-    margin-top: 100px;
   }
 
   .master-img {

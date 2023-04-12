@@ -102,7 +102,7 @@ const Creador = () => {
         </button>
         <button
           className="creator-btn"
-          onClick={() => setVideo("https://youtu.be/e-A6QzOuEKY")}
+          onClick={() => setVideo("https://www.youtube.com/watch?v=TOAwPhWMBeM")}
         >
           MyL(2.0) Alemania
         </button>
@@ -130,6 +130,14 @@ const Creador = () => {
           className="creator-btn"
           onClick={() =>
             setVideo2("https://www.youtube.com/watch?v=yL-qo8MW44k&t=68s")
+          }
+        >
+          Solo juntos (Almería)
+        </button>
+        <button
+          className="creator-btn"
+          onClick={() =>
+            setVideo2("https://www.youtube.com/watch?v=BdG2zphA-SU")
           }
         >
           Solo juntos (gira)
