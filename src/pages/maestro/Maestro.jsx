@@ -38,14 +38,6 @@ const Maestro = () => {
             <p data-aos="zoom-in" className="master-p">
               {master1[1]}
             </p>
-          </div>
-          <img
-            data-aos="fade-left"
-            className="master-img"
-            src={masterImg2}
-            alt=""
-          />
-          <div className="master-text">
             <p data-aos="zoom-in" className="master-p">
               {master1[2]}
             </p>
@@ -55,8 +47,25 @@ const Maestro = () => {
             <p data-aos="zoom-in" className="master-p">
               {master1[4]}
             </p>
+          </div>
+          <img
+            data-aos="fade-left"
+            className="master-img"
+            src={masterImg2}
+            alt=""
+          />
+          <div className="master-text">
             <p data-aos="zoom-in" className="master-p">
               {master1[5]}
+            </p>
+            <p data-aos="zoom-in" className="master-p">
+              {master1[6]}
+            </p>
+            <p data-aos="zoom-in" className="master-p">
+              {master1[7]}
+            </p>
+            <p data-aos="zoom-in" className="master-p">
+              {master1[8]}
             </p>
           </div>
           <img

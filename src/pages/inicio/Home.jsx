@@ -2,16 +2,26 @@ import Footer from "../../components/footer/Footer";
 import Iframe from "../..//components/iframes/Iframe";
 import Navbar from "../../components/navbar/Navbar";
 import Intro from "../../components/text/Intro";
-import Slider from "../../components/sliders/Slider";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
+import MyL from "../../img/MyL.jpg";
 
 function Home() {
   return (
-    <div style={{ width: '100%', overflowX: 'hidden' }}>
+    <div style={{ width: "100%", overflowX: "hidden" }}>
       <Navbar />
       <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
       <Intro />
-      <Slider />
+      <div
+        style={{
+          marginTop: "50px",
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img className="master-img" src={MyL} alt="" />
+      </div>
       <Footer />
       <WhappBtn />
     </div>

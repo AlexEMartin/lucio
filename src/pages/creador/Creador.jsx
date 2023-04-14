@@ -30,8 +30,11 @@ import {
 const Creador = () => {
   const [video, setVideo] = useState("https://youtu.be/bphJLHzqGoo");
   const [video2, setVideo2] = useState(
-    "https://www.youtube.com/watch?v=r08TXK4qhpI&t=7s"
+    "https://www.youtube.com/watch?v=yL-qo8MW44k&t=68s"
   );
+  const [video3, setVideo3] = useState("https://youtu.be/OzqhXJ5XdrM");
+
+  // Ciclón https://youtu.be/02gNwR8UFY8
 
   return (
     <div
@@ -77,8 +80,34 @@ const Creador = () => {
         <img className="creator-img" src={iamtheother} alt="" />
       </div>
       <HeartHr />
-      <Iframe url="https://youtu.be/OzqhXJ5XdrM" status={false} />
+      <Iframe url={video3} status={false} />
       <h3 className="creator-title">MyL (2019)</h3>
+      <div className="creator-buttons">
+        <button
+          className="creator-btn"
+          onClick={() => setVideo3("https://youtu.be/OzqhXJ5XdrM")}
+        >
+          MyL (2019)
+        </button>
+        <button
+          className="creator-btn"
+          onClick={() => setVideo3("https://youtu.be/e-A6QzOuEKY")}
+        >
+          MyL Grecia
+        </button>
+        <button
+          className="creator-btn"
+          onClick={() => setVideo3("https://youtu.be/h4zRKOhIHQc")}
+        >
+          MyL Alemania
+        </button>
+        <button
+          className="creator-btn"
+          onClick={() => setVideo3("https://youtu.be/rA02r7SF1cA")}
+        >
+          MyL París
+        </button>
+      </div>
       {mylText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
@@ -87,6 +116,7 @@ const Creador = () => {
       </div>
       <HeartHr />
       <Iframe url={video} status={false} />
+      <h3 className="creator-title">MyL (2.0)</h3>
       <div className="creator-buttons">
         <button
           className="creator-btn"
@@ -102,7 +132,9 @@ const Creador = () => {
         </button>
         <button
           className="creator-btn"
-          onClick={() => setVideo("https://www.youtube.com/watch?v=TOAwPhWMBeM")}
+          onClick={() =>
+            setVideo("https://www.youtube.com/watch?v=TOAwPhWMBeM")
+          }
         >
           MyL(2.0) Alemania
         </button>
@@ -115,24 +147,23 @@ const Creador = () => {
       </div>
       <HeartHr />
       <Iframe url={video2} status={false} />
-      <div
-        className="creator-buttons"
-      >
-        <button
-          className="creator-btn"
-          onClick={() =>
-            setVideo2("https://www.youtube.com/watch?v=r08TXK4qhpI&t=7s")
-          }
-        >
-          Solo juntos (2015)
-        </button>
+      <h3 className="creator-title">Solo Juntos (2015)</h3>
+      <div className="creator-buttons">
         <button
           className="creator-btn"
           onClick={() =>
             setVideo2("https://www.youtube.com/watch?v=yL-qo8MW44k&t=68s")
           }
         >
-          Solo juntos (Almería)
+          Solo Juntos (2015)
+        </button>
+        <button
+          className="creator-btn"
+          onClick={() =>
+            setVideo2("https://www.youtube.com/watch?v=r08TXK4qhpI&t=7s")
+          }
+        >
+          Solo Juntos (Almería)
         </button>
         <button
           className="creator-btn"
@@ -140,7 +171,7 @@ const Creador = () => {
             setVideo2("https://www.youtube.com/watch?v=BdG2zphA-SU")
           }
         >
-          Solo juntos (gira)
+          Solo Juntos (video promo)
         </button>
       </div>
       {solojuntosText.map((t) => (
@@ -158,6 +189,9 @@ const Creador = () => {
       <div className="creator-container">
         <img className="creator-img" src={noland} alt="" />
       </div>
+      <HeartHr />
+      <Iframe url="https://youtu.be/02gNwR8UFY8" status={false} />
+      <h3 className="creator-title">Ciclón</h3>
       <HeartHr />
       <Iframe url="https://youtu.be/UKTUgDfuE3A" status={false} />
       <h3 className="creator-title">Holaquétal! (2009)</h3>
