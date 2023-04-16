@@ -38,7 +38,7 @@ const Creador = () => {
 
   return (
     <div
-      style={{ backgroundColor: "black", width: "100%", overflowX: "hidden" }}
+      style={{ width: "100%", overflowX: "hidden" }}
     >
       <Navbar />
       <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
@@ -46,7 +46,7 @@ const Creador = () => {
       {melasbailotodasText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div className="creator-container">
+      <div className="creator-container withLogo">
         <img style={{ marginBottom: "20px" }} src={logosurge} alt="" />
       </div>
       <div className="creator-container">

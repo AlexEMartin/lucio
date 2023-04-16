@@ -5,7 +5,7 @@ const HeartHr = () => {
   return (
     <div
       style={{
-        marginBottom: "-50px",
+        marginBottom: "-110px",
         padding: "40px 0px",
         backgroundColor: "white",
         color: "#718a8a",
