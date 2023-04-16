@@ -8,6 +8,10 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.differentSize {
+    height: 330px;
+}
+
 .actor-img {
     position: absolute;
     margin-left: 70px;
@@ -21,5 +25,9 @@
     .img-container {
         width: 350px;
         height: 550px;
+    }
+
+    .differentSize {
+        height: 450px;
     }
 }

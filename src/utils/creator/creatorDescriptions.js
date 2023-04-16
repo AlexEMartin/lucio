@@ -38,6 +38,11 @@ const nolandText = [
   "No Land es un trabajo escénico sobre el movimiento y las sensaciones que se caracteriza por un cuidado diseño de iluminación. El espacio se va configurando a través de las atmósferas que sugieren la luz y la sombra. En No Land sus habitantes constituyen su identidad a cada paso, invitando al espectador a completar con su mirada este viaje.",
 ];
 
+const ciclonText = [
+  "Cierra los ojos. ¿Listo? Imagínate una tempestad de arena y olvida cualquier otra cosa. A veces el destino se parece a una pequeña tempestad de arena que cambia de dirección sin cesar (...) Y en tu interior no hay ni sol, ni luna, ni dirección, a veces ni siquiera existe el tiempo. Allí sólo hay una arena blanca y fina, danzando en lo alto del cielo.",
+  '"Kafka en la orilla" Haruki Murakami',
+]
+
 const holaquetalText = [
   "Holaquétal! es  un espectáculo que combina danza contemporánea y acrobacia con una fuerte impronta teatral.",
   "Un hombre atrapado en una búsqueda. Una búsqueda no premeditada de la que no puede escapar y que eventualmente tendrá que enfrentar.  Una búsqueda de su identidad, de su propio ser. A través del movimiento, del silencio espiamos el mundo donde éste se expresa, deja salir sus sentimientos casi sin controlarlos ni desearlos. No hay nada que esté demás, todo está en su posición correcta.",
@@ -53,4 +58,5 @@ export {
   solojuntosText,
   nolandText,
   holaquetalText,
+  ciclonText
 };

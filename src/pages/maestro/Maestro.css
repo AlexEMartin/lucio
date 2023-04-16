@@ -35,12 +35,27 @@
 
 .master-text {
     margin: 50px auto;
+    padding: 4px;
+}
+
+.bottom-text {
+  margin: 0px auto;
 }
 
 .colorize {
   background-color: #718a8a;
   color: white;
   font-weight: bold;
+}
+
+.btn-long {
+  border: none;
+  background-color: inherit;
+  color: #003a39;
+}
+
+.btn-long:hover {
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {

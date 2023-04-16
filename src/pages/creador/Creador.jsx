@@ -25,6 +25,7 @@ import {
   solojuntosText,
   nolandText,
   holaquetalText,
+  ciclonText,
 } from "../../utils/creator/creatorDescriptions";
 
 const Creador = () => {
@@ -37,9 +38,7 @@ const Creador = () => {
   // Ciclón https://youtu.be/02gNwR8UFY8
 
   return (
-    <div
-      style={{ width: "100%", overflowX: "hidden" }}
-    >
+    <div style={{ width: "100%", overflowX: "hidden" }}>
       <Navbar />
       <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
       <h3 className="creator-title">Me las bailo todas (2022)</h3>
@@ -192,6 +191,9 @@ const Creador = () => {
       <HeartHr />
       <Iframe url="https://youtu.be/02gNwR8UFY8" status={false} />
       <h3 className="creator-title">Ciclón</h3>
+      {ciclonText.map((t) => (
+        <p className="creator-description">{t}</p>
+      ))}
       <HeartHr />
       <Iframe url="https://youtu.be/UKTUgDfuE3A" status={false} />
       <h3 className="creator-title">Holaquétal! (2009)</h3>
