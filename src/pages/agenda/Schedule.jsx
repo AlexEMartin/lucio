@@ -21,7 +21,7 @@ const Schedule = () => {
   }, []);
 
   useEffect(() => {
-    AOS.init({ duration: 800 });
+    AOS.init({ duration: 1400 });
   }, []);
 
   const sumaMes = () => {
