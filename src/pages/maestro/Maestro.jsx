@@ -13,7 +13,6 @@ import masterImg2 from "../../img/maestro2.jpg";
 import masterImg3 from "../../img/maestro3.jpg";
 
 const Maestro = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

@@ -22,13 +22,13 @@ export default class SimpleSlider extends Component {
       <div className="slider-container-master">
         <Slider {...settings}>
           <div>
-            <img src={slider1} className="slider" alt="" />
+            <img src={slider3} className="slider" alt="" />
           </div>
           <div>
             <img src={slider2} className="slider" alt="" />
           </div>
           <div>
-            <img src={slider3} className="slider" alt="" />
+            <img src={slider1} className="slider" alt="" />
           </div>
         </Slider>
       </div>

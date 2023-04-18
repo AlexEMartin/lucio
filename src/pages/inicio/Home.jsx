@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Footer from "../../components/footer/Footer";
 import Iframe from "../..//components/iframes/Iframe";
 import Navbar from "../../components/navbar/Navbar";
@@ -6,6 +7,10 @@ import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import MyL from "../../img/MyL.jpg";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
       <Navbar />
