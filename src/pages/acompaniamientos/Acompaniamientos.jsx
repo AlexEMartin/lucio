@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import "./Acompaniamientos.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
@@ -6,6 +6,10 @@ import WhappBtn from '../../utils/whatsapp/WhappBtn';
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
 const Acompaniamientos = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

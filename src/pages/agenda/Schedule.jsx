@@ -17,6 +17,10 @@ const Schedule = () => {
   const [mes, setMes] = useState(2);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
 

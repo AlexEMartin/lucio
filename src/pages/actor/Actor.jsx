@@ -12,6 +12,10 @@ import actorImg4 from "../../img/actor4.jpg";
 
 const Actor = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
 

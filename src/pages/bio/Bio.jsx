@@ -10,6 +10,11 @@ import { bioIntro } from "../../utils/biography/intro";
 import Iframe from "../../components/iframes/Iframe";
 
 const Bio = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);

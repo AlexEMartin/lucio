@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import HeartHr from "../../utils/creator/HeartHr";
 import "./Creador.css";
 import Navbar from "../../components/navbar/Navbar";
@@ -29,6 +29,10 @@ import {
 } from "../../utils/creator/creatorDescriptions";
 
 const Creador = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [video, setVideo] = useState("https://youtu.be/bphJLHzqGoo");
   const [video2, setVideo2] = useState(
     "https://www.youtube.com/watch?v=yL-qo8MW44k&t=68s"
