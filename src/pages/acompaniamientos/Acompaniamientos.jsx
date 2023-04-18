@@ -23,7 +23,7 @@ const Acompaniamientos = () => {
         <h1 className="colab-title">
           Trabajos realizados para otras compañías
         </h1>
-        <h4 data-aos="fade-right" style={{ width: "75%" }}>
+        <h4 data-aos="fade-right" style={{ width: "75%", color: "#003a39" }}>
           A la vez que trabajo como maestro impartiendo mi propia metodología
           "Movimiento Lúcido" y dirigiendo mis propias creaciones, también
           trabajo como director y coreografo para distintas Compañías de circo,
@@ -131,6 +131,7 @@ const Acompaniamientos = () => {
           <div className="colab-block">
             <div className="colab-desc">
               <a
+                style={{ width: "220px" }}
                 href="https://youtu.be/scGIgmQJnrw"
                 target="_blank"
                 rel="noopener noreferrer"

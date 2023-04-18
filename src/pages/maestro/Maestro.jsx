@@ -83,7 +83,7 @@ const Maestro = () => {
             src={masterImg2}
             alt=""
           />
-          <div className="master-text">
+          <div style={{ color: "#003a39" }} className="master-text">
             <p data-aos="zoom-in" className="master-p">
               {master1[5]}
             </p>
@@ -104,7 +104,7 @@ const Maestro = () => {
             alt=""
           />
           <h3
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", color: "#003a39", marginTop: "70px" }}
             onClick={() => setShorter3(!shorter3)}
           >
             Leer detalle de las cuatro técnicas
