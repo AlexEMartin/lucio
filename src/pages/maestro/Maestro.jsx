@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Maestro.css";
-import Navbar from "../../components/navbar/Navbar";
 import MasterSlider from "../../components/sliders/MasterSlider";
 import { master1, master2, master3 } from "../../utils/master/master";
 import Footer from "../../components/footer/Footer";
@@ -27,7 +26,6 @@ const Maestro = () => {
 
   return (
     <div style={{ width: "100%", overflow: "hidden" }}>
-      <Navbar />
       <div className="master-container">
         <h1 className="master-title">Maestro</h1>
         <Iframe url="https://vimeo.com/581104691" status={true} />

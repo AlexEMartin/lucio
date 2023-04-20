@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Bio.css";
-import Navbar from "../../components/navbar/Navbar";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import Footer from "../../components/footer/Footer";
 import profile2 from "../../img/MyL2.jpg";
@@ -21,7 +20,6 @@ const Bio = () => {
 
   return (
     <>
-      <Navbar />
       <div className="bio-container">
         <h1 style={{ marginBottom: '-40px' }} className="bio-title">Lucio A. Baglivo</h1>
         <Iframe url="https://youtu.be/4CwvFiPoZYM" status={true} />

@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import Footer from "../../components/footer/Footer";
 import Iframe from "../..//components/iframes/Iframe";
-import Navbar from "../../components/navbar/Navbar";
 import Intro from "../../components/text/Intro";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import MyL from "../../img/MyL.jpg";
@@ -13,7 +12,6 @@ function Home() {
 
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
-      <Navbar />
       <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
       <Intro />
       <div

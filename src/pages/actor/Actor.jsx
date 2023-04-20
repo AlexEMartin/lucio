@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Actor.css";
-import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import Iframe from "../../components/iframes/Iframe";
@@ -21,7 +20,6 @@ const Actor = () => {
 
   return (
     <>
-      <Navbar />
       <div className="master-container">
         <h1 className="master-title">Actor</h1>
         <Iframe url="https://youtu.be/R3Gm6550Uls" status={true} />

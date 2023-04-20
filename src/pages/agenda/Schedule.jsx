@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import { ChevronLeftIcon } from "@heroicons/react/24/solid";
 import "./Schedule.css";
-import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import agenda from "../../img/agenda.jpeg";
@@ -44,7 +43,6 @@ const Schedule = () => {
 
   return (
     <div>
-      <Navbar />
       <div className="img-schedule-container">
         <img
           data-aos="fade-right"

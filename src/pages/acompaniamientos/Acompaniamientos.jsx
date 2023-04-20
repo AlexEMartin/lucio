@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Acompaniamientos.css";
-import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
@@ -18,7 +17,6 @@ const Acompaniamientos = () => {
 
   return (
     <>
-      <Navbar />
       <div className="colab-container">
         <h1 className="colab-title">
           Trabajos realizados para otras compañías

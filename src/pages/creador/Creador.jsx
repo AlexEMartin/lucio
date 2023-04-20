@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import HeartHr from "../../utils/creator/HeartHr";
 import "./Creador.css";
-import Navbar from "../../components/navbar/Navbar";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import Iframe from "../../components/iframes/Iframe";
 import Footer from "../../components/footer/Footer";
@@ -49,7 +48,6 @@ const Creador = () => {
 
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
-      <Navbar />
       <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
       <h3 className="creator-title">Me las bailo todas (2022)</h3>
       {melasbailotodasText.map((t) => (
