@@ -10,25 +10,25 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <div style={{ width: '100%' }} className="nav-info">
+      <div style={{ width: "100%" }} className="nav-info">
         <div id="phone-mail" className="nav-info-side">
           <p>
-            <FiPhone className="nav-info-icon" /> <span style={{ margin: "0px 10px" }}>+34 638 496 387</span>
+            <FiPhone className="nav-info-icon" />{" "}
+            <span style={{ margin: "0px 10px" }}>+34 638 496 387</span>
           </p>
           <p>
-            <FiMail className="nav-info-icon" /> <span style={{ marginLeft: "10px" }}>luciobag@gmail.com</span>
+            <FiMail className="nav-info-icon" />{" "}
+            <span style={{ marginLeft: "10px" }}>luciobag@gmail.com</span>
           </p>
           <p style={{ marginLeft: "20px" }}>Español</p>
         </div>
-        <div
-          className="socialmedia"
-        >
+        <div className="socialmedia">
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:luciobag@gmail.com"
           >
-             <FiMail className="nav-info-icon" />
+            <FiMail className="nav-info-icon" />
           </a>
           <a
             target="_blank"
@@ -63,13 +63,27 @@ const Navbar = () => {
       <div className="navbar">
         <img className="nav_logo" src={logo} alt="" />
         <div className={`nav_items ${isOpen && "open"}`}>
-          <Link to="/">Inicio</Link>
-          <Link to="/agenda">Agenda</Link>
-          <Link to="/bio">Bio</Link>
-          <Link to="/creador">Creador</Link>
-          <Link to="/maestro">Maestro</Link>
-          <Link to="/actor">Actor</Link>
-          <Link to="/acompanamientos">Acompañamientos artísticos</Link>
+          <Link to="/" onClick={() => setIsOpen(!isOpen)}>
+            Inicio
+          </Link>
+          <Link to="/agenda" onClick={() => setIsOpen(!isOpen)}>
+            Agenda
+          </Link>
+          <Link to="/bio" onClick={() => setIsOpen(!isOpen)}>
+            Bio
+          </Link>
+          <Link to="/creador" onClick={() => setIsOpen(!isOpen)}>
+            Creador
+          </Link>
+          <Link to="/maestro" onClick={() => setIsOpen(!isOpen)}>
+            Maestro
+          </Link>
+          <Link to="/actor" onClick={() => setIsOpen(!isOpen)}>
+            Actor
+          </Link>
+          <Link to="/acompanamientos" onClick={() => setIsOpen(!isOpen)}>
+            Acompañamientos artísticos
+          </Link>
         </div>
         <div
           className={`nav_toggle ${isOpen && "open"}`}
