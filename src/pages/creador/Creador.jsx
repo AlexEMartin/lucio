@@ -56,7 +56,7 @@ const Creador = () => {
       <div className="creator-container withLogo">
         <img style={{ marginBottom: "20px" }} src={logosurge} alt="" />
       </div>
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={melasbailotodas} alt="" />
       </div>
       <HeartHr />
@@ -65,7 +65,7 @@ const Creador = () => {
       {mientrasTantoText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={mientrastanto} alt="" />
       </div>
       <HeartHr />
@@ -74,7 +74,7 @@ const Creador = () => {
       {apparentlyAloneText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={apparentlyalone} alt="" />
       </div>
       <HeartHr />
@@ -83,7 +83,7 @@ const Creador = () => {
       {iamtheotherText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={iamtheother} alt="" />
       </div>
       <HeartHr />
@@ -118,7 +118,7 @@ const Creador = () => {
       {mylText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={MyL} alt="" />
       </div>
       <HeartHr />
@@ -149,7 +149,7 @@ const Creador = () => {
       {myl20Text.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={MyL2} alt="" />
       </div>
       <HeartHr />
@@ -184,7 +184,7 @@ const Creador = () => {
       {solojuntosText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={solojuntos} alt="" />
       </div>
       <HeartHr />
@@ -193,7 +193,7 @@ const Creador = () => {
       {nolandText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={noland} alt="" />
       </div>
       <HeartHr />
@@ -208,7 +208,7 @@ const Creador = () => {
       {holaquetalText.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
-      <div data-aos="flip-right" className="creator-container">
+      <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={holaquetal} alt="" />
       </div>
       <WhappBtn />

@@ -34,8 +34,8 @@
 }
 
 .master-text {
-    margin: 50px auto;
-    padding: 4px;
+  margin: 50px auto;
+  padding: 4px;
 }
 
 .bottom-text {
@@ -58,6 +58,16 @@
   cursor: pointer;
 }
 
+.courses {
+  margin-top: 60px;
+  color: #003a39;
+}
+
+.courses:hover {
+  cursor: pointer;
+  color: #046261;
+}
+
 @media only screen and (min-width: 768px) {
   .master-block {
     width: 100%;
@@ -75,5 +85,9 @@
   }
   .master-p {
     width: 90%;
+  }
+
+  .courses {
+    margin-top: 20px;
   }
 }

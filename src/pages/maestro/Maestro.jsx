@@ -101,11 +101,8 @@ const Maestro = () => {
             src={masterImg3}
             alt=""
           />
-          <h3
-            style={{ cursor: "pointer", color: "#003a39", marginTop: "70px" }}
-            onClick={() => setShorter3(!shorter3)}
-          >
-            Leer detalle de las cuatro técnicas
+          <h3 className="courses" onClick={() => setShorter3(!shorter3)}>
+            Leer detalle de cada taller
           </h3>
           {!shorter3 && (
             <div>

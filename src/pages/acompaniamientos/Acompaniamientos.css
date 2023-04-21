@@ -59,9 +59,74 @@
   padding-top: 3px;
 }
 
+.colab-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  min-height: 250px;
+  background-color: #003a39;
+  flex-wrap: wrap;
+}
+
+.colab-img {
+  width: 80%;
+  margin: 10px 0px;
+  border-radius: 4px;
+}
+
 @media only screen and (min-width: 768px) {
   .colab-cards {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .colab-imgs {
+    margin-top: 40px;
+    flex-direction: row;
+  }
+
+  .colab-img {
+    width: auto;
+    height: 220px;
+    margin: 5px 2px;
+  }
+
+  .colab-img:hover {
+    height: 230px;
+    cursor: pointer;
+  }
+
+  .img-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  .cross {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 2px;
+    color: #003a39;
+    width: 30px;
+    transition: all 1s ease;
+    border-radius: 50%;
+  }
+
+  .cross:hover {
+    cursor: pointer;
+    width: 40px;
   }
 }

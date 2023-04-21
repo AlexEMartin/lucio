@@ -1,5 +1,4 @@
 import React from "react";
-import { HeartIcon } from "@heroicons/react/24/outline";
 
 const HeartHr = () => {
   return (
@@ -8,13 +7,12 @@ const HeartHr = () => {
         marginBottom: "-110px",
         padding: "40px 0px",
         backgroundColor: "white",
-        color: "#718a8a",
+        color: "#003a39",
       }}
       className="hr"
     >
-      <div className="hr-block"></div>
-      <HeartIcon className="heart" />
-      <div className="hr-block"></div>
+      <div style={{ border: '0.7px solid' }} className="hr-block"></div>
+      <div style={{ border: '0.7px solid' }} className="hr-block"></div>
     </div>
   );
 };

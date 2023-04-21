@@ -1,10 +1,15 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Acompaniamientos.css";
 import Footer from "../../components/footer/Footer";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
+import acompanamientoImg from "../../img/acompanamiento.jpg";
+import acompanamientoImg2 from "../../img/acompanamiento_v.jpg";
+import acompanamientoImg3 from "../../img/acompanamiento2.jpg";
+import acompanamientoImg4 from "../../img/acompanamiento3.jpg";
 
 const Acompaniamientos = () => {
   useEffect(() => {
@@ -15,8 +20,30 @@ const Acompaniamientos = () => {
     AOS.init({ duration: 1200 });
   }, []);
 
+  const [modal, setModal] = useState(false);
+  const [img, setImg] = useState("");
+
   return (
     <>
+      {modal && (
+        <div className="img-modal">
+          <div
+            data-aos="zoom-in"
+            style={{
+              maxWidth: "50%",
+              position: "relative",
+              marginTop: "100px",
+            }}
+          >
+            <XMarkIcon className="cross" onClick={() => setModal(!modal)} />
+            <img
+              style={{ maxWidth: "100%", height: "500px" }}
+              src={img}
+              alt=""
+            />
+          </div>
+        </div>
+      )}
       <div className="colab-container">
         <h1 className="colab-title">
           Trabajos realizados para otras compañías
@@ -163,6 +190,7 @@ const Acompaniamientos = () => {
             <div className="colab-spans">
               <span>(2023)</span>
               <a
+                style={{ color: '#003a39' }}
                 href="https://www.instagram.com/reel/CoXW7m8gTuI/?utm_source=ig_web_copy_link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -176,6 +204,48 @@ const Acompaniamientos = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="colab-imgs">
+        <img
+          onClick={() => {
+            setModal(!modal);
+            setImg(acompanamientoImg);
+          }}
+          data-aos="fade-up"
+          className="colab-img"
+          src={acompanamientoImg}
+          alt=""
+        />
+        <img
+          onClick={() => {
+            setModal(!modal);
+            setImg(acompanamientoImg2);
+          }}
+          data-aos="fade-up"
+          className="colab-img"
+          src={acompanamientoImg2}
+          alt=""
+        />
+        <img
+          onClick={() => {
+            setModal(!modal);
+            setImg(acompanamientoImg3);
+          }}
+          data-aos="fade-up"
+          className="colab-img"
+          src={acompanamientoImg3}
+          alt=""
+        />
+        <img
+          onClick={() => {
+            setModal(!modal);
+            setImg(acompanamientoImg4);
+          }}
+          data-aos="fade-up"
+          className="colab-img"
+          src={acompanamientoImg4}
+          alt=""
+        />
       </div>
       <WhappBtn />
       <Footer />
