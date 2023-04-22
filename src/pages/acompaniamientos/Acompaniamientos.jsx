@@ -23,6 +23,12 @@ const Acompaniamientos = () => {
   const [modal, setModal] = useState(false);
   const [img, setImg] = useState("");
 
+  const desktopImg = () => {
+    if (window.innerWidth > 850) {
+      setModal(!modal);
+    }
+  };
+
   return (
     <>
       {modal && (
@@ -190,7 +196,7 @@ const Acompaniamientos = () => {
             <div className="colab-spans">
               <span>(2023)</span>
               <a
-                style={{ color: '#003a39' }}
+                style={{ color: "#003a39" }}
                 href="https://www.instagram.com/reel/CoXW7m8gTuI/?utm_source=ig_web_copy_link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -208,8 +214,8 @@ const Acompaniamientos = () => {
       <div className="colab-imgs">
         <img
           onClick={() => {
-            setModal(!modal);
             setImg(acompanamientoImg);
+            desktopImg();
           }}
           data-aos="fade-up"
           className="colab-img"
@@ -218,8 +224,8 @@ const Acompaniamientos = () => {
         />
         <img
           onClick={() => {
-            setModal(!modal);
             setImg(acompanamientoImg2);
+            desktopImg();
           }}
           data-aos="fade-up"
           className="colab-img"
@@ -228,8 +234,8 @@ const Acompaniamientos = () => {
         />
         <img
           onClick={() => {
-            setModal(!modal);
             setImg(acompanamientoImg3);
+            desktopImg();
           }}
           data-aos="fade-up"
           className="colab-img"
@@ -238,8 +244,8 @@ const Acompaniamientos = () => {
         />
         <img
           onClick={() => {
-            setModal(!modal);
             setImg(acompanamientoImg4);
+            desktopImg();
           }}
           data-aos="fade-up"
           className="colab-img"
