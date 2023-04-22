@@ -392,7 +392,7 @@ export const events = [
         activities: [
           {
             event:
-              "9 Y 10 de octubre. «ESTO PODRÍA SER IMPOSIBLE. Festival Surge Madrid. Nave73.",
+              "9 y 10 de octubre. «ESTO PODRÍA SER IMPOSIBLE. Festival Surge Madrid. Nave73.",
             place: "Madrid, España.",
           },
           {
@@ -518,15 +518,15 @@ export const events = [
         activities: [
           {
             event:
-              "2 Y 3. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
+              "2 y 3. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
             place: "Espacio en Blanco. Madrid.",
           },
           {
-            event: "9 Y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "9 y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Cronopis Espai de Circ. Barcelona.",
           },
           {
-            event: "16 Y 17. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "16 y 17. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Zaragoza, España.",
           },
         ],
@@ -549,7 +549,7 @@ export const events = [
         month: "MAYO",
         activities: [
           {
-            event: "4 Y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Espacio en blanco. Madrid.",
           },
           {
@@ -561,7 +561,7 @@ export const events = [
             place: "Spring Festival. Copenhague. Dinamarca.",
           },
           {
-            event: "25 Y 26. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "25 y 26. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "La Chimenea circo. Murcia.",
           },
         ],
@@ -570,11 +570,11 @@ export const events = [
         month: "JUNIO",
         activities: [
           {
-            event: "1 Y 2. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "1 y 2. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Espacio en blanco. Madrid.",
           },
           {
-            event: "8 Y 9. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "8 y 9. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Zaragoza, España.",
           },
         ],
@@ -583,7 +583,7 @@ export const events = [
         month: "JULIO",
         activities: [
           {
-            event: "6 Y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "6 y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Espacio Almazén. Madrid.",
           },
           {
@@ -610,7 +610,7 @@ export const events = [
         month: "SEPTIEMBRE",
         activities: [
           {
-            event: "14 Y 15. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "14 y 15. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Espacio Almazén. Madrid.",
           },
           {
@@ -624,7 +624,7 @@ export const events = [
         month: "OCTUBRE",
         activities: [
           {
-            event: "4 Y 5. Movimiento Lúcido: Taller de Creación Intensivo",
+            event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo",
             place: "Espacio en blanco. Madrid.",
           },
         ],
@@ -641,7 +641,7 @@ export const events = [
             place: "Sala Nave 73. Madrid.",
           },
           {
-            event: "9 Y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "9 y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Espacio en blanco. Madrid.",
           },
           {
@@ -655,7 +655,7 @@ export const events = [
         month: "DICIEMBRE",
         activities: [
           {
-            event: "7 Y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "7 y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
             place: "Espacio en blanco. Madrid.",
           },
         ],
@@ -723,7 +723,7 @@ export const events = [
             place: "Madrid, España.",
           },
           {
-            event: "6-16. Compañia Rampante.",
+            event: "6 - 16. Compañia Rampante.",
             place: "Zaragoza, España.",
           },
           {
@@ -749,7 +749,7 @@ export const events = [
         month: "SEPTIEMBRE",
         activities: [
           {
-            event: "4, 5 Y 6. Taller de Creación.",
+            event: "4, 5 y 6. Taller de Creación.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -759,7 +759,7 @@ export const events = [
         activities: [
           {
             event:
-              "6 Y 7. Herramientas de Creación - Ciclo De 3 Talleres - 1: La Acrobacia.",
+              "6 y 7. Herramientas de Creación - Ciclo De 3 Talleres - 1: La Acrobacia.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -769,7 +769,7 @@ export const events = [
         activities: [
           {
             event:
-              "3 Y 4. Herramientas de Creación - Ciclo De 3 Talleres - 2: La relación en una improvisación: la interdependencia.",
+              "3 y 4. Herramientas de Creación - Ciclo De 3 Talleres - 2: La relación en una improvisación: la interdependencia.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -779,7 +779,7 @@ export const events = [
         activities: [
           {
             event:
-              "1 Y 2. Herramientas de Creación - Ciclo De 3 Talleres - 3: Desarrollo de una improvisación.",
+              "1 y 2. Herramientas de Creación - Ciclo De 3 Talleres - 3: Desarrollo de una improvisación.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -840,7 +840,7 @@ export const events = [
         month: "AGOSTO",
         activities: [
           {
-            event: "5 Y 6.  Theaterfestival Boulevard.",
+            event: "5 y 6.  Theaterfestival Boulevard.",
             place: "Holanda.",
           },
         ],
@@ -849,7 +849,7 @@ export const events = [
         month: "SEPTIEMBRE",
         activities: [
           {
-            event: "8 Y 9. Pflasterzauber Festival.",
+            event: "8 y 9. Pflasterzauber Festival.",
             place: "Hildesheim, Alemania.",
           },
           {
@@ -898,7 +898,7 @@ export const events = [
             place: "Madrid, España.",
           },
           {
-            event: "22 Y 23. BETA Pública.",
+            event: "22 y 23. BETA Pública.",
             place: "Madrid, España.",
           },
         ],
@@ -911,7 +911,7 @@ export const events = [
             place: "Villanueva de gallego, España.",
           },
           {
-            event: "28 Y 29. Fries Straat Festival.",
+            event: "28 y 29. Fries Straat Festival.",
             place: "Holanda.",
           },
         ],
@@ -945,7 +945,7 @@ export const events = [
             place: "Madrid, España.",
           },
           {
-            event: "30 Y 31. Santorini Arts Factory.",
+            event: "30 y 31. Santorini Arts Factory.",
             place: "Santorini, Grecia",
           },
         ],
