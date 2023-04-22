@@ -267,4 +267,523 @@ export const events = [
       },
     ],
   },
+  {
+    year: "2021",
+    months: [
+      {
+        month: "ENERO",
+        activities: [
+          {
+            event: "9 y 10. Taller de Creación movimiento Lúcido.",
+            place: "Madrid, España.",
+          },
+          {
+            event: "16 y 17. Sala Ultramar. Red de Teatros Alternativos.",
+            place: "Valencia, España.",
+          },
+          {
+            event: "23 y 24. Teatros del Canal.",
+            place: "Madrid, España.",
+          },
+          {
+            event: "30 y 31. Teatro Guirigai. Red de Teatros Alternativos.",
+            place: "Santos de Maimona, (Badajoz). España.",
+          },
+        ],
+      },
+      {
+        month: "FEBRERO",
+        activities: [
+          {
+            event: "6 y 7. Escena Miriñaque. Red de Teatros Alternativos.",
+            place: "Santander, España.",
+          },
+          {
+            event: "13 y 14. Taller de Creación movimiento Lúcido.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "MARZO",
+        activities: [
+          {
+            event: "6.  Red de teatros Comunidad de Madrid.",
+            place: "Valdemoro, España.",
+          },
+          {
+            event: "13 y 14. Taller de Creación movimiento Lúcido.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "ABRIL",
+        activities: [
+          {
+            event:
+              "7 y 8, 14 y 15, 21 y 22, 28 y 29. Estreno de Mientras tanto.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "MAYO",
+        activities: [
+          {
+            event: "5 y 6, 12 y 13, 19 y 20, 26 y 27. MyL(2.0).",
+            place: "Madrid, España.",
+          },
+          {
+            event: "Del 24 al 28. Taller de Creación Memoria Sensible.",
+            place: "Teatro Pradillo. Madrid, España.",
+          },
+          {
+            event: "28. Muestra final del Taller de Creación Memoria Sensible.",
+            place: "Madrid, España.",
+          },
+          {
+            event:
+              "Del 31 de Mayo al 13 de Junio. 1er período Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "JUNIO",
+        activities: [
+          {
+            event:
+              "Del 28 de Junio al 11 de Julio. 2do perdíodo Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "AGOSTO",
+        activities: [
+          {
+            event: "6, 7 y 8. MyL. Festival Escenas de verano.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "SEPTIEMBRE",
+        activities: [
+          {
+            event: "1, 2 y 3. Rodaje película Rainbow. Director Paco León.",
+            place: "Madrid, España.",
+          },
+          {
+            event:
+              "4, 5 y 6. Taller de Creación Movimiento Lúcido. Festival Pirineos danza.",
+            place: "Pirineos catalanes, España.",
+          },
+          {
+            event:
+              "Del 7 al 8 de octubre. Ensayos nueva creación. Residencia otorgada por Festival Surge Madrid.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "OCTUBRE",
+        activities: [
+          {
+            event:
+              "9 Y 10 de octubre. «ESTO PODRÍA SER IMPOSIBLE. Festival Surge Madrid. Nave73.",
+            place: "Madrid, España.",
+          },
+          {
+            event: "16 y 17 de octubre. Taller de Creación Movimiento Lúcido.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    year: "2020",
+    months: [
+      {
+        month: "ENERO",
+        activities: [
+          {
+            event:
+              "I AM THE OTHER. Creación de videodanza. Con Rita Stepien y Peter James.",
+          },
+        ],
+      },
+      {
+        month: "FEBRERO",
+        activities: [
+          {
+            event: "8 y 9. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "MARZO",
+        activities: [
+          {
+            event: "7 y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "ABRIL",
+        activities: [
+          {
+            event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "MAYO",
+        activities: [
+          {
+            event: "9 y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "JUNIO",
+        activities: [
+          {
+            event: "6 y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+          {
+            event:
+              "17. Estreno videodanza»Apparently alone». Co-dirección junto a Candelaria Antelo. Intérprete Maximiliano Sanford. Festival Dança em trânsito.",
+            place: "Brasil.",
+          },
+        ],
+      },
+      {
+        month: "SEPTIEMBRE",
+        activities: [
+          {
+            event: "4. MyL. Festival Gesto. Torrelodones.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "OCTUBRE",
+        activities: [
+          {
+            event:
+              "30. MyL videodanza en el marco de Localización, Danza y Cámara. Festival LDC.",
+            place: "Madrid, España.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    year: "2019",
+    months: [
+      {
+        month: "ENERO",
+        activities: [
+          {
+            event: "Movimiento Lúcido. Clases regulares de Creación.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+          {
+            event:
+              "14 - 18. Taller de Creación+Muestra al final del proceso: Memoria Sensible.",
+            place: "Escuela La Arena Circo. Buenos Aires.",
+          },
+        ],
+      },
+      {
+        month: "FEBRERO",
+        activities: [
+          {
+            event:
+              "2 y 3. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "MARZO",
+        activities: [
+          {
+            event:
+              "2 Y 3. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+          {
+            event: "9 Y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Cronopis Espai de Circ. Barcelona.",
+          },
+          {
+            event: "16 Y 17. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Zaragoza, España.",
+          },
+        ],
+      },
+      {
+        month: "ABRIL",
+        activities: [
+          {
+            event:
+              "6 y 7. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+          {
+            event: "27 Y 28. Taller de Creación: Movimiento Lúcido.",
+            place: "Karola Zirko. Bilbao.",
+          },
+        ],
+      },
+      {
+        month: "MAYO",
+        activities: [
+          {
+            event: "4 Y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en blanco. Madrid.",
+          },
+          {
+            event: "18. Estreno nuevo proyecto «MyL».",
+            place: "Festival Umore Azoka. Leioa. País Vasco.",
+          },
+          {
+            event: "21 y 22. «Solo Juntos».",
+            place: "Spring Festival. Copenhague. Dinamarca.",
+          },
+          {
+            event: "25 Y 26. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "La Chimenea circo. Murcia.",
+          },
+        ],
+      },
+      {
+        month: "JUNIO",
+        activities: [
+          {
+            event: "1 Y 2. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en blanco. Madrid.",
+          },
+          {
+            event: "8 Y 9. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Zaragoza, España.",
+          },
+        ],
+      },
+      {
+        month: "JULIO",
+        activities: [
+          {
+            event: "6 Y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio Almazén. Madrid.",
+          },
+          {
+            event: "Del 11 al 14. «MyL».",
+            place: "Festival Art ort. Heidelberg. Alemania.",
+          },
+          {
+            event: "22-26. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio Almazén. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "AGOSTO",
+        activities: [
+          {
+            event: "Del 10 al 22. «Solo Juntos».",
+            place:
+              "Festival Dança em tránsito Río de Janeiro y Maricá, Brasil.",
+          },
+        ],
+      },
+      {
+        month: "SEPTIEMBRE",
+        activities: [
+          {
+            event: "14 Y 15. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio Almazén. Madrid.",
+          },
+          {
+            event:
+              "Del 23 al 27. «Memoria Sensible» : Taller de Creación Intensivo.",
+            place: "Espacio Almazén. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "OCTUBRE",
+        activities: [
+          {
+            event: "4 Y 5. Movimiento Lúcido: Taller de Creación Intensivo",
+            place: "Espacio en blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "NOVIEMBRE",
+        activities: [
+          {
+            event: "2. «MyL».",
+            place: "Festival MasDanza. Las palmas. Gran Canarias. España.",
+          },
+          {
+            event: "7, 14, 21 y 28. «MyL» (versión larga) Estreno.",
+            place: "Sala Nave 73. Madrid.",
+          },
+          {
+            event: "9 Y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en blanco. Madrid.",
+          },
+          {
+            event: "30 y 1. «MyL» (versión larga).",
+            place:
+              "Teatro Victoria. Santa Cruz de Tenerife. Islas Canarias. España.",
+          },
+        ],
+      },
+      {
+        month: "DICIEMBRE",
+        activities: [
+          {
+            event: "7 Y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
+            place: "Espacio en blanco. Madrid.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    year: "2018",
+    months: [
+      {
+        month: "ENERO",
+        activities: [
+          {
+            event: "Clases regulares de Taller de Creación.",
+            place: "Madrid, España.",
+          },
+          {
+            event: "“Encarnación” de Fernanda Orazi. Actor.",
+            place: "Teatro El Umbral de Primavera. Madrid, España.",
+          },
+        ],
+      },
+      {
+        month: "FEBRERO",
+        activities: [
+          {
+            event: "25. Festival Interplay.",
+            place: "Torino, Italia.",
+          },
+        ],
+      },
+      {
+        month: "MAYO",
+        activities: [
+          {
+            event: "4. Solo juntos.",
+            place: "Swop Festival. Roskilde, Dinamarca.",
+          },
+          {
+            event:
+              "14 - 18. Taller de Creación. Herramientas teatrales, técnica de acrobacia y danza contemporánea.",
+            place:
+              "Escuela Superior de arte dramático y danza Dantzerti. Bilbao, España.",
+          },
+          {
+            event: "29. Solo Juntos.",
+            place: "Festival Interplay. Torino, Italia.",
+          },
+        ],
+      },
+      {
+        month: "JUNIO",
+        activities: [
+          {
+            event:
+              "1. Comienzo de una Nueva Creación junto a la bailarina de flamenco Mariana Collado.",
+          },
+        ],
+      },
+      {
+        month: "JULIO",
+        activities: [
+          {
+            event: "3, 4 y 5. Movimiento Singular – Taller de Creación.",
+            place: "Madrid, España.",
+          },
+          {
+            event: "6-16. Compañia Rampante.",
+            place: "Zaragoza, España.",
+          },
+          {
+            event: "18. Solo Juntos.",
+            place: "Festival Deltebre. Cataluña, España.",
+          },
+        ],
+      },
+      {
+        month: "AGOSTO",
+        activities: [
+          {
+            event: "4. Solo Juntos.",
+            place: "One small step Festival. Corfu, Grecia.",
+          },
+          {
+            event: "22 y 23. Taller de Creación.",
+            place: "Festival Out of the toolbox. Gante, Bélgica.",
+          },
+        ],
+      },
+      {
+        month: "SEPTIEMBRE",
+        activities: [
+          {
+            event: "4, 5 Y 6. Taller de Creación.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "OCTUBRE",
+        activities: [
+          {
+            event:
+              "6 Y 7. Herramientas de Creación - Ciclo De 3 Talleres - 1: La Acrobacia.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "NOVIEMBRE",
+        activities: [
+          {
+            event:
+              "3 Y 4. Herramientas de Creación - Ciclo De 3 Talleres - 2: La relación en una improvisación: la interdependencia.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+      {
+        month: "DICIEMBRE",
+        activities: [
+          {
+            event:
+              "1 Y 2. Herramientas de Creación - Ciclo De 3 Talleres - 3: Desarrollo de una improvisación.",
+            place: "Espacio en Blanco. Madrid.",
+          },
+        ],
+      },
+    ],
+  },
 ];
