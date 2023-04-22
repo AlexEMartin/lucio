@@ -67,13 +67,14 @@
   margin-top: 100px;
   width: 100%;
   min-height: 250px;
+  padding: 5px 0px;
   background-color: #003a39;
   flex-wrap: wrap;
 }
 
 .colab-img {
   width: 95%;
-  margin: 10px;
+  margin: 5px;
   border-radius: 4px;
 }
 
