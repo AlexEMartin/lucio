@@ -78,6 +78,48 @@
   border-radius: 4px;
 }
 
+.img-modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.img-modal-container {
+  margin: auto;
+  max-height: 50%;
+  position: relative;
+}
+
+.img-insidemodalcontainer {
+  max-width: 100%;
+  max-height: 280px;
+}
+
+.cross {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  padding: 2px;
+  color: #003a39;
+  width: 12px;
+  transition: all 1s ease;
+  border-radius: 50%;
+}
+
+.cross:hover {
+  cursor: pointer;
+  width: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .colab-cards {
     flex-direction: row;
@@ -100,17 +142,15 @@
     cursor: pointer;
   }
 
-  .img-modal {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
+  .img-modal-container {
+    margin: auto;
+    max-height: 50%;
+    position: relative;
+  }
+
+  .img-insidemodalcontainer {
+    max-width: 100%;
+    max-height: 500px;
   }
 
   .cross {

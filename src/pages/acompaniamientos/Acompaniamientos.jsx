@@ -7,9 +7,12 @@ import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import acompanamientoImg from "../../img/acompanamiento.jpg";
-import acompanamientoImg2 from "../../img/acompanamiento_v.jpg";
-import acompanamientoImg3 from "../../img/acompanamiento2.jpg";
-import acompanamientoImg4 from "../../img/acompanamiento3.jpg";
+import acompanamientoImg4 from "../../img/acompanamiento4.jpg";
+import acompanamientoImg2 from "../../img/acompanamiento2.jpg";
+import irenepaz from "../../img/irenepaz.jpg";
+import irakurriz from "../../img/irakurriz.jpg";
+import iam from "../../img/iam.png";
+import spazio from "../../img/spazio.png";
 
 const Acompaniamientos = () => {
   useEffect(() => {
@@ -23,30 +26,13 @@ const Acompaniamientos = () => {
   const [modal, setModal] = useState(false);
   const [img, setImg] = useState("");
 
-  const desktopImg = () => {
-    if (window.innerWidth > 850) {
-      setModal(!modal);
-    }
-  };
-
   return (
     <>
       {modal && (
         <div className="img-modal">
-          <div
-            data-aos="zoom-in"
-            style={{
-              maxWidth: "50%",
-              position: "relative",
-              marginTop: "100px",
-            }}
-          >
+          <div data-aos="zoom-in" className="img-modal-container">
             <XMarkIcon className="cross" onClick={() => setModal(!modal)} />
-            <img
-              style={{ maxWidth: "100%", height: "500px" }}
-              src={img}
-              alt=""
-            />
+            <img className="img-insidemodalcontainer" src={img} alt="" />
           </div>
         </div>
       )}
@@ -79,6 +65,15 @@ const Acompaniamientos = () => {
               <span>
                 <i>Mirada externa</i>
               </span>
+              <img
+                onClick={() => {
+                  setImg(spazio);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={spazio}
+                alt=""
+              />
             </div>
           </div>
           <div className="colab-block">
@@ -98,6 +93,15 @@ const Acompaniamientos = () => {
               <span>
                 <i>Coreografia y mirada externa</i>
               </span>
+              <img
+                onClick={() => {
+                  setImg(iam);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={iam}
+                alt=""
+              />
             </div>
           </div>
           <div className="colab-block">
@@ -117,6 +121,15 @@ const Acompaniamientos = () => {
               <span>
                 <i>Dirección</i>
               </span>
+              <img
+                onClick={() => {
+                  setImg(irakurriz);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={irakurriz}
+                alt=""
+              />
             </div>
           </div>
           <div className="colab-block">
@@ -132,11 +145,27 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>(2017)</span>
-              <span>La Madeja</span>
+              <a
+                style={{ color: "#003a39" }}
+                href="https://www.youtube.com/watch?v=Sd_IQBKALDk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                La Madeja
+              </a>
               <span>Almería - España</span>
               <span>
                 <i>Asistencia de dirección y coreografía</i>
               </span>
+              <img
+                onClick={() => {
+                  setImg(irenepaz);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={irenepaz}
+                alt=""
+              />
             </div>
           </div>
           <div className="colab-block">
@@ -157,6 +186,15 @@ const Acompaniamientos = () => {
               <span>
                 <i>Mirada externa</i>
               </span>
+              <img
+                onClick={() => {
+                  setImg(acompanamientoImg2);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={acompanamientoImg2}
+                alt=""
+              />
             </div>
           </div>
           <div className="colab-block">
@@ -171,7 +209,10 @@ const Acompaniamientos = () => {
                   Maximiliano Sanford y Yeinner Chicas
                 </h3>
               </a>
-              <ArrowLongRightIcon className="right-arrow" />
+              <ArrowLongRightIcon
+                style={{ marginBottom: "25px" }}
+                className="right-arrow"
+              />
             </div>
             <div className="colab-spans">
               <span>(2021)</span>
@@ -180,6 +221,15 @@ const Acompaniamientos = () => {
               <span>
                 <i>Mirada externa</i>
               </span>
+              <img
+                onClick={() => {
+                  setImg(acompanamientoImg);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={acompanamientoImg}
+                alt=""
+              />
             </div>
           </div>
           <div className="colab-block">
@@ -207,51 +257,18 @@ const Acompaniamientos = () => {
               <span>
                 <i>Dirección</i>
               </span>
+              <img
+                onClick={() => {
+                  setImg(acompanamientoImg4);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={acompanamientoImg4}
+                alt=""
+              />
             </div>
           </div>
         </div>
-      </div>
-      <div className="colab-imgs">
-        <img
-          onClick={() => {
-            setImg(acompanamientoImg);
-            desktopImg();
-          }}
-          data-aos="fade-up"
-          className="colab-img"
-          src={acompanamientoImg}
-          alt=""
-        />
-        <img
-          onClick={() => {
-            setImg(acompanamientoImg2);
-            desktopImg();
-          }}
-          data-aos="fade-up"
-          className="colab-img"
-          src={acompanamientoImg2}
-          alt=""
-        />
-        <img
-          onClick={() => {
-            setImg(acompanamientoImg3);
-            desktopImg();
-          }}
-          data-aos="fade-up"
-          className="colab-img"
-          src={acompanamientoImg3}
-          alt=""
-        />
-        <img
-          onClick={() => {
-            setImg(acompanamientoImg4);
-            desktopImg();
-          }}
-          data-aos="fade-up"
-          className="colab-img"
-          src={acompanamientoImg4}
-          alt=""
-        />
       </div>
       <WhappBtn />
       <Footer />
