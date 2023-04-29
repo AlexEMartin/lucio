@@ -73,7 +73,7 @@
 }
 
 .colab-img {
-  width: 95%;
+  width: 100%;
   margin: 5px;
   border-radius: 4px;
 }
@@ -92,14 +92,14 @@
 }
 
 .img-modal-container {
-  margin: auto;
-  max-height: 50%;
+  max-width: 90%;
   position: relative;
+  margin-right: 15px;
 }
 
 .img-insidemodalcontainer {
   max-width: 100%;
-  max-height: 280px;
+  max-height: 400px;
 }
 
 .cross {
