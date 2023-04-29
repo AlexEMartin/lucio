@@ -16,6 +16,7 @@ import apparentlyalone from "../../img/apparently-alone.png";
 import iamtheother from "../../img/iamtheother.jpeg";
 import noland from "../../img/noland.jpeg";
 import holaquetal from "../../img/holaquetal.png";
+import recuerdosmargaritas from "../../img/recuerdosmargaritas.jpg";
 import {
   melasbailotodasText,
   mientrasTantoText,
@@ -27,6 +28,7 @@ import {
   nolandText,
   holaquetalText,
   ciclonText,
+  recuerdosmargaritasText,
 } from "../../utils/creator/creatorDescriptions";
 
 const Creador = () => {
@@ -44,11 +46,18 @@ const Creador = () => {
   );
   const [video3, setVideo3] = useState("https://youtu.be/OzqhXJ5XdrM");
 
-  // Ciclón https://youtu.be/02gNwR8UFY8
-
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
-      <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
+      <Iframe url="https://www.youtube.com/watch?v=khAztc_qSvY" status={true} />
+      <h3 className="creator-title">Recuerdos de Margaritas (2023)</h3>
+      {recuerdosmargaritasText.map((t) => (
+        <p className="creator-description">{t}</p>
+      ))}
+      <div data-aos="fade-up" className="creator-container">
+        <img className="creator-img" src={recuerdosmargaritas} alt="" />
+      </div>
+      <HeartHr />
+      <Iframe url="https://youtu.be/ILK1tGnPpUo" status={false} />
       <h3 className="creator-title">Me las bailo todas (2022)</h3>
       {melasbailotodasText.map((t) => (
         <p className="creator-description">{t}</p>

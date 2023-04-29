@@ -1,3 +1,9 @@
+const recuerdosmargaritasText = [
+  '"Cosmos...ayer fui a verte. Tobillo, acentos, placer, recuerdos, margaritas, desierto. Me gustas.  Me gusta cuando flotas caminando. A los 40: ¡sexo, iris y fantasía! Cuernavaca la eterna primavera. ¡Canción perfecta, planeta Almería y Buenos Aires profunda!"',
+  "¿Cómo representar el paso del tiempo en nuestros cuerpos? ¿Cómo responden nuestros cuerpos a los recuerdos, a los espacios que fueron importantes para nosotros?¿Cómo podemos volver del pasado para vivir en el presente un recuerdo?",
+  "Ante estas preguntas, los 3 intérpretes se moverán a través del amor, experimentando lo que les sucede al tratar de responderlas. Queremos llevar al público a otro tiempo. Es el intento imposible de traducir por medio del flamenco, la danza contemporánea, el teatro, el humor, la acrobacia y la música en vivo, conceptos abstractos a través de una clásica historia de amor.",
+];
+
 const melasbailotodasText = [
   "Me las bailo todas: Esta propuesta busca dar a conocer más la danza en la sociedad a través del movimiento y la palabra, realizando actuaciones en el exterior (calle, patios, parques etc.) y reflexionando sobre la experiencia en el interior de una sala o en el exterior en un ambiente recogido. Para conformar el grupo realizo una convocatoria abierta/o  en la misma ciudad de la actuación para un grupo aproximado de 25 personas de cualquier edad, género e identidad sin importar su formación ni su nivel técnico.",
 ];
@@ -41,7 +47,7 @@ const nolandText = [
 const ciclonText = [
   "Cierra los ojos. ¿Listo? Imagínate una tempestad de arena y olvida cualquier otra cosa. A veces el destino se parece a una pequeña tempestad de arena que cambia de dirección sin cesar (...) Y en tu interior no hay ni sol, ni luna, ni dirección, a veces ni siquiera existe el tiempo. Allí sólo hay una arena blanca y fina, danzando en lo alto del cielo.",
   '"Kafka en la orilla" Haruki Murakami',
-]
+];
 
 const holaquetalText = [
   "Holaquétal! es  un espectáculo que combina danza contemporánea y acrobacia con una fuerte impronta teatral.",
@@ -58,5 +64,6 @@ export {
   solojuntosText,
   nolandText,
   holaquetalText,
-  ciclonText
+  ciclonText,
+  recuerdosmargaritasText,
 };
