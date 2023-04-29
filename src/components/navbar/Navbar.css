@@ -133,7 +133,11 @@
 
 @media (min-width: 768px) {
   .socialmedia {
-    margin-left: 320px;
+    margin-left: 350px;
+  }
+
+  .nav-info-side {
+    margin-left: -20px;
   }
 
   .nav_items {
