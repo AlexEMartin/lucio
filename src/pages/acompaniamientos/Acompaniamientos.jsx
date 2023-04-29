@@ -8,6 +8,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import acompanamientoImg from "../../img/acompanamiento.jpg";
 import acompanamientoImg2 from "../../img/acompanamiento2.jpg";
+import acompanamientoImg3 from "../../img/acompanamiento3.jpg";
 import irenepaz from "../../img/irenepaz.jpg";
 import irakurriz from "../../img/irakurriz.jpg";
 import iam from "../../img/iam.png";
@@ -256,15 +257,15 @@ const Acompaniamientos = () => {
               <span>
                 <i>Dirección</i>
               </span>
-              {/* <img
+              <img
                 onClick={() => {
-                  setImg(acompanamientoImg4);
+                  setImg(acompanamientoImg3);
                   setModal(!modal);
                 }}
                 style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
-                src={acompanamientoImg4}
+                src={acompanamientoImg3}
                 alt=""
-              /> */}
+              />
             </div>
           </div>
         </div>
