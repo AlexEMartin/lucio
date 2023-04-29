@@ -7,7 +7,6 @@ import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import acompanamientoImg from "../../img/acompanamiento.jpg";
-import acompanamientoImg4 from "../../img/acompanamiento4.jpg";
 import acompanamientoImg2 from "../../img/acompanamiento2.jpg";
 import irenepaz from "../../img/irenepaz.jpg";
 import irakurriz from "../../img/irakurriz.jpg";
@@ -257,7 +256,7 @@ const Acompaniamientos = () => {
               <span>
                 <i>Dirección</i>
               </span>
-              <img
+              {/* <img
                 onClick={() => {
                   setImg(acompanamientoImg4);
                   setModal(!modal);
@@ -265,7 +264,7 @@ const Acompaniamientos = () => {
                 style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
                 src={acompanamientoImg4}
                 alt=""
-              />
+              /> */}
             </div>
           </div>
         </div>
