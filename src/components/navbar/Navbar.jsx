@@ -8,8 +8,25 @@ import { FaFacebookF, FaYoutube, FaVimeoV, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [language, setLanguage] = useState(true);
+
   return (
     <div>
+      <div className="languages">
+        <button
+          onClick={() => setLanguage(true)}
+          className={`language-btn ${language && "bold"}`}
+        >
+          ES
+        </button>
+        <span>|</span>
+        <button
+          onClick={() => setLanguage(false)}
+          className={`language-btn ${!language && "bold"}`}
+        >
+          EN
+        </button>
+      </div>
       <div style={{ width: "100%" }} className="nav-info">
         <div id="phone-mail" className="nav-info-side">
           <p>
