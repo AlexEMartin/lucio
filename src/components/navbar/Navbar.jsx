@@ -1,14 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../../img/logo.png";
 import { FiPhone } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
 import { FaFacebookF, FaYoutube, FaVimeoV, FaInstagram } from "react-icons/fa";
+import { LanguageContext } from "../../context/LanguageContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [language, setLanguage] = useState(true);
+
+  const { language, setLanguage } = useContext(LanguageContext);
 
   return (
     <div>

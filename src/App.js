@@ -8,21 +8,24 @@ import Maestro from "./pages/maestro/Maestro";
 import Actor from "./pages/actor/Actor";
 import Acompaniamientos from "./pages/acompaniamientos/Acompaniamientos";
 import Navbar from "./components/navbar/Navbar";
+import LanguageProvider from "./context/LanguageContext";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/agenda" element={<Schedule />} />
-        <Route path="/bio" element={<Bio />} />
-        <Route path="/creador" element={<Creador />} />
-        <Route path="/maestro" element={<Maestro />} />
-        <Route path="/actor" element={<Actor />} />
-        <Route path="/acompanamientos" element={<Acompaniamientos />} />
-      </Routes>
-    </Router>
+    <LanguageProvider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/agenda" element={<Schedule />} />
+          <Route path="/bio" element={<Bio />} />
+          <Route path="/creador" element={<Creador />} />
+          <Route path="/maestro" element={<Maestro />} />
+          <Route path="/actor" element={<Actor />} />
+          <Route path="/acompanamientos" element={<Acompaniamientos />} />
+        </Routes>
+      </Router>
+    </LanguageProvider>
   );
 }
 
