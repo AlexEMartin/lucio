@@ -4,12 +4,12 @@ import "aos/dist/aos.css";
 import "./Bio.css";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import Footer from "../../components/footer/Footer";
+import profile from "../../img/bio.jpeg";
 import profile2 from "../../img/MyL2.jpg";
 import { bioIntro } from "../../utils/biography/intro";
 import Iframe from "../../components/iframes/Iframe";
 
 const Bio = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -21,15 +21,22 @@ const Bio = () => {
   return (
     <>
       <div className="bio-container">
-        <h1 style={{ marginBottom: '-40px' }} className="bio-title">Lucio A. Baglivo</h1>
-        <Iframe url="https://youtu.be/4CwvFiPoZYM" status={true} />
-        {bioIntro.map((i) => (
-          <div className="bio-p-container" key={i}>
-            <p data-aos="zoom-in" className="bio-p">
+        <h1 className="bio-title">Lucio A. Baglivo</h1>
+        <img
+          style={{ marginTop: "100px" }}
+          className="bio-img"
+          src={profile}
+          data-aos="fade-right"
+          alt="img_profile"
+        />
+        <Iframe url="https://youtu.be/4CwvFiPoZYM" status={false} />
+        <div className="bio-p-container">
+          {bioIntro.map((i) => (
+            <p key={i} data-aos="zoom-in" className="bio-p">
               {i}
             </p>
-          </div>
-        ))}
+          ))}
+        </div>
         <img
           className="bio-img"
           src={profile2}
