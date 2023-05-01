@@ -23,7 +23,7 @@ const Bio = () => {
       <div className="bio-container">
         <h1 className="bio-title">Lucio A. Baglivo</h1>
         <img
-          style={{ marginTop: "100px" }}
+          style={{ marginTop: "50px" }}
           className="bio-img"
           src={profile}
           data-aos="fade-right"
