@@ -69,6 +69,37 @@ const Creador = () => {
         <img className="creator-img" src={melasbailotodas} alt="" />
       </div>
       <HeartHr />
+      <Iframe url={video} status={false} />
+      <h3 className="creator-title">MyL 2.0 (2021)</h3>
+      <div className="creator-buttons">
+        <button
+          className="creator-btn"
+          onClick={() => setVideo("https://youtu.be/bphJLHzqGoo")}
+        >
+          MyL 2.0
+        </button>
+        <button
+          className="creator-btn"
+          onClick={() => setVideo("https://youtu.be/svPEL4ab9ic")}
+        >
+          MyL(2.0) fragmento
+        </button>
+        <button
+          className="creator-btn"
+          onClick={() =>
+            setVideo("https://www.youtube.com/watch?v=TOAwPhWMBeM")
+          }
+        >
+          MyL(2.0) Alemania
+        </button>
+      </div>
+      {myl20Text.map((t) => (
+        <p className="creator-description">{t}</p>
+      ))}
+      <div data-aos="fade-up" className="creator-container">
+        <img className="creator-img" src={MyL2} alt="" />
+      </div>
+      <HeartHr />
       <Iframe url="https://youtu.be/oX3J5Bqqbk8" status={false} />
       <h3 className="creator-title">Mientras&emsp;&emsp;&emsp;tanto (2021)</h3>
       {mientrasTantoText.map((t) => (
@@ -129,37 +160,6 @@ const Creador = () => {
       ))}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={MyL} alt="" />
-      </div>
-      <HeartHr />
-      <Iframe url={video} status={false} />
-      <h3 className="creator-title">MyL (2.0)</h3>
-      <div className="creator-buttons">
-        <button
-          className="creator-btn"
-          onClick={() => setVideo("https://youtu.be/bphJLHzqGoo")}
-        >
-          MyL 2.0 (2019)
-        </button>
-        <button
-          className="creator-btn"
-          onClick={() => setVideo("https://youtu.be/svPEL4ab9ic")}
-        >
-          MyL(2.0) fragmento
-        </button>
-        <button
-          className="creator-btn"
-          onClick={() =>
-            setVideo("https://www.youtube.com/watch?v=TOAwPhWMBeM")
-          }
-        >
-          MyL(2.0) Alemania
-        </button>
-      </div>
-      {myl20Text.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
-      <div data-aos="fade-up" className="creator-container">
-        <img className="creator-img" src={MyL2} alt="" />
       </div>
       <HeartHr />
       <Iframe url={video2} status={false} />

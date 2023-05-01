@@ -27,7 +27,8 @@ const iamtheotherText = [
 ];
 
 const mylText = [
-  "¿Cómo se entienden dos personas que se comunican por medio del movimiento pero lo expresan con diferentes lenguajes? ¿Cómo nos relacionamos con lo distinto? ¿Cómo nos puede afectar lo que desconocemos? “MyL” nos reúne a Mariana Collado y a mí con casi 40 años de edad habiendo dedicado gran parte de nuestras vidas a las artes escénicas. Este proyecto tiene el objetivo de cuestionarse en escena, a través de la danza contemporánea, el flamenco, el teatro y la acrobacia, no sólo lo íntimo del encuentro entre dos personas en escena sino también como éste se refleja en nuestra sociedad actual desde la sencilla relación de un hombre y una mujer que lo único que quieren compartir es un baile juntos.",
+  "¿Qué le podría sumar una intérprete de danza española a un intérprete de danza contemporánea? ¿Y viceversa? ¿Cómo se entienden dos personas que se comunican por medio del movimiento pero lo expresan con diferentes lenguajes? ¿Cómo nos relacionamos con lo distinto? ¿En qué nos parecemos? ¿Qué nos acerca al otro? ¿Cómo nos puede afectar lo que desconocemos?",
+  "MyL nos reúne a Mariana y a mí con casi 40 años de edad habiendo dedicado gran parte de nuestras vidas a las artes escénicas.  Este proyecto tiene el objetivo de cuestionarse, a través de la danza contemporánea, el flamenco,el teatro y la acrobacia, lo íntimo del encuentro entre dos personas en escena desde la sencilla relación de un hombre y una mujer que lo único que quieren compartir es un baile juntos.",
 ];
 
 const myl20Text = [
