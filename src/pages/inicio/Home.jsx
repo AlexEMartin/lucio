@@ -1,4 +1,6 @@
-import { useEffect } from 'react';
+import React, { useContext } from "react";
+import { LanguageContext } from "../../context/LanguageContext";
+import { useEffect } from "react";
 import Footer from "../../components/footer/Footer";
 import Iframe from "../..//components/iframes/Iframe";
 import Intro from "../../components/text/Intro";
@@ -10,9 +12,15 @@ function Home() {
     window.scrollTo(0, 0);
   }, []);
 
+  const { language } = useContext(LanguageContext);
+
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
-      <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
+      {language ? (
+        <Iframe url="https://youtu.be/ILK1tGnPpUo" status={true} />
+      ) : (
+        <Iframe url="https://youtu.be/LV3Tufp8uB0" status={true} />
+      )}
       <Intro />
       <div
         style={{
