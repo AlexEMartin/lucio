@@ -1,19 +1,23 @@
+import { useContext, useEffect, useState } from "react";
+import { LanguageContext } from "../../context/LanguageContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import { ChevronLeftIcon } from "@heroicons/react/24/solid";
 import "./Schedule.css";
 import Footer from "../../components/footer/Footer";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import agenda from "../../img/agenda.jpeg";
+import { meses } from "../../utils/schedule/meses";
 import { months } from "../../utils/schedule/months";
-import { agendas } from "../../utils/schedule/month-data";
+import { agendas } from "../../utils/schedule/mes-data";
+import { schedules } from "../../utils/schedule/month-data";
 import { events } from "../../utils/schedule/past-events";
 
 const Schedule = () => {
   // el valor por defecto del hook useState renderiza por defecto el mes de la agenda al ingresar
-  const [mes, setMes] = useState(2);
+  const [mes, setMes] = useState(4);
+  const { language } = useContext(LanguageContext);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -51,14 +55,22 @@ const Schedule = () => {
           alt=""
         />
       </div>
-      <h2 className="schedule">Agenda</h2>
+      <h2 className="schedule">{language ? "Agenda" : "Schedule"}</h2>
       <div className="months">
         <ChevronLeftIcon onClick={restaMes} className="arrow left" />
-        <h3 className="month">{months[mes]}</h3>
+        {language ? (
+          <h3 className="month">{meses[mes]}</h3>
+        ) : (
+          <h3 className="month">{months[mes]}</h3>
+        )}
         <ChevronRightIcon onClick={sumaMes} className="arrow right" />
       </div>
       <div data-aos="zoom-in" className="info-container">
-        <div className="info">{agendas[mes]}</div>
+        {language ? (
+          <div className="info">{agendas[mes]}</div>
+        ) : (
+          <div className="info">{schedules[mes]}</div>
+        )}
       </div>
       {events.map((e) => (
         <div key={e.year} className="events">

@@ -1,17 +1,17 @@
-const agendaEnero = "Agenda de Enero";
-const agendaFebrero = "Agenda de Febrero";
-const agendaMarzo = "Agenda de Marzo";
-const agendaAbril = "Agenda de Abril";
-const agendaMayo = "Agenda de Mayo";
-const agendaJunio = "Agenda de Junio";
-const agendaJulio = "Agenda de Julio";
-const agendaAgosto = "Agenda de Agosto";
-const agendaSeptiembre = "Agenda de Septiembre";
-const agendaOctubre = "Agenda de Octubre";
-const agendaNoviembre = "Agenda de Noviembre";
-const agendaDiciembre = "Agenda de Diciembre";
+const agendaEnero = "Schedule of January";
+const agendaFebrero = "Schedule of February";
+const agendaMarzo = "Schedule of March";
+const agendaAbril = "Schedule of April";
+const agendaMayo = "Schedule of May";
+const agendaJunio = "Schedule of June";
+const agendaJulio = "Schedule of July";
+const agendaAgosto = "Schedule of August";
+const agendaSeptiembre = "Schedule of September";
+const agendaOctubre = "Schedule of October";
+const agendaNoviembre = "Schedule of November";
+const agendaDiciembre = "Schedule of December";
 
-export const agendas = [
+export const schedules = [
   agendaEnero,
   agendaFebrero,
   agendaMarzo,

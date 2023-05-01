@@ -83,25 +83,25 @@ const Navbar = () => {
         <img className="nav_logo" src={logo} alt="" />
         <div className={`nav_items ${isOpen && "open"}`}>
           <Link to="/" onClick={() => setIsOpen(!isOpen)}>
-            Inicio
+            {language ? "Inicio" : "Home"}
           </Link>
           <Link to="/agenda" onClick={() => setIsOpen(!isOpen)}>
-            Agenda
+            {language ? "Agenda" : "Schedule"}
           </Link>
           <Link to="/bio" onClick={() => setIsOpen(!isOpen)}>
             Bio
           </Link>
           <Link to="/creador" onClick={() => setIsOpen(!isOpen)}>
-            Creador
+            {language ? "Creador" : "Creator"}
           </Link>
           <Link to="/maestro" onClick={() => setIsOpen(!isOpen)}>
-            Maestro
+            {language ? "Maestro" : "Master"}
           </Link>
           <Link to="/actor" onClick={() => setIsOpen(!isOpen)}>
             Actor
           </Link>
           <Link to="/acompanamientos" onClick={() => setIsOpen(!isOpen)}>
-            Acompañamientos artísticos
+            {language ? "Acompañamientos artísticos" : "Artistic accompaniment"}
           </Link>
         </div>
         <div
