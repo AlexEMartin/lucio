@@ -17,6 +17,7 @@ import iamtheother from "../../img/iamtheother.jpeg";
 import noland from "../../img/noland.jpeg";
 import holaquetal from "../../img/holaquetal.png";
 import recuerdosmargaritas from "../../img/recuerdosmargaritas.jpg";
+import representante from "../../img/representante.png";
 import {
   melasbailotodasText,
   mientrasTantoText,
@@ -96,6 +97,19 @@ const Creador = () => {
       {myl20Text.map((t) => (
         <p className="creator-description">{t}</p>
       ))}
+      <a
+        href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="creator-container withLogo">
+          <img
+            style={{ marginBottom: "20px", width: "200px" }}
+            src={representante}
+            alt=""
+          />
+        </div>
+      </a>
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={MyL2} alt="" />
       </div>
