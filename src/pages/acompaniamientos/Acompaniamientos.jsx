@@ -50,84 +50,99 @@ const Acompaniamientos = () => {
           <div className="colab-block">
             <div className="colab-desc">
               <a
-                href="https://vimeo.com/122541933"
+                href="https://duktocompany.wixsite.com/dukto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h3 className="colab-subtitle">Cia Dikothomia</h3>
+                <h3 className="colab-subtitle">Cia Dukto</h3>
               </a>
               <ArrowLongRightIcon className="right-arrow" />
             </div>
             <div className="colab-spans">
-              <span>(2015)</span>
-              <span>Espectaculo Spazi.o</span>
-              <span>País Vasco - España</span>
-              <span>
-                <i>Mirada externa</i>
-              </span>
-              <img
-                onClick={() => {
-                  setImg(spazio);
-                  setModal(!modal);
-                }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
-                src={spazio}
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="colab-block">
-            <div className="colab-desc">
+              <span>(2023)</span>
               <a
-                href="https://www.grandegiro.net/"
+                style={{ color: "#003a39" }}
+                href="https://www.instagram.com/reel/CoXW7m8gTuI/?utm_source=ig_web_copy_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h3 className="colab-subtitle">Compañia Grande Giro</h3>
+                <span>A Rienda suelta</span>
               </a>
-              <ArrowLongRightIcon className="right-arrow" />
-            </div>
-            <div className="colab-spans">
-              <span>Espectáculo I AM</span>
-              <span>Suiza y Alemania</span>
-              <span>
-                <i>Coreografia y mirada externa</i>
-              </span>
-              <img
-                onClick={() => {
-                  setImg(iam);
-                  setModal(!modal);
-                }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
-                src={iam}
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="colab-block">
-            <div className="colab-desc">
-              <a
-                href="http://www.shaktiolaizola.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h3 className="colab-subtitle">Cia Shakti Olaizola</h3>
-              </a>
-              <ArrowLongRightIcon className="right-arrow" />
-            </div>
-            <div className="colab-spans">
-              <span>Espectaculo Irakurriz</span>
-              <span>País Vasco / España</span>
+              <span>Madrid - España</span>
               <span>
                 <i>Dirección</i>
               </span>
               <img
                 onClick={() => {
-                  setImg(irakurriz);
+                  setImg(acompanamientoImg3);
                   setModal(!modal);
                 }}
                 style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
-                src={irakurriz}
+                src={acompanamientoImg3}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="colab-block">
+            <div className="colab-desc">
+              <a
+                style={{ width: "220px" }}
+                href="https://youtu.be/scGIgmQJnrw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="colab-subtitle">
+                  Maximiliano Sanford y Yeinner Chicas
+                </h3>
+              </a>
+              <ArrowLongRightIcon
+                style={{ marginBottom: "25px" }}
+                className="right-arrow"
+              />
+            </div>
+            <div className="colab-spans">
+              <span>(2021)</span>
+              <span>Vientre</span>
+              <span>Madrid - España</span>
+              <span>
+                <i>Mirada externa</i>
+              </span>
+              <img
+                onClick={() => {
+                  setImg(acompanamientoImg);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={acompanamientoImg}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="colab-block">
+            <div className="colab-desc">
+              <a
+                href="https://youtu.be/e7obdaxnqG4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="colab-subtitle">Maximiliano Sanford Monte</h3>
+              </a>
+              <ArrowLongRightIcon className="right-arrow" />
+            </div>
+            <div className="colab-spans">
+              <span>(2018)</span>
+              <span>Al Borde</span>
+              <span>Madrid - España</span>
+              <span>
+                <i>Mirada externa</i>
+              </span>
+              <img
+                onClick={() => {
+                  setImg(acompanamientoImg2);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={acompanamientoImg2}
                 alt=""
               />
             </div>
@@ -171,99 +186,86 @@ const Acompaniamientos = () => {
           <div className="colab-block">
             <div className="colab-desc">
               <a
-                href="https://youtu.be/e7obdaxnqG4"
+                href="http://www.shaktiolaizola.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h3 className="colab-subtitle">Maximiliano Sanford Monte</h3>
+                <h3 className="colab-subtitle">Cia Shakti Olaizola</h3>
               </a>
               <ArrowLongRightIcon className="right-arrow" />
             </div>
             <div className="colab-spans">
-              <span>(2018)</span>
-              <span>Al Borde</span>
-              <span>Madrid - España</span>
-              <span>
-                <i>Mirada externa</i>
-              </span>
-              <img
-                onClick={() => {
-                  setImg(acompanamientoImg2);
-                  setModal(!modal);
-                }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
-                src={acompanamientoImg2}
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="colab-block">
-            <div className="colab-desc">
-              <a
-                style={{ width: "220px" }}
-                href="https://youtu.be/scGIgmQJnrw"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h3 className="colab-subtitle">
-                  Maximiliano Sanford y Yeinner Chicas
-                </h3>
-              </a>
-              <ArrowLongRightIcon
-                style={{ marginBottom: "25px" }}
-                className="right-arrow"
-              />
-            </div>
-            <div className="colab-spans">
-              <span>(2021)</span>
-              <span>Vientre</span>
-              <span>Madrid - España</span>
-              <span>
-                <i>Mirada externa</i>
-              </span>
-              <img
-                onClick={() => {
-                  setImg(acompanamientoImg);
-                  setModal(!modal);
-                }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
-                src={acompanamientoImg}
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="colab-block">
-            <div className="colab-desc">
-              <a
-                href="https://duktocompany.wixsite.com/dukto"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h3 className="colab-subtitle">Cia Dukto</h3>
-              </a>
-              <ArrowLongRightIcon className="right-arrow" />
-            </div>
-            <div className="colab-spans">
-              <span>(2023)</span>
-              <a
-                style={{ color: "#003a39" }}
-                href="https://www.instagram.com/reel/CoXW7m8gTuI/?utm_source=ig_web_copy_link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>A Rienda suelta</span>
-              </a>
-              <span>Madrid - España</span>
+              <span>(2017)</span>
+              <span>Espectaculo Irakurriz</span>
+              <span>País Vasco / España</span>
               <span>
                 <i>Dirección</i>
               </span>
               <img
                 onClick={() => {
-                  setImg(acompanamientoImg3);
+                  setImg(irakurriz);
                   setModal(!modal);
                 }}
                 style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
-                src={acompanamientoImg3}
+                src={irakurriz}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="colab-block">
+            <div className="colab-desc">
+              <a
+                href="https://vimeo.com/122541933"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="colab-subtitle">Cia Dikothomia</h3>
+              </a>
+              <ArrowLongRightIcon className="right-arrow" />
+            </div>
+            <div className="colab-spans">
+              <span>(2015)</span>
+              <span>Espectaculo Spazi.o</span>
+              <span>País Vasco - España</span>
+              <span>
+                <i>Mirada externa</i>
+              </span>
+              <img
+                onClick={() => {
+                  setImg(spazio);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={spazio}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="colab-block">
+            <div className="colab-desc">
+              <a
+                href="https://www.grandegiro.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="colab-subtitle">Compañia Grande Giro</h3>
+              </a>
+              <ArrowLongRightIcon className="right-arrow" />
+            </div>
+            <div className="colab-spans">
+              <span>(2015)</span>
+              <span>Espectáculo I AM</span>
+              <span>Suiza y Alemania</span>
+              <span>
+                <i>Coreografia y mirada externa</i>
+              </span>
+              <img
+                onClick={() => {
+                  setImg(iam);
+                  setModal(!modal);
+                }}
+                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                src={iam}
                 alt=""
               />
             </div>
