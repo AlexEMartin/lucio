@@ -86,7 +86,7 @@ const Navbar = () => {
             {language ? "Inicio" : "Home"}
           </Link>
           <Link to="/agenda" onClick={() => setIsOpen(!isOpen)}>
-            {language ? "Agenda" : "Schedule"}
+            {language ? "Agenda" : "Calendar"}
           </Link>
           <Link to="/bio" onClick={() => setIsOpen(!isOpen)}>
             Bio

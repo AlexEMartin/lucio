@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
+import { LanguageContext } from "../../context/LanguageContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Bio.css";
@@ -7,6 +8,7 @@ import Footer from "../../components/footer/Footer";
 import profile from "../../img/bio.jpeg";
 import profile2 from "../../img/MyL2.jpg";
 import { bioIntro } from "../../utils/biography/intro";
+import { bioEnglishIntro } from "../../utils/biography/englishIntro";
 import Iframe from "../../components/iframes/Iframe";
 
 const Bio = () => {
@@ -17,6 +19,8 @@ const Bio = () => {
   useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
+
+  const { language } = useContext(LanguageContext);
 
   return (
     <>
@@ -30,13 +34,23 @@ const Bio = () => {
           alt="img_profile"
         />
         <Iframe url="https://youtu.be/4CwvFiPoZYM" status={false} />
-        <div className="bio-p-container">
-          {bioIntro.map((i) => (
-            <p key={i} data-aos="zoom-in" className="bio-p">
-              {i}
-            </p>
-          ))}
-        </div>
+        {language ? (
+          <div className="bio-p-container">
+            {bioIntro.map((i) => (
+              <p key={i} data-aos="zoom-in" className="bio-p">
+                {i}
+              </p>
+            ))}
+          </div>
+        ) : (
+          <div className="bio-p-container">
+            {bioEnglishIntro.map((i) => (
+              <p key={i} data-aos="zoom-in" className="bio-p">
+                {i}
+              </p>
+            ))}
+          </div>
+        )}
         <img
           className="bio-img"
           src={profile2}

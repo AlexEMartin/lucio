@@ -1,9 +1,9 @@
-export const events = [
+export const eventos = [
   {
     year: "2023",
     months: [
       {
-        month: "JANUARY",
+        month: "ENERO",
         activities: [
           {
             event:
@@ -21,7 +21,7 @@ export const events = [
         ],
       },
       {
-        month: "FEBRUARY",
+        month: "FEBRERO",
         activities: [
           {
             event:
@@ -40,7 +40,7 @@ export const events = [
     year: "2022",
     months: [
       {
-        month: "JANUARY",
+        month: "ENERO",
         activities: [
           {
             event: "15 y 16. Taller de Creación movimiento Lúcido.",
@@ -49,7 +49,7 @@ export const events = [
         ],
       },
       {
-        month: "FEBRUARY",
+        month: "FEBRERO",
         activities: [
           {
             event: "5. MyL(2.0). Red de Teatros de la Comunidad de Madrid.",
@@ -66,7 +66,7 @@ export const events = [
         ],
       },
       {
-        month: "MARCH",
+        month: "MARZO",
         activities: [
           {
             event: "5 y 6. Taller de Creación movimiento Lúcido.",
@@ -93,7 +93,7 @@ export const events = [
         ],
       },
       {
-        month: "APRIL",
+        month: "ABRIL",
         activities: [
           {
             event: "9 y 10. Taller de Creación Movimiento Lúcido.",
@@ -105,13 +105,14 @@ export const events = [
             place: "Torino, Italia.",
           },
           {
-            event: "Del 27 al 3 de MAY. Dirección Compañía Dukto de Barcelona.",
+            event:
+              "Del 27 al 3 de Mayo. Dirección Compañía Dukto de Barcelona.",
             place: "Mallorca, España.",
           },
         ],
       },
       {
-        month: "MAY",
+        month: "MAYO",
         activities: [
           {
             event: "5 Y 19. MyL(2.0). Teatro Lara.",
@@ -140,7 +141,7 @@ export const events = [
         ],
       },
       {
-        month: "JUNE",
+        month: "JUNIO",
         activities: [
           {
             event: "8, 15 y 22. «Mientras tanto».",
@@ -153,7 +154,7 @@ export const events = [
         ],
       },
       {
-        month: "JULY",
+        month: "JULIO",
         activities: [
           {
             event: "6, 7 y 8. MyL. Festival Escenas de verano.",
@@ -180,7 +181,7 @@ export const events = [
         ],
       },
       {
-        month: "AUGUST",
+        month: "AGOSTO",
         activities: [
           {
             event: "26, 27 Y 28. MyL. Spoffin Festival.",
@@ -189,7 +190,7 @@ export const events = [
         ],
       },
       {
-        month: "SEPTEMBER",
+        month: "SEPTIEMBRE",
         activities: [
           {
             event: "13. MyL(2.0). Diputación de Sevilla.",
@@ -210,7 +211,7 @@ export const events = [
         ],
       },
       {
-        month: "OCTOBER",
+        month: "OCTUBRE",
         activities: [
           {
             event:
@@ -243,7 +244,7 @@ export const events = [
         ],
       },
       {
-        month: "NOVEMBER",
+        month: "NOVIEMBRE",
         activities: [
           {
             event: "11. MyL(2.0) . Red de teatros de la Comunidad de Madrid.",
@@ -256,7 +257,7 @@ export const events = [
         ],
       },
       {
-        month: "DECEMBER",
+        month: "DICIEMBRE",
         activities: [
           {
             event: "10. MyL(2.0) . Red de teatros de la Comunidad de Madrid.",
@@ -270,7 +271,7 @@ export const events = [
     year: "2021",
     months: [
       {
-        month: "JANUARY",
+        month: "ENERO",
         activities: [
           {
             event: "9 y 10. Taller de Creación movimiento Lúcido.",
@@ -291,7 +292,7 @@ export const events = [
         ],
       },
       {
-        month: "FEBRUARY",
+        month: "FEBRERO",
         activities: [
           {
             event: "6 y 7. Escena Miriñaque. Red de Teatros Alternativos.",
@@ -304,7 +305,7 @@ export const events = [
         ],
       },
       {
-        month: "MARCH",
+        month: "MARZO",
         activities: [
           {
             event: "6.  Red de teatros Comunidad de Madrid.",
@@ -317,7 +318,7 @@ export const events = [
         ],
       },
       {
-        month: "APRIL",
+        month: "ABRIL",
         activities: [
           {
             event:
@@ -327,7 +328,7 @@ export const events = [
         ],
       },
       {
-        month: "MAY",
+        month: "MAYO",
         activities: [
           {
             event: "5 y 6, 12 y 13, 19 y 20, 26 y 27. MyL(2.0).",
@@ -343,23 +344,23 @@ export const events = [
           },
           {
             event:
-              "Del 31 de MAY al 13 de JUNE. 1er período Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
+              "Del 31 de Mayo al 13 de Junio. 1er período Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
             place: "Madrid, España.",
           },
         ],
       },
       {
-        month: "JUNE",
+        month: "JUNIO",
         activities: [
           {
             event:
-              "Del 28 de JUNE al 11 de JULY. 2do perdíodo Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
+              "Del 28 de Junio al 11 de Julio. 2do perdíodo Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
             place: "Madrid, España.",
           },
         ],
       },
       {
-        month: "AUGUST",
+        month: "AGOSTO",
         activities: [
           {
             event: "6, 7 y 8. MyL. Festival Escenas de verano.",
@@ -368,7 +369,7 @@ export const events = [
         ],
       },
       {
-        month: "SEPTEMBER",
+        month: "SEPTIEMBRE",
         activities: [
           {
             event: "1, 2 y 3. Rodaje película Rainbow. Director Paco León.",
@@ -381,21 +382,21 @@ export const events = [
           },
           {
             event:
-              "Del 7 al 8 de OCTOBER. Ensayos nueva creación. Residencia otorgada por Festival Surge Madrid.",
+              "Del 7 al 8 de octubre. Ensayos nueva creación. Residencia otorgada por Festival Surge Madrid.",
             place: "Madrid, España.",
           },
         ],
       },
       {
-        month: "OCTOBER",
+        month: "OCTUBRE",
         activities: [
           {
             event:
-              "9 y 10 de OCTOBER. «ESTO PODRÍA SER IMPOSIBLE. Festival Surge Madrid. Nave73.",
+              "9 y 10 de octubre. «ESTO PODRÍA SER IMPOSIBLE. Festival Surge Madrid. Nave73.",
             place: "Madrid, España.",
           },
           {
-            event: "16 y 17 de OCTOBER. Taller de Creación Movimiento Lúcido.",
+            event: "16 y 17 de octubre. Taller de Creación Movimiento Lúcido.",
             place: "Madrid, España.",
           },
         ],
@@ -406,7 +407,7 @@ export const events = [
     year: "2020",
     months: [
       {
-        month: "JANUARY",
+        month: "ENERO",
         activities: [
           {
             event:
@@ -415,7 +416,7 @@ export const events = [
         ],
       },
       {
-        month: "FEBRUARY",
+        month: "FEBRERO",
         activities: [
           {
             event: "8 y 9. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -424,7 +425,7 @@ export const events = [
         ],
       },
       {
-        month: "MARCH",
+        month: "MARZO",
         activities: [
           {
             event: "7 y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -433,7 +434,7 @@ export const events = [
         ],
       },
       {
-        month: "APRIL",
+        month: "ABRIL",
         activities: [
           {
             event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -442,7 +443,7 @@ export const events = [
         ],
       },
       {
-        month: "MAY",
+        month: "MAYO",
         activities: [
           {
             event: "9 y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -451,7 +452,7 @@ export const events = [
         ],
       },
       {
-        month: "JUNE",
+        month: "JUNIO",
         activities: [
           {
             event: "6 y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -465,7 +466,7 @@ export const events = [
         ],
       },
       {
-        month: "SEPTEMBER",
+        month: "SEPTIEMBRE",
         activities: [
           {
             event: "4. MyL. Festival Gesto. Torrelodones.",
@@ -474,7 +475,7 @@ export const events = [
         ],
       },
       {
-        month: "OCTOBER",
+        month: "OCTUBRE",
         activities: [
           {
             event:
@@ -489,7 +490,7 @@ export const events = [
     year: "2019",
     months: [
       {
-        month: "JANUARY",
+        month: "ENERO",
         activities: [
           {
             event: "Movimiento Lúcido. Clases regulares de Creación.",
@@ -503,7 +504,7 @@ export const events = [
         ],
       },
       {
-        month: "FEBRUARY",
+        month: "FEBRERO",
         activities: [
           {
             event:
@@ -513,7 +514,7 @@ export const events = [
         ],
       },
       {
-        month: "MARCH",
+        month: "MARZO",
         activities: [
           {
             event:
@@ -531,7 +532,7 @@ export const events = [
         ],
       },
       {
-        month: "APRIL",
+        month: "ABRIL",
         activities: [
           {
             event:
@@ -545,7 +546,7 @@ export const events = [
         ],
       },
       {
-        month: "MAY",
+        month: "MAYO",
         activities: [
           {
             event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -566,7 +567,7 @@ export const events = [
         ],
       },
       {
-        month: "JUNE",
+        month: "JUNIO",
         activities: [
           {
             event: "1 y 2. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -579,7 +580,7 @@ export const events = [
         ],
       },
       {
-        month: "JULY",
+        month: "JULIO",
         activities: [
           {
             event: "6 y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -596,7 +597,7 @@ export const events = [
         ],
       },
       {
-        month: "AUGUST",
+        month: "AGOSTO",
         activities: [
           {
             event: "Del 10 al 22. «Solo Juntos».",
@@ -606,7 +607,7 @@ export const events = [
         ],
       },
       {
-        month: "SEPTEMBER",
+        month: "SEPTIEMBRE",
         activities: [
           {
             event: "14 y 15. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -620,7 +621,7 @@ export const events = [
         ],
       },
       {
-        month: "OCTOBER",
+        month: "OCTUBRE",
         activities: [
           {
             event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo",
@@ -629,7 +630,7 @@ export const events = [
         ],
       },
       {
-        month: "NOVEMBER",
+        month: "NOVIEMBRE",
         activities: [
           {
             event: "2. «MyL».",
@@ -651,7 +652,7 @@ export const events = [
         ],
       },
       {
-        month: "DECEMBER",
+        month: "DICIEMBRE",
         activities: [
           {
             event: "7 y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
@@ -665,7 +666,7 @@ export const events = [
     year: "2018",
     months: [
       {
-        month: "JANUARY",
+        month: "ENERO",
         activities: [
           {
             event: "Clases regulares de Taller de Creación.",
@@ -678,7 +679,7 @@ export const events = [
         ],
       },
       {
-        month: "FEBRUARY",
+        month: "FEBRERO",
         activities: [
           {
             event: "25. Festival Interplay.",
@@ -687,7 +688,7 @@ export const events = [
         ],
       },
       {
-        month: "MAY",
+        month: "MAYO",
         activities: [
           {
             event: "4. Solo juntos.",
@@ -706,7 +707,7 @@ export const events = [
         ],
       },
       {
-        month: "JUNE",
+        month: "JUNIO",
         activities: [
           {
             event:
@@ -715,7 +716,7 @@ export const events = [
         ],
       },
       {
-        month: "JULY",
+        month: "JULIO",
         activities: [
           {
             event: "3, 4 y 5. Movimiento Singular – Taller de Creación.",
@@ -732,7 +733,7 @@ export const events = [
         ],
       },
       {
-        month: "AUGUST",
+        month: "AGOSTO",
         activities: [
           {
             event: "4. Solo Juntos.",
@@ -745,7 +746,7 @@ export const events = [
         ],
       },
       {
-        month: "SEPTEMBER",
+        month: "SEPTIEMBRE",
         activities: [
           {
             event: "4, 5 y 6. Taller de Creación.",
@@ -754,7 +755,7 @@ export const events = [
         ],
       },
       {
-        month: "OCTOBER",
+        month: "OCTUBRE",
         activities: [
           {
             event:
@@ -764,7 +765,7 @@ export const events = [
         ],
       },
       {
-        month: "NOVEMBER",
+        month: "NOVIEMBRE",
         activities: [
           {
             event:
@@ -774,7 +775,7 @@ export const events = [
         ],
       },
       {
-        month: "DECEMBER",
+        month: "DICIEMBRE",
         activities: [
           {
             event:
@@ -789,7 +790,7 @@ export const events = [
     year: "2017",
     months: [
       {
-        month: "MAY",
+        month: "MAYO",
         activities: [
           {
             event: "25. Festival Interplay",
@@ -798,10 +799,10 @@ export const events = [
         ],
       },
       {
-        month: "JUNE",
+        month: "JUNIO",
         activities: [
           {
-            event: "4. Centenario Plaza MAYr Madrid.",
+            event: "4. Centenario Plaza Mayor Madrid.",
             place: "Madrid, España.",
           },
           {
@@ -811,7 +812,7 @@ export const events = [
         ],
       },
       {
-        month: "JULY",
+        month: "JULIO",
         activities: [
           {
             event: "1. Festival Mirabilia.",
@@ -836,7 +837,7 @@ export const events = [
         ],
       },
       {
-        month: "AUGUST",
+        month: "AGOSTO",
         activities: [
           {
             event: "5 y 6.  Theaterfestival Boulevard.",
@@ -845,7 +846,7 @@ export const events = [
         ],
       },
       {
-        month: "SEPTEMBER",
+        month: "SEPTIEMBRE",
         activities: [
           {
             event: "8 y 9. Pflasterzauber Festival.",
@@ -863,7 +864,7 @@ export const events = [
         ],
       },
       {
-        month: "OCTOBER",
+        month: "OCTUBRE",
         activities: [
           {
             event: "1. International Travelling Theatre Festival.",
@@ -890,7 +891,7 @@ export const events = [
     year: "2016",
     months: [
       {
-        month: "APRIL",
+        month: "ABRIL",
         activities: [
           {
             event: "8 y 9. Certamen Coreográfico del Distrito de Tetuán.",
@@ -903,7 +904,7 @@ export const events = [
         ],
       },
       {
-        month: "MAY",
+        month: "MAYO",
         activities: [
           {
             event: "14. Festival «Tapas y danza».",
@@ -916,7 +917,7 @@ export const events = [
         ],
       },
       {
-        month: "JUNE",
+        month: "JUNIO",
         activities: [
           {
             event: "6 y 7. Festival Cadiz en danza. Red «A cielo abierto».",
@@ -933,7 +934,7 @@ export const events = [
         ],
       },
       {
-        month: "JULY",
+        month: "JULIO",
         activities: [
           {
             event: "6 - 8. Corpo a terra. Red «A cielo abierto».",
@@ -950,7 +951,7 @@ export const events = [
         ],
       },
       {
-        month: "AUGUST",
+        month: "AGOSTO",
         activities: [
           {
             event: "26 - 28. Festival Spoffin.",
@@ -959,7 +960,7 @@ export const events = [
         ],
       },
       {
-        month: "SEPTEMBER",
+        month: "SEPTIEMBRE",
         activities: [
           {
             event: "1. Festival Costa Contemporánea.",

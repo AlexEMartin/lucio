@@ -12,6 +12,7 @@ import { meses } from "../../utils/schedule/meses";
 import { months } from "../../utils/schedule/months";
 import { agendas } from "../../utils/schedule/mes-data";
 import { schedules } from "../../utils/schedule/month-data";
+import { eventos } from "../../utils/schedule/eventos-pasados";
 import { events } from "../../utils/schedule/past-events";
 
 const Schedule = () => {
@@ -72,22 +73,45 @@ const Schedule = () => {
           <div className="info">{schedules[mes]}</div>
         )}
       </div>
-      {events.map((e) => (
-        <div key={e.year} className="events">
-          <h1>{e.year}</h1>
-          {e.months.map((m) => (
-            <div key={m.month} className="eventItems">
-              <h2>{m.month}</h2>
-              {m.activities.map((a) => (
-                <div key={a.event}>
-                  <p>{a.event}</p>
-                  <span>{a.place}</span>
+      {language ? (
+        <div>
+          {eventos.map((e) => (
+            <div key={e.year} className="events">
+              <h1>{e.year}</h1>
+              {e.months.map((m) => (
+                <div key={m.month} className="eventItems">
+                  <h2>{m.month}</h2>
+                  {m.activities.map((a) => (
+                    <div key={a.event}>
+                      <p>{a.event}</p>
+                      <span>{a.place}</span>
+                    </div>
+                  ))}
                 </div>
               ))}
             </div>
           ))}
         </div>
-      ))}
+      ) : (
+        <div>
+          {events.map((e) => (
+            <div key={e.year} className="events">
+              <h1>{e.year}</h1>
+              {e.months.map((m) => (
+                <div key={m.month} className="eventItems">
+                  <h2>{m.month}</h2>
+                  {m.activities.map((a) => (
+                    <div key={a.event}>
+                      <p>{a.event}</p>
+                      <span>{a.place}</span>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
       <Footer />
       <WhappBtn />
     </div>
