@@ -1,70 +1,61 @@
-const recuerdosmargaritasText = [
+const enrecuerdosmargaritasText = [
   '"Cosmos...ayer fui a verte. Tobillo, acentos, placer, recuerdos, margaritas, desierto. Me gustas.  Me gusta cuando flotas caminando. A los 40: ¡sexo, iris y fantasía! Cuernavaca la eterna primavera. ¡Canción perfecta, planeta Almería y Buenos Aires profunda!"',
-  "¿Cómo representar el paso del tiempo en nuestros cuerpos? ¿Cómo responden nuestros cuerpos a los recuerdos, a los espacios que fueron importantes para nosotros?¿Cómo podemos volver del pasado para vivir en el presente un recuerdo?",
-  "Ante estas preguntas, los 3 intérpretes se moverán a través del amor, experimentando lo que les sucede al tratar de responderlas. Queremos llevar al público a otro tiempo. Es el intento imposible de traducir por medio del flamenco, la danza contemporánea, el teatro, el humor, la acrobacia y la música en vivo, conceptos abstractos a través de una clásica historia de amor.",
+  "How to portray the passage of time in our bodies? How do our bodies respond to memories, to spaces that were important to us? How can we return from the past to live a memory in the present?",
+  "Faced of  these questions, we will experience what happens to us when we try to answer them, with the intention of taking the audience to another time. It is the impossible attempt to translate through flamenco, contemporary dance, theater, humor, acrobatics and live music, abstract concepts through a classic love story.",
 ];
 
-const melasbailotodasText = [
-  "Me las bailo todas: Esta propuesta busca dar a conocer más la danza en la sociedad a través del movimiento y la palabra, realizando actuaciones en el exterior (calle, patios, parques etc.) y reflexionando sobre la experiencia en el interior de una sala o en el exterior en un ambiente recogido. Para conformar el grupo realizo una convocatoria abierta/o  en la misma ciudad de la actuación para un grupo aproximado de 25 personas de cualquier edad, género e identidad sin importar su formación ni su nivel técnico.",
+const enmelasbailotodasText = [
+  "This proposal seeks to spread dance in society through movement and the power of speech, performing  outdoors (street, courtyards, parks etc.) and reflecting on the experience in a theatre or a studi. To create the group of participants I organize an open call for people of any age, gender and identity regardless of their training or technical level.",
 ];
 
-const mientrasTantoText = [
-  '"Vamos a habitar juntos esto que no es. Simplemente nos iremos sucediendo de una cosa a la otra. Es por esto que este tiempo entre medias no tiene exigencias. Es un tiempo de ser y de estar sin pretensiones. Lo único que nos queda es descansar en lo desconocido hasta que llegue…lo que… creamos que tenga que llegar."',
-  "Dos hombres, Raúl y Lucio, se encuentran en escena para crear algo que no existe. Sólo están ellos, sus vidas y sus ideas. Van a hacer todo lo posible para sostener esta situación durante 60 minutos.",
+const enmientrasTantoText = [
+  "What you are about to witness now should not happen. It was not planned. Now we are on a bridge, a floating bridge.",
+  "You should not be here. Neither should we. So we are going to inhabit together this moment that does not exist . We are just going to go from one thing to another. This is why this time in between has no demands. It is a time of being, existing without pretensions. All we have left is to rest in the unknown until… it arrives…what we…believe…think…feel has to …come.",
+  "Two men, Raúl and Lucio, are on stage to create something that does not exist. There are only them, their lives and their ideas. They’re gonna do everything they can to support this cause for 60 minutes.",
 ];
 
-const apparentlyAloneText = [
-  "Investigamos sobre la idea de la intimidad de estar en el espacio propio y lo que esto «permite» en cuanto a la seguridad y la confianza que uno siente cuando estamos solo en casa. Confrontamos esto con la idea de estar siendo filmado y “visto” en esta intimidad a través de la cámara por un público virtual. Sumándole a esto las consecuencias de los efectos de la pandemia y del confianamiento en Maximiliano y, a su vez, en cada uno de nosotros. Me interesaba el conflicto que podían suscitar estos conceptos/ideas en el cuerpo y en el estado emocional de Maximiliano y mediante la danza contemporánea, la acrobacia y la teatralidad, reflejarlo a través de la cámara. Aprovechando, a su vez, la gran destreza y virtuosismo de Max para expresar con su particular forma de abordar el trabajo escénico. Además me interesaba poner en juego las dificultades que puede suponer a Max, que suele ser expansivo en sus movimientos y sus acrobacias, bailar en un espacio reducido y cómo su danza podría desplegarse en su máximo potencial en este contexto.",
+const enapparentlyAloneText = [
+  "We researched on the idea of intimacy of being in one’s own space and what this «allows» in terms of the security and trust one feels when we are alone at home. We confront this with the idea of being filmed and 'seen' in this intimacy through the camera by a virtual audience. Adding to this the consequences of the effects of the pandemic and the trust in Maximiliano and, in turn, in each of us.",
+  "As a director,  I was interested in the conflict that these concepts/ideas could provoke in Maximiliano’s body and emotional state and through contemporary dance, acrobatics and theatre, reflect it through the camera. Taking advantage, in turn, of Max’s great skill and virtuosity to express with his particular way of approaching the stage work. I was also interested in putting into play the difficulties that Max, who is usually expansive in his movements and acrobatics, dance in a small space and how his dance could unfold to its full potential in this context.",
 ];
 
-const iamtheotherText = [
-  "Me saco el cuerpo de aquí, saco mi cuerpo de mí, me salgo de aquí del cuerpo. Del cuerpo de baile voy, saliéndome poco a poco, quedándome solo soy.",
-  "Un solo de cuerpo humano, uno solo sin hermano y el cuerpo de baile mira, busca seguir el compás.",
-  "Yo me salgo de la fila, yo me salgo para atrás. Atrás sólo bailo a oscuras donde me puedan mirar, las miradas apagadas, las bocas calladas, mudas…",
-  "Del cuerpo de baile estoy, saliéndome poco a poco. Me salgo del cuerpo y voy, mirando que ahora soy otro, que se mira desde afuera, que calla, escucha y espera, que el cuerpo se baile solo.",
-  "Javier Ballesteros",
-  "Tomando como referencia la frase de Arthur Rimbaud, “Je est un autre” (Yo es otro) y el tradicional saludo Maya, “In lak’ech» (Yo soy otro tú) al que el otro responde, “Hala ken» (Tu eres otro yo); me interesaba investigar la idea del reflejo en/del otro, de otro hombre enfrente mío, qué me devuelve ese otro y cómo se mueve mi identidad en relación a este encuentro. (Lucio A. Baglivo)",
+const eniamtheotherText = [
+  `"Sometimes I feel I'm out of my body I feel strange. Like the other person is not me. Do you sometimes feel like two people in one? "Using as reference the phrase by Arthur Rimbaud, “Je est un autre” (I am another) and the traditional Mayan greeting: "In lak'ech: I am another you" to which the other responds "Hala ken: You are another me"; I was interested in reasearching the idea of​ the reflection in/of the other, of another man in front of me, what the other projects to me and how my identity moves in relation to this encounter.`,
 ];
 
-const mylText = [
-  "¿Qué le podría sumar una intérprete de danza española a un intérprete de danza contemporánea? ¿Y viceversa? ¿Cómo se entienden dos personas que se comunican por medio del movimiento pero lo expresan con diferentes lenguajes? ¿Cómo nos relacionamos con lo distinto? ¿En qué nos parecemos? ¿Qué nos acerca al otro? ¿Cómo nos puede afectar lo que desconocemos?",
-  "MyL nos reúne a Mariana y a mí con casi 40 años de edad habiendo dedicado gran parte de nuestras vidas a las artes escénicas.  Este proyecto tiene el objetivo de cuestionarse, a través de la danza contemporánea, el flamenco,el teatro y la acrobacia, lo íntimo del encuentro entre dos personas en escena desde la sencilla relación de un hombre y una mujer que lo único que quieren compartir es un baile juntos.",
+const enmyl20Text = [
+  "How do we aproach someone we think is different from us? What bring us together? And what bring us apart? What can a flamenco dancer bring to a contemporary dancer? And viceversa? How can two people who communicate through movement but from different backgrounds understand each other? How can the unknown affect us?",
+  "This project reunites Mariana and Lucio, reaching 40 years old and with almost all of their lives dedicated to performing arts. Mariana is a flamenco dancer and Lucio a contemporary dancer, actor and acrobat. ‘MyL’ aims to question on stage, through dance, theatre and acrobatics, how it is to face what we consider different between a man and a woman whose only goal is to share a dance together.",
 ];
 
-const myl20Text = [
-  "¿Qué le podría sumar una intérprete de danza española a un intérprete de danza contemporánea? ¿Y viceversa? ¿Cómo se entienden dos personas que se comunican por medio del movimiento pero lo expresan con diferentes lenguajes? ¿Cómo nos relacionamos con lo distinto? ¿En qué nos parecemos? ¿Qué nos acerca al otro? ¿Cómo nos puede afectar lo que desconocemos?",
-  "MyL(2.0) nos reúne a Mariana y a mí con casi 40 años de edad habiendo dedicado gran parte de nuestras vidas a las artes escénicas.  Este proyecto tiene el objetivo de cuestionarse, a través de la danza contemporánea, el flamenco,el teatro y la acrobacia, lo íntimo del encuentro entre dos personas en escena desde la sencilla relación de un hombre y una mujer que lo único que quieren compartir es un baile juntos.",
+const ensolojuntosText = [
+  "This project proposes, through contemporary dance and acrobatics and using contact mechanics, a risky and dynamic physical language; seeking the challenge of constant contact between the 3 bodies, and, at the same time, a clear intention in the movement and in the relationship between the 3 characters.",
 ];
 
-const solojuntosText = [
-  "Este trabajo se propone, mediante la danza contemporánea y la acrobacia y utilizando mecánicas de contacto, un lenguaje físico arriesgado y dinámico; buscando el desafío del contacto constante entre los 3 cuerpos, y, a la vez, una intencionalidad clara en el movimiento y en la relación entre los 3 personajes.",
+const ennolandText = [
+  "In the stillness of the original silence, here where the void is bathed in light, where darkness is all that does not exist and more, forms of being in space arise, glimpses of life. Reflection of identities and entities, search for movement embracing reality made dream. Passengers outlined by their shadows, untangling the nest and awakening the sleepy flight. Welcome… ",
+  "No land is a stage performance about movement and sensations characterized by a careful lighting design. The space is configured through atmospheres that suggest light and shadow. In No Land its inhabitants define their identity at every step, inviting the viewer to complete with his gaze this journey.",
 ];
 
-const nolandText = [
-  "En la quietud del silencio original, aquí donde el vacío se baña de luz,donde la oscuridad es todo lo que no existe y más,surgen formas de estar en el espacio, destellos de vida. Reflejo de identidades y entidades, búsqueda de movimiento abrazando la realidad hecha sueño. Pasajeros delineados por sus sombras, desenredando el nido y despertando el vuelo adormecido. Bienvenidos...",
-  "No Land es un trabajo escénico sobre el movimiento y las sensaciones que se caracteriza por un cuidado diseño de iluminación. El espacio se va configurando a través de las atmósferas que sugieren la luz y la sombra. En No Land sus habitantes constituyen su identidad a cada paso, invitando al espectador a completar con su mirada este viaje.",
+const enciclonText = [
+  "Close your eyes. Ready? Imagine a sandstorm and forget anything else. Sometimes fate looks like a small storm of sand that changes direction without ceasing (...) And inside you there is no sun, no moon, no direction, sometimes there is not even time. There is only fine white sand, dancing high in the sky.",
+  '"Kafka en la orilla" Haruki Murakami.',
 ];
 
-const ciclonText = [
-  "Cierra los ojos. ¿Listo? Imagínate una tempestad de arena y olvida cualquier otra cosa. A veces el destino se parece a una pequeña tempestad de arena que cambia de dirección sin cesar (...) Y en tu interior no hay ni sol, ni luna, ni dirección, a veces ni siquiera existe el tiempo. Allí sólo hay una arena blanca y fina, danzando en lo alto del cielo.",
-  '"Kafka en la orilla" Haruki Murakami',
-];
-
-const holaquetalText = [
-  "Holaquétal! es  un espectáculo que combina danza contemporánea y acrobacia con una fuerte impronta teatral.",
-  "Un hombre atrapado en una búsqueda. Una búsqueda no premeditada de la que no puede escapar y que eventualmente tendrá que enfrentar.  Una búsqueda de su identidad, de su propio ser. A través del movimiento, del silencio espiamos el mundo donde éste se expresa, deja salir sus sentimientos casi sin controlarlos ni desearlos. No hay nada que esté demás, todo está en su posición correcta.",
+const enholaquetalText = [
+  "Holaquétal! is a performance that combines contemporary dance and acrobatics with a strong theatrical imprint.",
+  "A man trapped in a quest. An unpremeditated quest from which he cannot escape and which he will eventually have to face. A search for his identity, for his own being. Through movement, through silence, we spy on the world where it expresses itself, letting out its feelings almost without controlling or wanting them.",
 ];
 
 export {
-  melasbailotodasText,
-  mientrasTantoText,
-  apparentlyAloneText,
-  iamtheotherText,
-  mylText,
-  myl20Text,
-  solojuntosText,
-  nolandText,
-  holaquetalText,
-  ciclonText,
-  recuerdosmargaritasText,
+  enmelasbailotodasText,
+  enmientrasTantoText,
+  enapparentlyAloneText,
+  eniamtheotherText,
+  enmyl20Text,
+  ensolojuntosText,
+  ennolandText,
+  enholaquetalText,
+  enciclonText,
+  enrecuerdosmargaritasText,
 };

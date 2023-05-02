@@ -1,9 +1,15 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { LanguageContext } from "../../context/LanguageContext";
 import "./Intro.css";
 import { HeartIcon } from "@heroicons/react/24/outline";
 
 const Intro = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
+
   const { language } = useContext(LanguageContext);
 
   return (
@@ -12,8 +18,8 @@ const Intro = () => {
         <p className="intro">
           Transmitir <strong className="bold">emociones</strong> a través de la
           {"  "}
-          <strong className="bold">danza</strong>, la{"  "}
-          <strong className="bold">acrobacia</strong> y el{"  "}
+          <strong className="bold">danza</strong>, la{" "}
+          <strong className="bold">acrobacia</strong> y el{" "}
           <strong className="bold">teatro</strong>
         </p>
       ) : (
@@ -30,7 +36,7 @@ const Intro = () => {
         <HeartIcon className="heart" />
         <div className="hr-block"></div>
       </div>
-      <div className="intro-p-container">
+      <div data-aos="zoom-in" className="intro-p-container">
         {language ? (
           <p className="intro-p">
             (…) «Lucio me ha demostrado su talento, profesionalidad y su

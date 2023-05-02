@@ -196,7 +196,7 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>(2017)</span>
-              <span>Espectaculo Irakurriz</span>
+              <span>Espectáculo Irakurriz</span>
               <span>País Vasco / España</span>
               <span>
                 <i>Dirección</i>
@@ -225,7 +225,7 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>(2015)</span>
-              <span>Espectaculo Spazi.o</span>
+              <span>Espectáculo Spazi.o</span>
               <span>País Vasco - España</span>
               <span>
                 <i>Mirada externa</i>

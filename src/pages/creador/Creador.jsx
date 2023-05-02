@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { LanguageContext } from "../../context/LanguageContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import HeartHr from "../../utils/creator/HeartHr";
@@ -23,13 +24,24 @@ import {
   mientrasTantoText,
   apparentlyAloneText,
   iamtheotherText,
-  mylText,
   myl20Text,
   solojuntosText,
   nolandText,
   holaquetalText,
   ciclonText,
   recuerdosmargaritasText,
+} from "../../utils/creator/descripcionesCreador";
+import {
+  enmelasbailotodasText,
+  enmientrasTantoText,
+  enapparentlyAloneText,
+  eniamtheotherText,
+  enmyl20Text,
+  ensolojuntosText,
+  ennolandText,
+  enholaquetalText,
+  enciclonText,
+  enrecuerdosmargaritasText,
 } from "../../utils/creator/creatorDescriptions";
 
 const Creador = () => {
@@ -41,6 +53,8 @@ const Creador = () => {
     AOS.init({ duration: 1200 });
   }, []);
 
+  const { language } = useContext(LanguageContext);
+
   const [video, setVideo] = useState("https://youtu.be/bphJLHzqGoo");
   const [video2, setVideo2] = useState(
     "https://www.youtube.com/watch?v=yL-qo8MW44k&t=68s"
@@ -50,19 +64,41 @@ const Creador = () => {
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
       <Iframe url="https://www.youtube.com/watch?v=khAztc_qSvY" status={true} />
-      <h3 className="creator-title">Recuerdos de Margaritas (2023)</h3>
-      {recuerdosmargaritasText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          <h3 className="creator-title">Recuerdos de Margaritas (2023)</h3>
+          {recuerdosmargaritasText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          <h3 className="creator-title">Daisies Memories (2023)</h3>
+          {enrecuerdosmargaritasText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={recuerdosmargaritas} alt="" />
       </div>
       <HeartHr />
       <Iframe url="https://youtu.be/ILK1tGnPpUo" status={false} />
-      <h3 className="creator-title">Me las bailo todas (2022)</h3>
-      {melasbailotodasText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          <h3 className="creator-title">Me las bailo todas (2022)</h3>
+          {melasbailotodasText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          <h3 className="creator-title">I dance them all (2022)</h3>
+          {enmelasbailotodasText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div className="creator-container withLogo">
         <img style={{ marginBottom: "20px" }} src={logosurge} alt="" />
       </div>
@@ -83,7 +119,7 @@ const Creador = () => {
           className="creator-btn"
           onClick={() => setVideo("https://youtu.be/svPEL4ab9ic")}
         >
-          MyL(2.0) fragmento
+          {language ? "MyL(2.0) fragmento" : "MyL(2.0) fragment"}
         </button>
         <button
           className="creator-btn"
@@ -91,52 +127,99 @@ const Creador = () => {
             setVideo("https://www.youtube.com/watch?v=TOAwPhWMBeM")
           }
         >
-          MyL(2.0) Alemania
+          {language ? "MyL(2.0) Alemania" : "MyL(2.0) Germany"}
         </button>
       </div>
-      {myl20Text.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
-      <a
-        href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div className="creator-container withLogo">
-          <img
-            style={{ marginBottom: "20px", width: "200px" }}
-            src={representante}
-            alt=""
-          />
+      {language ? (
+        <div>
+          {myl20Text.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+          <a
+            href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="creator-container withLogo">
+              <img
+                style={{ marginBottom: "20px", width: "200px" }}
+                src={representante}
+                alt=""
+              />
+            </div>
+          </a>
         </div>
-      </a>
+      ) : (
+        <div>
+          {enmyl20Text.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={MyL2} alt="" />
       </div>
       <HeartHr />
       <Iframe url="https://youtu.be/oX3J5Bqqbk8" status={false} />
-      <h3 className="creator-title">Mientras&emsp;&emsp;&emsp;tanto (2021)</h3>
-      {mientrasTantoText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          <h3 className="creator-title">
+            Mientras&emsp;&emsp;&emsp;tanto (2021)
+          </h3>
+          {mientrasTantoText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          <h3 className="creator-title">
+            Mientras&emsp;&emsp;&emsp;tanto (2021)
+          </h3>
+          {enmientrasTantoText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={mientrastanto} alt="" />
       </div>
       <HeartHr />
       <Iframe url="https://youtu.be/Fwx4prULRNU" status={false} />
-      <h3 className="creator-title">Apparently alone (2020)</h3>
-      {apparentlyAloneText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          <h3 className="creator-title">Apparently alone (2020)</h3>
+          {apparentlyAloneText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          <h3 className="creator-title">Apparently alone (2020)</h3>
+          {enapparentlyAloneText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={apparentlyalone} alt="" />
       </div>
       <HeartHr />
       <Iframe url="https://youtu.be/EetEfWttC6w" status={false} />
-      <h3 className="creator-title">I am the other (2020)</h3>
-      {iamtheotherText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          <h3 className="creator-title">I am the other (2020)</h3>
+          {iamtheotherText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          <h3 className="creator-title">I am the other (2020)</h3>
+          {eniamtheotherText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={iamtheother} alt="" />
       </div>
@@ -154,24 +237,47 @@ const Creador = () => {
           className="creator-btn"
           onClick={() => setVideo3("https://youtu.be/e-A6QzOuEKY")}
         >
-          MyL Grecia
+          MyL {language ? "Grecia" : "Greece"}
         </button>
         <button
           className="creator-btn"
           onClick={() => setVideo3("https://youtu.be/h4zRKOhIHQc")}
         >
-          MyL Alemania
+          MyL {language ? "Alemania" : "Germany"}
         </button>
         <button
           className="creator-btn"
           onClick={() => setVideo3("https://youtu.be/rA02r7SF1cA")}
         >
-          MyL París
+          MyL {language ? "París" : "Paris"}
         </button>
       </div>
-      {mylText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          {myl20Text.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+          <a
+            href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="creator-container withLogo">
+              <img
+                style={{ marginBottom: "20px", width: "200px" }}
+                src={representante}
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+      ) : (
+        <div>
+          {enmyl20Text.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={MyL} alt="" />
       </div>
@@ -204,33 +310,74 @@ const Creador = () => {
           Solo Juntos (video promo)
         </button>
       </div>
-      {solojuntosText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          {solojuntosText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          {ensolojuntosText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={solojuntos} alt="" />
       </div>
       <HeartHr />
       <Iframe url="https://youtu.be/5d4mOd3xjMY" status={false} />
       <h3 className="creator-title">No land (2013)</h3>
-      {nolandText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          {nolandText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          {ennolandText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={noland} alt="" />
       </div>
       <HeartHr />
       <Iframe url="https://youtu.be/02gNwR8UFY8" status={false} />
-      <h3 className="creator-title">Ciclón</h3>
-      {ciclonText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          <h3 className="creator-title">Ciclón (2010)</h3>
+          {ciclonText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          <h3 className="creator-title">Ciclon (2010)</h3>
+          {enciclonText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <HeartHr />
       <Iframe url="https://youtu.be/UKTUgDfuE3A" status={false} />
       <h3 className="creator-title">Holaquétal! (2009)</h3>
-      {holaquetalText.map((t) => (
-        <p className="creator-description">{t}</p>
-      ))}
+      {language ? (
+        <div>
+          {holaquetalText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      ) : (
+        <div>
+          {enholaquetalText.map((t) => (
+            <p className="creator-description">{t}</p>
+          ))}
+        </div>
+      )}
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={holaquetal} alt="" />
       </div>
