@@ -60,6 +60,11 @@
   background-color: #9bbfc0;
 }
 
+.creator-btn:active {
+	position: relative;
+	top: 1px;
+}
+
 @media only screen and (min-width: 950px) {
   .creator-container {
     width: 65%;

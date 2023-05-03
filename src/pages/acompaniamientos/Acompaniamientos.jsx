@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
+import { LanguageContext } from "../../context/LanguageContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Acompaniamientos.css";
@@ -26,6 +27,8 @@ const Acompaniamientos = () => {
   const [modal, setModal] = useState(false);
   const [img, setImg] = useState("");
 
+  const { language } = useContext(LanguageContext);
+
   return (
     <>
       {modal && (
@@ -37,15 +40,51 @@ const Acompaniamientos = () => {
         </div>
       )}
       <div className="colab-container">
-        <h1 className="colab-title">
-          Trabajos realizados para otras compañías
-        </h1>
-        <h4 data-aos="fade-right" style={{ width: "75%", color: "#003a39" }}>
-          A la vez que trabajo como maestro impartiendo mi propia metodología
-          "Movimiento Lúcido" y dirigiendo mis propias creaciones, también
-          trabajo como director y coreografo para distintas Compañías de circo,
-          teatro y danza.
-        </h4>
+        {language ? (
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "column",
+            }}
+          >
+            <h1 className="colab-title">
+              Trabajos realizados para otras compañías
+            </h1>
+            <h4
+              data-aos="fade-right"
+              style={{ width: "75%", color: "#003a39" }}
+            >
+              A la vez que trabajo como maestro impartiendo mi propia
+              metodología "Movimiento Lúcido" y dirigiendo mis propias
+              creaciones, también trabajo como director y coreografo para
+              distintas Compañías de circo, teatro y danza.
+            </h4>
+          </div>
+        ) : (
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "column",
+            }}
+          >
+            <h1 className="colab-title">Work done for other companies</h1>
+            <h4
+              data-aos="fade-right"
+              style={{ width: "75%", color: "#003a39" }}
+            >
+              At the same time that I work as a teacher teaching my own
+              methodology "Lucid Motion" and directing my own creations, I also
+              work as a director and choreographer for different circus, theater
+              and dance companies.
+            </h4>
+          </div>
+        )}
         <div className="colab-cards">
           <div className="colab-block">
             <div className="colab-desc">
