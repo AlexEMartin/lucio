@@ -108,9 +108,7 @@ const Acompaniamientos = () => {
                 <span>A Rienda suelta</span>
               </a>
               <span>Madrid - España</span>
-              <span>
-                <i>Dirección</i>
-              </span>
+              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
               <img
                 onClick={() => {
                   setImg(acompanamientoImg3);
@@ -144,7 +142,11 @@ const Acompaniamientos = () => {
               <span>Vientre</span>
               <span>Madrid - España</span>
               <span>
-                <i>Mirada externa</i>
+                {language ? (
+                  <i>Mirada externa</i>
+                ) : (
+                  <i>Artistic accompaniment</i>
+                )}
               </span>
               <img
                 onClick={() => {
@@ -173,7 +175,11 @@ const Acompaniamientos = () => {
               <span>Al Borde</span>
               <span>Madrid - España</span>
               <span>
-                <i>Mirada externa</i>
+                {language ? (
+                  <i>Mirada externa</i>
+                ) : (
+                  <i>Artistic accompaniment</i>
+                )}
               </span>
               <img
                 onClick={() => {
@@ -209,7 +215,11 @@ const Acompaniamientos = () => {
               </a>
               <span>Almería - España</span>
               <span>
-                <i>Asistencia de dirección y coreografía</i>
+                {language ? (
+                  <i>Asistencia de dirección y coreografía</i>
+                ) : (
+                  <i>Direction and choreography</i>
+                )}
               </span>
               <img
                 onClick={() => {
@@ -235,11 +245,13 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>(2017)</span>
-              <span>Espectáculo Irakurriz</span>
+              {language ? (
+                <span>Espectáculo Irakurriz</span>
+              ) : (
+                <span>Irakurriz</span>
+              )}
               <span>País Vasco / España</span>
-              <span>
-                <i>Dirección</i>
-              </span>
+              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
               <img
                 onClick={() => {
                   setImg(irakurriz);
@@ -264,10 +276,18 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>(2015)</span>
-              <span>Espectáculo Spazi.o</span>
+              {language ? (
+                <span>Espectáculo Spazi.o</span>
+              ) : (
+                <span>Spazi.o</span>
+              )}
               <span>País Vasco - España</span>
               <span>
-                <i>Mirada externa</i>
+                {language ? (
+                  <i>Mirada externa</i>
+                ) : (
+                  <i>Artistic accompaniment</i>
+                )}
               </span>
               <img
                 onClick={() => {
@@ -293,10 +313,14 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>(2015)</span>
-              <span>Espectáculo I AM</span>
+              {language ? <span>Espectáculo I AM</span> : <span>I AM</span>}
               <span>Suiza y Alemania</span>
               <span>
-                <i>Coreografia y mirada externa</i>
+                {language ? (
+                  <i>Coreografia y mirada externa</i>
+                ) : (
+                  <i>Choreography and artistic accompaniment</i>
+                )}
               </span>
               <img
                 onClick={() => {
