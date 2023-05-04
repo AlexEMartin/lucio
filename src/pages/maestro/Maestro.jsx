@@ -32,20 +32,6 @@ const Maestro = () => {
 
   const { language } = useContext(LanguageContext);
 
-  const download = () => {
-    fetch("Lucio A. Baglivo - Workshops.pdf").then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "Lucio A. Baglivo - Workshops.pdf";
-        alink.click();
-      });
-    });
-  };
-
   return (
     <div style={{ width: "100%", overflow: "hidden" }}>
       <div className="master-container">
@@ -193,9 +179,11 @@ const Maestro = () => {
           />
           {!language && (
             <div className="master-block">
-              <button onClick={download} className="myButton">
-                Download Workshops INFO
-              </button>
+              <a href="/pdf" target="_blank" rel="noopener noreferrer">
+                <button className="myButton">
+                  More information about each workshop
+                </button>
+              </a>
             </div>
           )}
           {language && (

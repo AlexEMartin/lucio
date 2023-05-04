@@ -9,6 +9,7 @@ import Actor from "./pages/actor/Actor";
 import Acompaniamientos from "./pages/acompaniamientos/Acompaniamientos";
 import Navbar from "./components/navbar/Navbar";
 import LanguageProvider from "./context/LanguageContext";
+import Pdfviewer from "./utils/master/Pdf";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/maestro" element={<Maestro />} />
           <Route path="/actor" element={<Actor />} />
           <Route path="/acompanamientos" element={<Acompaniamientos />} />
+          <Route path="/pdf" element={<Pdfviewer />} />
         </Routes>
       </Router>
     </LanguageProvider>
