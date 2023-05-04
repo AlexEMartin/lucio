@@ -10,6 +10,7 @@ const Pdfviewer = () => {
   const { setLanguage } = useContext(LanguageContext);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setLanguage(false);
     if (window.innerWidth < 900) {
       setWidth(window.innerWidth);
@@ -58,8 +59,34 @@ const Pdfviewer = () => {
         }}
       >
         <div style={{ display: "flex", margin: "20px 0px" }}>
-          <button style={{ margin: '5px', cursor: 'pointer' }} onClick={prevPage}>Prev</button>
-          <button style={{ margin: '5px', cursor: 'pointer' }} onClick={nextPage}>Next</button>
+          <button
+            style={{
+              borderRadius: "4px",
+              padding: "8px 14px",
+              backgroundColor: "#003a39",
+              color: "white",
+              border: "none",
+              margin: "5px",
+              cursor: "pointer",
+            }}
+            onClick={prevPage}
+          >
+            Prev
+          </button>
+          <button
+            style={{
+              borderRadius: "4px",
+              padding: "8px 14px",
+              backgroundColor: "#003a39",
+              color: "white",
+              border: "none",
+              margin: "5px",
+              cursor: "pointer",
+            }}
+            onClick={nextPage}
+          >
+            Next
+          </button>
         </div>
         <Document file={PDF}>
           <Page

@@ -1,5 +1,6 @@
 import { useState, useEffect, useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
+import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Maestro.css";
@@ -29,6 +30,8 @@ const Maestro = () => {
   const [shorter, setShorter] = useState(true);
   const [shorter2, setShorter2] = useState(true);
   const [shorter3, setShorter3] = useState(true);
+
+  const navigate = useNavigate();
 
   const { language } = useContext(LanguageContext);
 
@@ -179,11 +182,9 @@ const Maestro = () => {
           />
           {!language && (
             <div className="master-block">
-              <a href="/pdf" target="_blank" rel="noopener noreferrer">
-                <button className="myButton">
-                  More information about each workshop
-                </button>
-              </a>
+              <button onClick={() => navigate("/pdf")} className="myButton">
+                More information about each workshop
+              </button>
             </div>
           )}
           {language && (
