@@ -25,30 +25,88 @@ const Bio = () => {
   return (
     <>
       <div className="bio-container">
-        <h1 className="bio-title">Lucio A. Baglivo</h1>
+        <h1 style={{ marginBottom: "-50px" }} className="bio-title">
+          Lucio A. Baglivo
+        </h1>
+        <Iframe url="https://youtu.be/4CwvFiPoZYM" status={false} />
+        {language ? (
+          <div className="bio-p-container">
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[0]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[1]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[2]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[3]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[4]}
+            </p>
+          </div>
+        ) : (
+          <div className="bio-p-container">
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[0]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[1]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[2]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[3]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[4]}
+            </p>
+          </div>
+        )}
         <img
-          style={{ marginTop: "50px" }}
           className="bio-img"
           src={profile}
           data-aos="fade-right"
           alt="img_profile"
         />
-        <Iframe url="https://youtu.be/4CwvFiPoZYM" status={false} />
         {language ? (
           <div className="bio-p-container">
-            {bioIntro.map((i) => (
-              <p key={i} data-aos="zoom-in" className="bio-p">
-                {i}
-              </p>
-            ))}
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[5]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[6]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[7]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[8]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioIntro[9]}
+            </p>
           </div>
         ) : (
           <div className="bio-p-container">
-            {bioEnglishIntro.map((i) => (
-              <p key={i} data-aos="zoom-in" className="bio-p">
-                {i}
-              </p>
-            ))}
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[5]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[6]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[7]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[8]}
+            </p>
+            <p data-aos="zoom-in" className="bio-p">
+              {bioEnglishIntro[9]}
+            </p>
           </div>
         )}
         <img

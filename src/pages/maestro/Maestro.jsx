@@ -41,7 +41,7 @@ const Maestro = () => {
         {language ? (
           <h1 className="master-title">Maestro</h1>
         ) : (
-          <h1 className="master-title">Master</h1>
+          <h1 className="master-title">Teacher</h1>
         )}
         <Iframe url="https://vimeo.com/581104691" status={true} />
         <div className="master-block">
@@ -68,7 +68,7 @@ const Maestro = () => {
                     className="btn-long"
                     onClick={() => setShorter(!shorter)}
                   >
-                    Leer más
+                    Read more
                   </button>
                 )}
               </p>
@@ -118,7 +118,7 @@ const Maestro = () => {
                     className="btn-long"
                     onClick={() => setShorter2(!shorter2)}
                   >
-                    Leer más
+                    Read more
                   </button>
                 )}
               </p>
