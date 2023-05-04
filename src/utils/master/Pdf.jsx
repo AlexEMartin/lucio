@@ -3,6 +3,7 @@ import { LanguageContext } from "../../context/LanguageContext";
 import { Document, Page, pdfjs } from "react-pdf";
 import Footer from "../../components/footer/Footer";
 import PDF from "./workshops.pdf";
+import { BeatLoader } from "react-spinners";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -58,7 +59,7 @@ const Pdfviewer = () => {
           flexDirection: "column",
         }}
       >
-        <div style={{ display: "flex", margin: "20px 0px" }}>
+        <div style={{ display: "flex", margin: "20px 0px 50px 0px" }}>
           <button
             style={{
               borderRadius: "4px",
@@ -91,7 +92,7 @@ const Pdfviewer = () => {
         <Document file={PDF}>
           <Page
             width={width}
-            loading="Loading..."
+            loading={<BeatLoader style={{ marginTop: '500px' }} color="#36d7b7" />}
             renderTextLayer={false}
             pageNumber={page}
           />
