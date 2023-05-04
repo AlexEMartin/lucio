@@ -31,39 +31,23 @@ const Bio = () => {
         <Iframe url="https://youtu.be/4CwvFiPoZYM" status={false} />
         {language ? (
           <div className="bio-p-container">
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[0]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[1]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[2]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[3]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[4]}
-            </p>
+            {bioIntro
+              .filter((item) => bioIntro.indexOf(item) <= 4)
+              .map((i) => (
+                <p data-aos="zoom-in" className="bio-p">
+                  {i}
+                </p>
+              ))}
           </div>
         ) : (
           <div className="bio-p-container">
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[0]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[1]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[2]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[3]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[4]}
-            </p>
+            {bioEnglishIntro
+              .filter((item) => bioEnglishIntro.indexOf(item) <= 4)
+              .map((i) => (
+                <p data-aos="zoom-in" className="bio-p">
+                  {i}
+                </p>
+              ))}
           </div>
         )}
         <img
@@ -74,39 +58,23 @@ const Bio = () => {
         />
         {language ? (
           <div className="bio-p-container">
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[5]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[6]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[7]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[8]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioIntro[9]}
-            </p>
+            {bioIntro
+              .filter((item) => bioIntro.indexOf(item) >= 5)
+              .map((i) => (
+                <p data-aos="zoom-in" className="bio-p">
+                  {i}
+                </p>
+              ))}
           </div>
         ) : (
           <div className="bio-p-container">
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[5]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[6]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[7]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[8]}
-            </p>
-            <p data-aos="zoom-in" className="bio-p">
-              {bioEnglishIntro[9]}
-            </p>
+            {bioEnglishIntro
+              .filter((item) => bioEnglishIntro.indexOf(item) >= 5)
+              .map((i) => (
+                <p data-aos="zoom-in" className="bio-p">
+                  {i}
+                </p>
+              ))}
           </div>
         )}
         <img
