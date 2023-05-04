@@ -92,7 +92,7 @@ const Navbar = () => {
             Bio
           </Link>
           <Link to="/creador" onClick={() => setIsOpen(!isOpen)}>
-            {language ? "Creador" : "Creator"}
+            {language ? "Creador" : "Director"}
           </Link>
           <Link to="/maestro" onClick={() => setIsOpen(!isOpen)}>
             {language ? "Maestro" : "Teacher"}
