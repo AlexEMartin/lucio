@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 75px;
 }
 
 .nav-info-side p {
@@ -43,7 +44,7 @@
   width: 100%;
   padding-top: 30px;
   background: white;
-  height: 85px;
+  height: 105px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +52,7 @@
   z-index: 20;
 }
 .nav_logo {
-  width: 200px;
+  width: 250px;
   margin-left: 10px;
   margin-bottom: 10px;
 }
@@ -106,6 +107,15 @@
 }
 
 @media (max-width: 850px) {
+
+  .navbar {
+    height: 85px;
+  }
+
+  .nav_logo {
+    width: 200px;
+  }
+
   .nav_items {
     position: absolute;
     padding-top: 10px;

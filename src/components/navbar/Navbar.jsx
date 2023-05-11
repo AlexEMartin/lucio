@@ -36,10 +36,18 @@ const Navbar = () => {
             <span style={{ margin: "0px 10px" }}>+34 638 496 387</span>
           </p>
           <p>
-            <FiMail className="nav-info-icon" />{" "}
-            <span style={{ marginLeft: "10px" }}>luciobag@gmail.com</span>
+            <a
+              style={{ textDecoration: "none" }}
+              href="mailto:luciobag@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiMail className="nav-info-icon" />{" "}
+              <span style={{ marginLeft: "10px", color: "#003a39" }}>
+                luciobag@gmail.com
+              </span>
+            </a>
           </p>
-          <p style={{ marginLeft: "20px" }}>Español</p>
         </div>
         <div className="socialmedia">
           <a
@@ -101,7 +109,7 @@ const Navbar = () => {
             Actor
           </Link>
           <Link to="/acompanamientos" onClick={() => setIsOpen(!isOpen)}>
-            {language ? "Acompañamientos artísticos" : "Artistic accompaniment"}
+            {language ? "Acompañamientos artísticos" : "Artistic assessment"}
           </Link>
         </div>
         <div

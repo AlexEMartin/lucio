@@ -73,7 +73,7 @@ const Acompaniamientos = () => {
               flexDirection: "column",
             }}
           >
-            <h1 className="colab-title">Work done for other companies</h1>
+            <h1 className="colab-title">Artistic Assessment</h1>
             <h4
               data-aos="fade-right"
               style={{ width: "75%", color: "#003a39" }}
@@ -100,7 +100,7 @@ const Acompaniamientos = () => {
             <div className="colab-spans">
               <span>(2023)</span>
               <a
-                style={{ color: "#003a39" }}
+                style={{ color: "#003a39", textDecoration: "none" }}
                 href="https://www.instagram.com/reel/CoXW7m8gTuI/?utm_source=ig_web_copy_link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -206,7 +206,7 @@ const Acompaniamientos = () => {
             <div className="colab-spans">
               <span>(2017)</span>
               <a
-                style={{ color: "#003a39" }}
+                style={{ color: "#003a39", textDecoration: "none" }}
                 href="https://www.youtube.com/watch?v=Sd_IQBKALDk"
                 target="_blank"
                 rel="noopener noreferrer"
