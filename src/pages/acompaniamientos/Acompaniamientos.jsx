@@ -145,7 +145,7 @@ const Acompaniamientos = () => {
                 {language ? (
                   <i>Mirada externa</i>
                 ) : (
-                  <i>Artistic accompaniment</i>
+                  <i>Artistic assessment</i>
                 )}
               </span>
               <img
@@ -178,7 +178,7 @@ const Acompaniamientos = () => {
                 {language ? (
                   <i>Mirada externa</i>
                 ) : (
-                  <i>Artistic accompaniment</i>
+                  <i>Artistic assessment</i>
                 )}
               </span>
               <img
@@ -286,7 +286,7 @@ const Acompaniamientos = () => {
                 {language ? (
                   <i>Mirada externa</i>
                 ) : (
-                  <i>Artistic accompaniment</i>
+                  <i>Artistic assessment</i>
                 )}
               </span>
               <img
@@ -319,7 +319,7 @@ const Acompaniamientos = () => {
                 {language ? (
                   <i>Coreografia y mirada externa</i>
                 ) : (
-                  <i>Choreography and artistic accompaniment</i>
+                  <i>Choreography and artistic assessment</i>
                 )}
               </span>
               <img
