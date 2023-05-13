@@ -28,7 +28,7 @@ const Bio = () => {
         <h1 style={{ marginBottom: "-50px" }} className="bio-title">
           Lucio A. Baglivo
         </h1>
-        <Iframe url="https://youtu.be/4CwvFiPoZYM" status={false} />
+        <Iframe url="https://youtu.be/4CwvFiPoZYM" status={true} />
         {language ? (
           <div className="bio-p-container">
             {bioIntro

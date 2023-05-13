@@ -114,7 +114,7 @@ const Acompaniamientos = () => {
                   setImg(acompanamientoImg3);
                   setModal(!modal);
                 }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                className="colab-img"
                 src={acompanamientoImg3}
                 alt=""
               />
@@ -128,32 +128,23 @@ const Acompaniamientos = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h3 className="colab-subtitle">
-                  Maximiliano Sanford y Yeinner Chicas
-                </h3>
+                <h3 className="colab-subtitle">M.Sanford & Y.Chicas</h3>
               </a>
-              <ArrowLongRightIcon
-                style={{ marginBottom: "25px" }}
-                className="right-arrow"
-              />
+              <ArrowLongRightIcon className="right-arrow" />
             </div>
             <div className="colab-spans">
               <span>(2021)</span>
               <span>Vientre</span>
               <span>Madrid - España</span>
               <span>
-                {language ? (
-                  <i>Mirada externa</i>
-                ) : (
-                  <i>Artistic assessment</i>
-                )}
+                {language ? <i>Mirada externa</i> : <i>Artistic assessment</i>}
               </span>
               <img
                 onClick={() => {
                   setImg(acompanamientoImg);
                   setModal(!modal);
                 }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                className="colab-img"
                 src={acompanamientoImg}
                 alt=""
               />
@@ -175,18 +166,14 @@ const Acompaniamientos = () => {
               <span>Al Borde</span>
               <span>Madrid - España</span>
               <span>
-                {language ? (
-                  <i>Mirada externa</i>
-                ) : (
-                  <i>Artistic assessment</i>
-                )}
+                {language ? <i>Mirada externa</i> : <i>Artistic assessment</i>}
               </span>
               <img
                 onClick={() => {
                   setImg(acompanamientoImg2);
                   setModal(!modal);
                 }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                className="colab-img"
                 src={acompanamientoImg2}
                 alt=""
               />
@@ -226,7 +213,7 @@ const Acompaniamientos = () => {
                   setImg(irenepaz);
                   setModal(!modal);
                 }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                className="colab-img"
                 src={irenepaz}
                 alt=""
               />
@@ -257,7 +244,7 @@ const Acompaniamientos = () => {
                   setImg(irakurriz);
                   setModal(!modal);
                 }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                className="colab-img"
                 src={irakurriz}
                 alt=""
               />
@@ -283,18 +270,14 @@ const Acompaniamientos = () => {
               )}
               <span>País Vasco - España</span>
               <span>
-                {language ? (
-                  <i>Mirada externa</i>
-                ) : (
-                  <i>Artistic assessment</i>
-                )}
+                {language ? <i>Mirada externa</i> : <i>Artistic assessment</i>}
               </span>
               <img
                 onClick={() => {
                   setImg(spazio);
                   setModal(!modal);
                 }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                className="colab-img"
                 src={spazio}
                 alt=""
               />
@@ -327,7 +310,7 @@ const Acompaniamientos = () => {
                   setImg(iam);
                   setModal(!modal);
                 }}
-                style={{ width: "100%", cursor: "pointer", marginTop: "20px" }}
+                className="colab-img"
                 src={iam}
                 alt=""
               />

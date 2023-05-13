@@ -74,8 +74,14 @@
 
 .colab-img {
   width: 100%;
-  margin: 5px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
   border-radius: 4px;
+}
+
+.colab-img:hover {
+  cursor: pointer;
 }
 
 .img-modal {
@@ -134,11 +140,6 @@
     width: auto;
     height: 220px;
     margin: 5px 2px;
-  }
-
-  .colab-img:hover {
-    height: 230px;
-    cursor: pointer;
   }
 
   .img-modal-container {
