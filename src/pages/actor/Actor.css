@@ -1,33 +1,54 @@
+.master-container {
+  margin-top: 115px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.master-title {
+  color: #718a8a;
+  font-size: 35px;
+  font-weight: 100;
+  margin-top: 45px;
+  margin-bottom: -60px;
+}
+
 .img-container {
-    position: relative;
-    margin: 100px 70px 100px 0px;
-    width: 250px;
-    height: 400px;
-    background-color: #003a39;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+  margin: 100px 70px 100px 0px;
+  width: 250px;
+  height: 400px;
+  background-color: #003a39;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .differentSize {
-    height: 330px;
+  height: 330px;
 }
 
 .actor-img {
-    position: absolute;
-    margin-left: 70px;
-    margin-top: 50px;
-    width: 100%;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 @media only screen and (min-width: 768px) {
-    .img-container {
-        width: 350px;
-        height: 550px;
-    }
+  .img-container {
+    width: 350px;
+    height: 550px;
+  }
 
-    .differentSize {
-        height: 450px;
-    }
+  .differentSize {
+    height: 450px;
+  }
 }

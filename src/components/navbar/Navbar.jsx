@@ -17,14 +17,14 @@ const Navbar = () => {
       <div className="languages">
         <button
           onClick={() => setLanguage(true)}
-          className={`language-btn ${language && "bold"}`}
+          className={`language-btn ${language && "lanbold"}`}
         >
           ES
         </button>
         <span>|</span>
         <button
           onClick={() => setLanguage(false)}
-          className={`language-btn ${!language && "bold"}`}
+          className={`language-btn ${!language && "lanbold"}`}
         >
           EN
         </button>

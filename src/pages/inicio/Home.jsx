@@ -31,7 +31,7 @@ function Home() {
           justifyContent: "center",
         }}
       >
-        <img className="master-img" src={MyL} alt="" />
+        <img style={{ width: '85%', margin: '50px auto' }} src={MyL} alt="" />
       </div>
       <Footer />
       <WhappBtn />
