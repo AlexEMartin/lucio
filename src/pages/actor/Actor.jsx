@@ -20,8 +20,8 @@ const Actor = () => {
 
   return (
     <>
-      <div className="master-container">
-        <h1 className="master-title">Actor</h1>
+      <div className="actor-container">
+        <h1 className="actor-title">Actor</h1>
         <Iframe url="https://youtu.be/R3Gm6550Uls" status={true} />
         <div className="img-container">
           <img

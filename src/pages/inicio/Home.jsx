@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import { useEffect } from "react";
+import './Home.css';
 import Footer from "../../components/footer/Footer";
 import Iframe from "../..//components/iframes/Iframe";
 import Intro from "../../components/text/Intro";
@@ -31,7 +32,7 @@ function Home() {
           justifyContent: "center",
         }}
       >
-        <img style={{ width: '85%', margin: '50px auto' }} src={MyL} alt="" />
+        <img className="home-img" src={MyL} alt="" />
       </div>
       <Footer />
       <WhappBtn />

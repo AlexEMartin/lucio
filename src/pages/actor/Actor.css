@@ -1,4 +1,4 @@
-.master-container {
+.actor-container {
   margin-top: 115px;
   width: 100%;
   display: flex;
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.master-title {
+.actor-title {
   color: #718a8a;
   font-size: 35px;
   font-weight: 100;
