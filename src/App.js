@@ -3,7 +3,7 @@ import "./App.css";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
 import Home from "./pages/inicio/Home";
-import Error404 from "./pages/error404";
+import Error404 from "./pages/error/Error404";
 import Navbar from "./components/navbar/Navbar";
 import LanguageProvider from "./context/LanguageContext";
 

@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import "./index.css";
+import "./Error404.css";
 import { BeatLoader } from "react-spinners";
-import error404 from "../../img/error404.png";
+import error from "../../img/error404.png";
 
-const Error = () => {
+const Error404 = () => {
   const navigate = useNavigate();
 
   setTimeout(() => {
@@ -12,10 +12,10 @@ const Error = () => {
 
   return (
     <div className="error-container">
-      <img className="error-img" src={error404} alt="" />
+      <img className="error-img" src={error} alt="" />
       <BeatLoader size={30} color="#36d7b7" />
     </div>
   );
 };
 
-export default Error;
+export default Error404;
