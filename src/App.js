@@ -2,6 +2,7 @@ import { Suspense, lazy } from "react";
 import "./App.css";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
+import Home from "./pages/inicio/Home";
 import Navbar from "./components/navbar/Navbar";
 import LanguageProvider from "./context/LanguageContext";
 
@@ -11,7 +12,7 @@ const Acompaniamientos = lazy(() =>
 const Actor = lazy(() => import("./pages/actor/Actor"));
 const Bio = lazy(() => import("./pages/bio/Bio"));
 const Creador = lazy(() => import("./pages/creador/Creador"));
-const Home = lazy(() => import("./pages/inicio/Home"));
+const Error404 = lazy(() => import("./pages/error404"));
 const Maestro = lazy(() => import("./pages/maestro/Maestro"));
 const Pdfviewer = lazy(() => import("./utils/master/Pdf"));
 const Schedule = lazy(() => import("./pages/agenda/Schedule"));
@@ -22,14 +23,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <Suspense fallback={<BeatLoader color="#36d7b7" />}>
-                <Home />
-              </Suspense>
-            }
-          />
+          <Route path="/" element={<Home />} />
           <Route
             path="/agenda"
             element={
@@ -83,6 +77,14 @@ function App() {
             element={
               <Suspense fallback={<BeatLoader color="#36d7b7" />}>
                 <Pdfviewer />
+              </Suspense>
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <Suspense fallback={<BeatLoader color="#36d7b7" />}>
+                <Error404 />
               </Suspense>
             }
           />
