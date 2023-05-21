@@ -3,6 +3,7 @@ import "./App.css";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
 import Home from "./pages/inicio/Home";
+import Error404 from "./pages/error404";
 import Navbar from "./components/navbar/Navbar";
 import LanguageProvider from "./context/LanguageContext";
 
@@ -12,7 +13,6 @@ const Acompaniamientos = lazy(() =>
 const Actor = lazy(() => import("./pages/actor/Actor"));
 const Bio = lazy(() => import("./pages/bio/Bio"));
 const Creador = lazy(() => import("./pages/creador/Creador"));
-const Error404 = lazy(() => import("./pages/error404"));
 const Maestro = lazy(() => import("./pages/maestro/Maestro"));
 const Pdfviewer = lazy(() => import("./utils/master/Pdf"));
 const Schedule = lazy(() => import("./pages/agenda/Schedule"));
@@ -80,14 +80,7 @@ function App() {
               </Suspense>
             }
           />
-          <Route
-            path="*"
-            element={
-              <Suspense fallback={<BeatLoader color="#36d7b7" />}>
-                <Error404 />
-              </Suspense>
-            }
-          />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </Router>
     </LanguageProvider>
