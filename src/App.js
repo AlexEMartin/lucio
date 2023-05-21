@@ -1,6 +1,6 @@
 import { Suspense, lazy } from "react";
 import "./App.css";
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router, Navigate } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
 import Home from "./pages/inicio/Home";
 import Error404 from "./pages/error/Error404";
@@ -80,7 +80,8 @@ function App() {
               </Suspense>
             }
           />
-          <Route path="*" element={<Error404 />} />
+          <Route path="/not_found" element={<Error404 />} />
+          <Route path="*" element={<Navigate to="/not_found" />} />
         </Routes>
       </Router>
     </LanguageProvider>
