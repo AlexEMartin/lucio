@@ -14,6 +14,7 @@ import irenepaz from "../../img/irenepaz.jpg";
 import irakurriz from "../../img/irakurriz.jpg";
 import iam from "../../img/iam.png";
 import spazio from "../../img/spazio.png";
+import ara from "../../img/ara.png";
 
 const Acompaniamientos = () => {
   useEffect(() => {
@@ -89,6 +90,40 @@ const Acompaniamientos = () => {
           <div className="colab-block">
             <div className="colab-desc">
               <a
+                href="https://youtu.be/sE1NMqXPgo8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="colab-subtitle">Andrea Ríos</h3>
+              </a>
+              <ArrowLongRightIcon className="right-arrow" />
+            </div>
+            <div className="colab-spans">
+              <span>(2023)</span>
+              <a
+                style={{ color: "#003a39", textDecoration: "none" }}
+                href="https://www.ciaandrearios.com/ara"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Ara</span>
+              </a>
+              <span>Madrid - España</span>
+              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
+              <img
+                onClick={() => {
+                  setImg(ara);
+                  setModal(!modal);
+                }}
+                className="colab-img"
+                src={ara}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="colab-block">
+            <div className="colab-desc">
+              <a
                 href="https://duktocompany.wixsite.com/dukto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -107,7 +142,7 @@ const Acompaniamientos = () => {
               >
                 <span>A Rienda suelta</span>
               </a>
-              <span>Madrid - España</span>
+              <span>Mataró - Cataluña</span>
               <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
               <img
                 onClick={() => {
@@ -135,7 +170,7 @@ const Acompaniamientos = () => {
             <div className="colab-spans">
               <span>(2021)</span>
               <span>Vientre</span>
-              <span>Madrid - España</span>
+              <span>Barcelona - Cataluña</span>
               <span>
                 {language ? <i>Mirada externa</i> : <i>Artistic assessment</i>}
               </span>
