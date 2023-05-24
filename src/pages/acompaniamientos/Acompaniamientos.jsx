@@ -109,7 +109,9 @@ const Acompaniamientos = () => {
                 <span>Ara</span>
               </a>
               <span>Madrid - España</span>
-              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
+              <span>
+                {language ? <i>Mirada externa</i> : <i>Artistic assessment</i>}
+              </span>
               <img
                 onClick={() => {
                   setImg(ara);
