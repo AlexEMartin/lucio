@@ -8,7 +8,7 @@ import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import Iframe from "../../components/iframes/Iframe";
 import Footer from "../../components/footer/Footer";
 import mientrastanto from "../../img/mientras-tanto2.jpeg";
-import MyL from "../../img/MyL5.JPG";
+import MyL from "../../img/MyL5.jpg";
 import MyL2 from "../../img/MyL6.jpg";
 import solojuntos from "../../img/solo-juntos.jpeg";
 import melasbailotodas from "../../img/me-las-bailo-todas.jpeg";
