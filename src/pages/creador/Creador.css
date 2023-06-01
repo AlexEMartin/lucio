@@ -61,14 +61,19 @@
 }
 
 .creator-btn:active {
-	position: relative;
-	top: 1px;
+  position: relative;
+  top: 1px;
+}
+
+@media only screen and (min-width: 850px) {
+  .creator-container {
+    margin: 0 auto 20px auto;
+  }
 }
 
 @media only screen and (min-width: 950px) {
   .creator-container {
     width: 85%;
-    margin: 0 auto;
   }
 
   .creator-btn {

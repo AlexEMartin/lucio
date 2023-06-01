@@ -68,14 +68,18 @@ const Creador = () => {
         <div>
           <h3 className="creator-title">Recuerdos de Margaritas (2023)</h3>
           {recuerdosmargaritasText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           <h3 className="creator-title">Daisies Memories (2023)</h3>
           {enrecuerdosmargaritasText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -88,14 +92,18 @@ const Creador = () => {
         <div>
           <h3 className="creator-title">Me las bailo todas (2022)</h3>
           {melasbailotodasText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           <h3 className="creator-title">I dance them all (2022)</h3>
           {enmelasbailotodasText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -133,7 +141,9 @@ const Creador = () => {
       {language ? (
         <div>
           {myl20Text.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
           <a
             href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
@@ -152,7 +162,9 @@ const Creador = () => {
       ) : (
         <div>
           {enmyl20Text.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -167,7 +179,9 @@ const Creador = () => {
             Mientras&emsp;&emsp;&emsp;tanto (2021)
           </h3>
           {mientrasTantoText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
@@ -176,7 +190,9 @@ const Creador = () => {
             Mientras&emsp;&emsp;&emsp;tanto (2021)
           </h3>
           {enmientrasTantoText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -189,14 +205,18 @@ const Creador = () => {
         <div>
           <h3 className="creator-title">Apparently alone (2020)</h3>
           {apparentlyAloneText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           <h3 className="creator-title">Apparently alone (2020)</h3>
           {enapparentlyAloneText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -209,14 +229,18 @@ const Creador = () => {
         <div>
           <h3 className="creator-title">I am the other (2020)</h3>
           {iamtheotherText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           <h3 className="creator-title">I am the other (2020)</h3>
           {eniamtheotherText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -255,7 +279,9 @@ const Creador = () => {
       {language ? (
         <div>
           {myl20Text.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
           <a
             href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
@@ -274,7 +300,9 @@ const Creador = () => {
       ) : (
         <div>
           {enmyl20Text.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -313,13 +341,17 @@ const Creador = () => {
       {language ? (
         <div>
           {solojuntosText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           {ensolojuntosText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -332,13 +364,17 @@ const Creador = () => {
       {language ? (
         <div>
           {nolandText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           {ennolandText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -351,14 +387,18 @@ const Creador = () => {
         <div>
           <h3 className="creator-title">Ciclón (2010)</h3>
           {ciclonText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           <h3 className="creator-title">Ciclon (2010)</h3>
           {enciclonText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}
@@ -368,13 +408,17 @@ const Creador = () => {
       {language ? (
         <div>
           {holaquetalText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       ) : (
         <div>
           {enholaquetalText.map((t) => (
-            <p className="creator-description">{t}</p>
+            <p key={t} className="creator-description">
+              {t}
+            </p>
           ))}
         </div>
       )}

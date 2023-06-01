@@ -34,7 +34,7 @@ const Bio = () => {
             {bioIntro
               .filter((item) => bioIntro.indexOf(item) <= 4)
               .map((i) => (
-                <p data-aos="zoom-in" className="bio-p">
+                <p data-aos="zoom-in" key={i} className="bio-p">
                   {i}
                 </p>
               ))}
@@ -44,7 +44,7 @@ const Bio = () => {
             {bioEnglishIntro
               .filter((item) => bioEnglishIntro.indexOf(item) <= 4)
               .map((i) => (
-                <p data-aos="zoom-in" className="bio-p">
+                <p data-aos="zoom-in" key={i} className="bio-p">
                   {i}
                 </p>
               ))}
@@ -61,7 +61,7 @@ const Bio = () => {
             {bioIntro
               .filter((item) => bioIntro.indexOf(item) >= 5)
               .map((i) => (
-                <p data-aos="zoom-in" className="bio-p">
+                <p data-aos="zoom-in" key={i} className="bio-p">
                   {i}
                 </p>
               ))}
@@ -71,7 +71,7 @@ const Bio = () => {
             {bioEnglishIntro
               .filter((item) => bioEnglishIntro.indexOf(item) >= 5)
               .map((i) => (
-                <p data-aos="zoom-in" className="bio-p">
+                <p data-aos="zoom-in" key={i} className="bio-p">
                   {i}
                 </p>
               ))}
