@@ -7,15 +7,15 @@ export const events = [
         activities: [
           {
             event:
-              "Del 16 al 20. Taller de Creación Movimiento Lúcido. Programa de danza NOD.",
+              "From 16th to 20th. Lucid Motion. Creation tools workshop. NOD dance program.",
             place: "Torino, Italia.",
           },
           {
-            event: "27. «Mientras tanto». Café de las artes.",
+            event: "27. 'Mientras tanto.' Café de las artes.",
             place: "Santander, España.",
           },
           {
-            event: "28 Y 29. «Mientras tanto». La fundición. ",
+            event: "28 and 29. 'Mientras tanto.' La fundición.",
             place: "Bilbao, España.",
           },
         ],
@@ -25,7 +25,7 @@ export const events = [
         activities: [
           {
             event:
-              "Del 6 al 10. Taller de Creación Memoria Sensible. Programa organizado por La banda teatro circo.",
+              "From 6th to 10th. Sensitive Memory workshop. Program organized by La banda teatro circo.",
             place: "Bilbao, España.",
           },
           {
@@ -43,7 +43,7 @@ export const events = [
         month: "JANUARY",
         activities: [
           {
-            event: "15 y 16. Taller de Creación movimiento Lúcido.",
+            event: "15 and 16. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
         ],
@@ -52,15 +52,16 @@ export const events = [
         month: "FEBRUARY",
         activities: [
           {
-            event: "5. MyL(2.0). Red de Teatros de la Comunidad de Madrid.",
-            place: "Centro Cultural Pilar Miró.",
+            event:
+              "5. MyL(2.0). Network of Theaters of the Community of Madrid.",
+            place: "Pilar Miró Cultural Center.",
           },
           {
-            event: "6. Taller de Acrobacia de suelo para tod@s.",
+            event: "6. Ground Acrobatics Workshop for Everyone.",
             place: "Madrid, España.",
           },
           {
-            event: "12 y 13. Taller de Creación movimiento Lúcido.",
+            event: "12 and 13. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
         ],
@@ -69,25 +70,26 @@ export const events = [
         month: "MARCH",
         activities: [
           {
-            event: "5 y 6. Taller de Creación movimiento Lúcido.",
+            event: "5 and 6. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
           {
             event:
-              "Del 7 al 18. Residencia en CND (Compañía Nacional de Danza) otorgada a «ESTO PODRÍA SER IMPOSIBLE».",
+              "7 to 18. Residency at CND (National Dance Company) awarded to 'ESTO PODRÍA SER IMPOSIBLE'.",
             place: "Madrid, España.",
           },
           {
-            event: "13. Taller de Acrobacia de suelo para tod@s.",
+            event: "13. Ground Acrobatics Workshop for Everyone.",
             place: "Madrid, España.",
           },
           {
             event:
-              "21, 22 y 23. Beca Jesús Robisco, fotos y videos, otorgada a «ESTO PODRÍA SER IMPOSIBLE». ",
-            place: "Barcelona, España..",
+              "21, 22, and 23. Jesús Robisco Scholarship, photos and videos, awarded to 'ESTO PODRÍA SER IMPOSIBLE'.",
+            place: "Barcelona, España.",
           },
           {
-            event: "26. MyL(2.0). Red de teatros de la Comunidad de Madrid.",
+            event:
+              "26. MyL(2.0). Network of Theaters of the Community of Madrid.",
             place: "Madrid, España.",
           },
         ],
@@ -96,16 +98,16 @@ export const events = [
         month: "APRIL",
         activities: [
           {
-            event: "9 y 10. Taller de Creación Movimiento Lúcido.",
+            event: "9 and 10. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
           {
             event:
-              "Del 17 al 23. Taller de Creación Movimiento Lúcido. Programa de danza NOD.",
-            place: "Torino, Italia.",
+              "17 to 23. Lucid Motion Creation Workshop. NOD Dance Program.",
+            place: "Turin, Italia.",
           },
           {
-            event: "Del 27 al 3 de MAY. Dirección Compañía Dukto de Barcelona.",
+            event: "27 to MAY 3. Direction of Dukto Company from Barcelona.",
             place: "Mallorca, España.",
           },
         ],
@@ -114,27 +116,27 @@ export const events = [
         month: "MAY",
         activities: [
           {
-            event: "5 Y 19. MyL(2.0). Teatro Lara.",
+            event: "5 and 19. MyL(2.0). Lara Theater.",
             place: "Madrid, España.",
           },
           {
-            event: "15. MyL. Festival transitando.",
-            place: "Las palmas de Gran Canaria, España.",
+            event: "15. MyL. Transitando Festival.",
+            place: "Las Palmas de Gran Canaria, España",
           },
           {
-            event: "21. MyL. Festival 360.",
-            place: "París, Francia.",
+            event: "21. MyL. 360 Festival.",
+            place: "Paris, Francia.",
           },
           {
-            event: "26. MyL(2.0). Ciclo Delicatessen.",
+            event: "26. MyL(2.0). Delicatessen Cycle.",
             place: "Almería, España.",
           },
           {
-            event: "27.MyL(2.0).",
-            place: "Castillo de Cuevas de Almanzora. Almería.",
+            event: "27. MyL(2.0).",
+            place: "Castle of Cuevas de Almanzora. Almería.",
           },
           {
-            event: "28. MyL(2.0). Red Andaluza de teatros. ",
+            event: "28. MyL(2.0). Andalusian Network of Theaters.",
             place: "Carboneras, Almería, España.",
           },
         ],
@@ -143,11 +145,11 @@ export const events = [
         month: "JUNE",
         activities: [
           {
-            event: "8, 15 y 22. «Mientras tanto».",
+            event: "8, 15, and 22. 'Mientras tanto'.",
             place: "Nave73. Madrid, España.",
           },
           {
-            event: "4. MyL(2.0). Red Andaluza de teatros.",
+            event: "4. MyL(2.0). Andalusian Network of Theaters.",
             place: "Nerja, Málaga, España.",
           },
         ],
@@ -156,26 +158,26 @@ export const events = [
         month: "JULY",
         activities: [
           {
-            event: "6, 7 y 8. MyL. Festival Escenas de verano.",
+            event: "6, 7, and 8. MyL. Summer Scenes Festival.",
             place: "Madrid, España.",
           },
           {
-            event: "19. MyL. Circuitos Culturales de la Provincia de Sevilla.",
-            place: "Las cabezas de San Juan, España.",
+            event: "19. MyL. Cultural Circuits of the Province of Sevilla.",
+            place: "Las Cabezas de San Juan, España.",
           },
           {
-            event: "«Recuerdos de margaritas».",
+            event: "'Recuerdos de margaritas'.",
             place:
-              "Ensayos de nueva producción para espacios no convencionales y calle.",
+              "Rehearsals for new production in unconventional spaces and street.",
           },
           {
-            event: "27. MyL . Dance Days Chania Festival.",
-            place: "Creta. Grecia.",
+            event: "27. MyL. Dance Days Chania Festival.",
+            place: "Creta, Grecia.",
           },
           {
             event:
               "28. Creating a new language workshop. Dance Days Chania Festival.",
-            place: "Creta. Grecia.",
+            place: "Creta, Grecia.",
           },
         ],
       },
@@ -183,8 +185,8 @@ export const events = [
         month: "AUGUST",
         activities: [
           {
-            event: "26, 27 Y 28. MyL. Spoffin Festival.",
-            place: "Amersfort, Holanda.",
+            event: "26, 27, and 28. MyL. Spoffin Festival.",
+            place: "Amersfort, Países Bajos.",
           },
         ],
       },
@@ -196,16 +198,16 @@ export const events = [
             place: "Pilas, Sevilla, España.",
           },
           {
-            event: "15.MyL. Diputación de Córdoba.",
+            event: "15. MyL. Diputación de Córdoba.",
             place: "Montoro. Córdoba, España.",
           },
           {
-            event: "16.MyL. Diputación de Córdoba.",
-            place: "Adamuz. Córdoba.",
+            event: "16. MyL. Diputación de Córdoba.",
+            place: "Adamuz, Córdoba.",
           },
           {
-            event: "Del 26 al 2. Direccción Compañía Dukto.",
-            place: "Mallorca, España.",
+            event: "26 to 2. Direction of Dukto Company.",
+            place: "Mallorca, España",
           },
         ],
       },
@@ -214,30 +216,30 @@ export const events = [
         activities: [
           {
             event:
-              "8 Y 9. Me las bailo todas (estreno). Muestra escénica Surge Madrid.",
+              "8 and 9. Me las bailo todas (premiere). Surge Madrid Theater Showcase.",
             place: "Madrid, España.",
           },
           {
             event:
-              "20.MyL(2.0). Circuitos Culturales de la Provincia de Sevilla.",
+              "20. MyL(2.0). Cultural Circuits of the Province of Sevilla.",
             place: "Ginés. Sevilla, España.",
           },
           {
             event:
-              "21. MyL(2.0). Circuitos Culturales de la Provincia de Sevilla.",
+              "21. MyL(2.0). Cultural Circuits of the Province of Sevilla.",
             place: "Marchena, Sevilla, España.",
           },
           {
             event:
-              "22.MyL(2.0). Circuitos Culturales de la Provincia de Sevilla.",
+              "22. MyL(2.0). Cultural Circuits of the Province of Sevilla.",
             place: "Morón, Sevilla, España.",
           },
           {
-            event: "23.MyL(2.0). Diputación de Córdoba.",
+            event: "23. MyL(2.0). Diputación de Córdoba.",
             place: "Cardeña. Córdoba, España.",
           },
           {
-            event: "Del 24 al 27. Direccción Compañía Dukto.",
+            event: "24 to 27. Direction of Dukto Company.",
             place: "Mallorca, España.",
           },
         ],
@@ -246,11 +248,12 @@ export const events = [
         month: "NOVEMBER",
         activities: [
           {
-            event: "11. MyL(2.0) . Red de teatros de la Comunidad de Madrid.",
+            event:
+              "11. MyL(2.0). Network of Theaters of the Community of Madrid.",
             place: "Valdemorillo. Madrid, España.",
           },
           {
-            event: "24. MyL(2.0). Sala La fundición.",
+            event: "24. MyL(2.0). La Fundición Hall.",
             place: "Sevilla, España.",
           },
         ],
@@ -259,7 +262,8 @@ export const events = [
         month: "DECEMBER",
         activities: [
           {
-            event: "10. MyL(2.0) . Red de teatros de la Comunidad de Madrid.",
+            event:
+              "10. MyL(2.0). Network of Theaters of the Community of Madrid.",
             place: "Parla. Madrid, España.",
           },
         ],
@@ -273,19 +277,19 @@ export const events = [
         month: "JANUARY",
         activities: [
           {
-            event: "9 y 10. Taller de Creación movimiento Lúcido.",
+            event: "9 and 10. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
           {
-            event: "16 y 17. Sala Ultramar. Red de Teatros Alternativos.",
+            event: "16 and 17. Ultramar Room. Alternative Theaters Network.",
             place: "Valencia, España.",
           },
           {
-            event: "23 y 24. Teatros del Canal.",
+            event: "23 and 24. Teatros del Canal.",
             place: "Madrid, España.",
           },
           {
-            event: "30 y 31. Teatro Guirigai. Red de Teatros Alternativos.",
+            event: "30 and 31. Guirigai Theater. Alternative Theaters Network.",
             place: "Santos de Maimona, (Badajoz). España.",
           },
         ],
@@ -294,11 +298,11 @@ export const events = [
         month: "FEBRUARY",
         activities: [
           {
-            event: "6 y 7. Escena Miriñaque. Red de Teatros Alternativos.",
+            event: "6 and 7. Miriñaque Scene. Alternative Theaters Network.",
             place: "Santander, España.",
           },
           {
-            event: "13 y 14. Taller de Creación movimiento Lúcido.",
+            event: "13 and 14. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
         ],
@@ -307,11 +311,11 @@ export const events = [
         month: "MARCH",
         activities: [
           {
-            event: "6.  Red de teatros Comunidad de Madrid.",
+            event: "6. Community of Madrid Theaters Network.",
             place: "Valdemoro, España.",
           },
           {
-            event: "13 y 14. Taller de Creación movimiento Lúcido.",
+            event: "13 and 14. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
         ],
@@ -321,7 +325,7 @@ export const events = [
         activities: [
           {
             event:
-              "7 y 8, 14 y 15, 21 y 22, 28 y 29. Estreno de Mientras tanto.",
+              "7 and 8, 14 and 15, 21 and 22, 28 and 29. Premiere of Mientras tanto.",
             place: "Madrid, España.",
           },
         ],
@@ -330,20 +334,20 @@ export const events = [
         month: "MAY",
         activities: [
           {
-            event: "5 y 6, 12 y 13, 19 y 20, 26 y 27. MyL(2.0).",
+            event: "5 and 6, 12 and 13, 19 and 20, 26 and 27. MyL(2.0).",
             place: "Madrid, España.",
           },
           {
-            event: "Del 24 al 28. Taller de Creación Memoria Sensible.",
+            event: "From May 24 to 28. Memoria Sensible Creation Workshop.",
             place: "Teatro Pradillo. Madrid, España.",
           },
           {
-            event: "28. Muestra final del Taller de Creación Memoria Sensible.",
+            event: "28. Final Showcase of Memoria Sensible Creation Workshop.",
             place: "Madrid, España.",
           },
           {
             event:
-              "Del 31 de MAY al 13 de JUNE. 1er período Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
+              "From MAY 31 to JUNE 13. 1st Research Residency for new project with Mariana Collado. 'ESTO PODRÍA SER IMPOSIBLE.' Teatros del Canal.",
             place: "Madrid, España.",
           },
         ],
@@ -353,7 +357,7 @@ export const events = [
         activities: [
           {
             event:
-              "Del 28 de JUNE al 11 de JULY. 2do perdíodo Residencia de investigación nuevo proyecto junto a Mariana Collado. «ESTO PODRÍA SER IMPOSIBLE». Teatros del Canal.",
+              "From June 28 to July 11. 2nd Research Residency for new project with Mariana Collado. 'ESTO PODRÍA SER IMPOSIBLE.' Teatros del Canal.",
             place: "Madrid, España.",
           },
         ],
@@ -362,7 +366,7 @@ export const events = [
         month: "AUGUST",
         activities: [
           {
-            event: "6, 7 y 8. MyL. Festival Escenas de verano.",
+            event: "6, 7, and 8. MyL. Summer Scenes Festival.",
             place: "Madrid, España.",
           },
         ],
@@ -371,17 +375,18 @@ export const events = [
         month: "SEPTEMBER",
         activities: [
           {
-            event: "1, 2 y 3. Rodaje película Rainbow. Director Paco León.",
+            event:
+              "1, 2, and 3. Filming of Rainbow movie. Director: Paco León.",
             place: "Madrid, España.",
           },
           {
             event:
-              "4, 5 y 6. Taller de Creación Movimiento Lúcido. Festival Pirineos danza.",
-            place: "Pirineos catalanes, España.",
+              "4, 5, and 6. Lucid Motion Creation Workshop. Pirineos Danza Festival.",
+            place: "Catalan Pyrenees, España.",
           },
           {
             event:
-              "Del 7 al 8 de OCTOBER. Ensayos nueva creación. Residencia otorgada por Festival Surge Madrid.",
+              "From October 7 to 8. Rehearsals for new creation. Residency granted by Surge Madrid Festival.",
             place: "Madrid, España.",
           },
         ],
@@ -391,11 +396,11 @@ export const events = [
         activities: [
           {
             event:
-              "9 y 10 de OCTOBER. «ESTO PODRÍA SER IMPOSIBLE. Festival Surge Madrid. Nave73.",
+              "9 and 10. 'ESTO PODRÍA SER IMPOSIBLE.' Surge Madrid Festival. Nave73.",
             place: "Madrid, España.",
           },
           {
-            event: "16 y 17 de OCTOBER. Taller de Creación Movimiento Lúcido.",
+            event: "16 and 17. Lucid Motion Creation Workshop.",
             place: "Madrid, España.",
           },
         ],
@@ -410,7 +415,7 @@ export const events = [
         activities: [
           {
             event:
-              "I AM THE OTHER. Creación de videodanza. Con Rita Stepien y Peter James.",
+              "I AM THE OTHER. Videodance creation. With Rita Stepien and Peter James.",
           },
         ],
       },
@@ -418,8 +423,8 @@ export const events = [
         month: "FEBRUARY",
         activities: [
           {
-            event: "8 y 9. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en Blanco. Madrid.",
+            event: "8 and 9. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco, Madrid.",
           },
         ],
       },
@@ -427,8 +432,8 @@ export const events = [
         month: "MARCH",
         activities: [
           {
-            event: "7 y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en Blanco. Madrid.",
+            event: "7 and 8. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco, Madrid.",
           },
         ],
       },
@@ -436,8 +441,8 @@ export const events = [
         month: "APRIL",
         activities: [
           {
-            event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en Blanco. Madrid.",
+            event: "4 and 5. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco, Madrid.",
           },
         ],
       },
@@ -445,8 +450,8 @@ export const events = [
         month: "MAY",
         activities: [
           {
-            event: "9 y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en Blanco. Madrid.",
+            event: "9 and 10. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco, Madrid.",
           },
         ],
       },
@@ -454,13 +459,13 @@ export const events = [
         month: "JUNE",
         activities: [
           {
-            event: "6 y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en Blanco. Madrid.",
+            event: "6 and 7. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco, Madrid.",
           },
           {
             event:
-              "17. Estreno videodanza»Apparently alone». Co-dirección junto a Candelaria Antelo. Intérprete Maximiliano Sanford. Festival Dança em trânsito.",
-            place: "Brasil.",
+              "17. Premiere of videodance 'Apparently alone'. Co-directed with Candelaria Antelo. Performer: Maximiliano Sanford. Dança em trânsito Festival.",
+            place: "Brazil.",
           },
         ],
       },
@@ -468,7 +473,7 @@ export const events = [
         month: "SEPTEMBER",
         activities: [
           {
-            event: "4. MyL. Festival Gesto. Torrelodones.",
+            event: "4. MyL. Gesto Festival. Torrelodones.",
             place: "Madrid, España.",
           },
         ],
@@ -478,7 +483,7 @@ export const events = [
         activities: [
           {
             event:
-              "30. MyL videodanza en el marco de Localización, Danza y Cámara. Festival LDC.",
+              "30. MyL videodance as part of Location, Dance, and Camera. LDC Festival.",
             place: "Madrid, España.",
           },
         ],
@@ -492,13 +497,13 @@ export const events = [
         month: "JANUARY",
         activities: [
           {
-            event: "Movimiento Lúcido. Clases regulares de Creación.",
+            event: "Lucid Motion. Regular Creation Classes.",
             place: "Espacio en Blanco. Madrid.",
           },
           {
             event:
-              "14 - 18. Taller de Creación+Muestra al final del proceso: Memoria Sensible.",
-            place: "Escuela La Arena Circo. Buenos Aires.",
+              "14 - 18. Creation Workshop+Final Showcase: Sensitive Memory.",
+            place: "La Arena Circus School. Buenos Aires.",
           },
         ],
       },
@@ -507,7 +512,7 @@ export const events = [
         activities: [
           {
             event:
-              "2 y 3. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
+              "2 and 3. Lucid Motion: From Sensation to Form. 3 - Workshop Intensive Cycle.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -517,15 +522,15 @@ export const events = [
         activities: [
           {
             event:
-              "2 y 3. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
+              "2 and 3. Lucid Motion: From Sensation to Form. 3 - Workshop Intensive Cycle.",
             place: "Espacio en Blanco. Madrid.",
           },
           {
-            event: "9 y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "9 and 10. Lucid Motion: Intensive Creation Workshop.",
             place: "Cronopis Espai de Circ. Barcelona.",
           },
           {
-            event: "16 y 17. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "16 and 17. Lucid Motion: Intensive Creation Workshop.",
             place: "Zaragoza, España.",
           },
         ],
@@ -535,11 +540,11 @@ export const events = [
         activities: [
           {
             event:
-              "6 y 7. Movimiento Lúcido: De la sensación a la forma. Ciclo de 3 talleres Intensivo.",
+              "6 and 7. Lucid Motion: From Sensation to Form. 3 - Workshop Intensive Cycle.",
             place: "Espacio en Blanco. Madrid.",
           },
           {
-            event: "27 Y 28. Taller de Creación: Movimiento Lúcido.",
+            event: "27 and 28. Creation Workshop: Lucid Motion.",
             place: "Karola Zirko. Bilbao.",
           },
         ],
@@ -548,20 +553,20 @@ export const events = [
         month: "MAY",
         activities: [
           {
-            event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en blanco. Madrid.",
+            event: "4 and 5. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco. Madrid.",
           },
           {
-            event: "18. Estreno nuevo proyecto «MyL».",
-            place: "Festival Umore Azoka. Leioa. País Vasco.",
+            event: "18. Premiere of new project «MyL».",
+            place: "Umore Azoka Festival. Leioa. País Vasco.",
           },
           {
-            event: "21 y 22. «Solo Juntos».",
-            place: "Spring Festival. Copenhague. Dinamarca.",
+            event: "21 and 22. «Solo Juntos».",
+            place: "Spring Festival. Copenhagen. Dinamarca.",
           },
           {
-            event: "25 y 26. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "La Chimenea circo. Murcia.",
+            event: "25 and 26. Lucid Motion: Intensive Creation Workshop.",
+            place: "La Chimenea Circo. Murcia.",
           },
         ],
       },
@@ -569,11 +574,11 @@ export const events = [
         month: "JUNE",
         activities: [
           {
-            event: "1 y 2. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en blanco. Madrid.",
+            event: "1 and 2. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco. Madrid.",
           },
           {
-            event: "8 y 9. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "8 and 9. Lucid Motion: Intensive Creation Workshop.",
             place: "Zaragoza, España.",
           },
         ],
@@ -582,15 +587,15 @@ export const events = [
         month: "JULY",
         activities: [
           {
-            event: "6 y 7. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "6 and 7. Lucid Motion: Intensive Creation Workshop.",
             place: "Espacio Almazén. Madrid.",
           },
           {
-            event: "Del 11 al 14. «MyL».",
-            place: "Festival Art ort. Heidelberg. Alemania.",
+            event: "11 to 14. «MyL».",
+            place: "Art ort Festival. Heidelberg. Alemania.",
           },
           {
-            event: "22-26. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "22-26. Lucid Motion: Intensive Creation Workshop.",
             place: "Espacio Almazén. Madrid.",
           },
         ],
@@ -599,9 +604,9 @@ export const events = [
         month: "AUGUST",
         activities: [
           {
-            event: "Del 10 al 22. «Solo Juntos».",
+            event: "10 to 22. «Solo Juntos».",
             place:
-              "Festival Dança em tránsito Río de Janeiro y Maricá, Brasil.",
+              "Dança em Tránsito Festival. Rio de Janeiro and Maricá, Brazil.",
           },
         ],
       },
@@ -609,12 +614,11 @@ export const events = [
         month: "SEPTEMBER",
         activities: [
           {
-            event: "14 y 15. Movimiento Lúcido: Taller de Creación Intensivo.",
+            event: "14 and 15. Lucid Motion: Intensive Creation Workshop.",
             place: "Espacio Almazén. Madrid.",
           },
           {
-            event:
-              "Del 23 al 27. «Memoria Sensible» : Taller de Creación Intensivo.",
+            event: "23 to 27. «Sensitive Memory»: Intensive Creation Workshop.",
             place: "Espacio Almazén. Madrid.",
           },
         ],
@@ -623,8 +627,8 @@ export const events = [
         month: "OCTOBER",
         activities: [
           {
-            event: "4 y 5. Movimiento Lúcido: Taller de Creación Intensivo",
-            place: "Espacio en blanco. Madrid.",
+            event: "4 and 5. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco. Madrid.",
           },
         ],
       },
@@ -633,20 +637,20 @@ export const events = [
         activities: [
           {
             event: "2. «MyL».",
-            place: "Festival MasDanza. Las palmas. Gran Canarias. España.",
+            place: "MasDanza Festival. Las Palmas. Gran Canarias. España.",
           },
           {
-            event: "7, 14, 21 y 28. «MyL» (versión larga) Estreno.",
-            place: "Sala Nave 73. Madrid.",
+            event: "7, 14, 21, and 28. «MyL» (long version) Premiere.",
+            place: "Nave 73 Theater. Madrid.",
           },
           {
-            event: "9 y 10. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en blanco. Madrid.",
+            event: "9 and 10. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco. Madrid.",
           },
           {
-            event: "30 y 1. «MyL» (versión larga).",
+            event: "30 and 1. «MyL» (long version).",
             place:
-              "Teatro Victoria. Santa Cruz de Tenerife. Islas Canarias. España.",
+              "Victoria Theater. Santa Cruz de Tenerife. Islas Canarias. España.",
           },
         ],
       },
@@ -654,8 +658,8 @@ export const events = [
         month: "DECEMBER",
         activities: [
           {
-            event: "7 y 8. Movimiento Lúcido: Taller de Creación Intensivo.",
-            place: "Espacio en blanco. Madrid.",
+            event: "7 and 8. Lucid Motion: Intensive Creation Workshop.",
+            place: "Espacio en Blanco. Madrid.",
           },
         ],
       },
@@ -668,12 +672,12 @@ export const events = [
         month: "JANUARY",
         activities: [
           {
-            event: "Clases regulares de Taller de Creación.",
+            event: "Regular classes of Creative Workshop.",
             place: "Madrid, España.",
           },
           {
-            event: "“Encarnación” de Fernanda Orazi. Actor.",
-            place: "Teatro El Umbral de Primavera. Madrid, España.",
+            event: "“Encarnación” by Fernanda Orazi. Actor.",
+            place: "El Umbral de Primavera Theater. Madrid, España.",
           },
         ],
       },
@@ -681,8 +685,8 @@ export const events = [
         month: "FEBRUARY",
         activities: [
           {
-            event: "25. Festival Interplay.",
-            place: "Torino, Italia.",
+            event: "25th Interplay Festival.",
+            place: "Turin, Italia.",
           },
         ],
       },
@@ -690,18 +694,18 @@ export const events = [
         month: "MAY",
         activities: [
           {
-            event: "4. Solo juntos.",
+            event: "4th. Solo Juntos.",
             place: "Swop Festival. Roskilde, Dinamarca.",
           },
           {
             event:
-              "14 - 18. Taller de Creación. Herramientas teatrales, técnica de acrobacia y danza contemporánea.",
+              "14th - 18th. Creative Workshop. Theatrical tools, acrobatics technique, and contemporary dance.",
             place:
-              "Escuela Superior de arte dramático y danza Dantzerti. Bilbao, España.",
+              "Dantzerti School of Dramatic Art and Dance. Bilbao, España.",
           },
           {
-            event: "29. Solo Juntos.",
-            place: "Festival Interplay. Torino, Italia.",
+            event: "29th. Solo Juntos.",
+            place: "Interplay Festival. Turin, Italia.",
           },
         ],
       },
@@ -710,7 +714,7 @@ export const events = [
         activities: [
           {
             event:
-              "1. Comienzo de una Nueva Creación junto a la bailarina de flamenco Mariana Collado.",
+              "1st. Beginning of a New Creation with flamenco dancer Mariana Collado.",
           },
         ],
       },
@@ -718,16 +722,16 @@ export const events = [
         month: "JULY",
         activities: [
           {
-            event: "3, 4 y 5. Movimiento Singular – Taller de Creación.",
+            event: "3rd, 4th, and 5th. Singular Movement - Creative Workshop.",
             place: "Madrid, España.",
           },
           {
-            event: "6 - 16. Compañia Rampante.",
+            event: "6th - 16th. Rampante Company.",
             place: "Zaragoza, España.",
           },
           {
-            event: "18. Solo Juntos.",
-            place: "Festival Deltebre. Cataluña, España.",
+            event: "18th. Solo Juntos.",
+            place: "Deltebre Festival. Catalunya, España.",
           },
         ],
       },
@@ -735,12 +739,12 @@ export const events = [
         month: "AUGUST",
         activities: [
           {
-            event: "4. Solo Juntos.",
-            place: "One small step Festival. Corfu, Grecia.",
+            event: "4th. Solo Juntos.",
+            place: "One Small Step Festival. Corfu, Grecia.",
           },
           {
-            event: "22 y 23. Taller de Creación.",
-            place: "Festival Out of the toolbox. Gante, Bélgica.",
+            event: "22nd and 23rd. Creative Workshop.",
+            place: "Out of the Toolbox Festival. Ghent, Bélgica.",
           },
         ],
       },
@@ -748,7 +752,7 @@ export const events = [
         month: "SEPTEMBER",
         activities: [
           {
-            event: "4, 5 y 6. Taller de Creación.",
+            event: "4th, 5th, and 6th. Creative Workshop.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -758,7 +762,7 @@ export const events = [
         activities: [
           {
             event:
-              "6 y 7. Herramientas de Creación - Ciclo De 3 Talleres - 1: La Acrobacia.",
+              "6th and 7th. Creation Tools - 3 Workshop Series - 1: Acrobatics.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -768,7 +772,7 @@ export const events = [
         activities: [
           {
             event:
-              "3 y 4. Herramientas de Creación - Ciclo De 3 Talleres - 2: La relación en una improvisación: la interdependencia.",
+              "3rd and 4th. Creation Tools - 3 Workshop Series - 2: Relationship in improvisation: interdependence.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -778,7 +782,7 @@ export const events = [
         activities: [
           {
             event:
-              "1 y 2. Herramientas de Creación - Ciclo De 3 Talleres - 3: Desarrollo de una improvisación.",
+              "1st and 2nd. Creation Tools - 3 Workshop Series - 3: Development of an improvisation.",
             place: "Espacio en Blanco. Madrid.",
           },
         ],
@@ -792,8 +796,8 @@ export const events = [
         month: "MAY",
         activities: [
           {
-            event: "25. Festival Interplay",
-            place: "Torino, Italia.",
+            event: "25th Interplay Festival",
+            place: "Turin, Italia.",
           },
         ],
       },
@@ -801,11 +805,11 @@ export const events = [
         month: "JUNE",
         activities: [
           {
-            event: "4. Centenario Plaza MAYr Madrid.",
+            event: "4th Centenary Plaza Mayor Madrid",
             place: "Madrid, España.",
           },
           {
-            event: "28. Festival Gesto.",
+            event: "28th Gesto Festival",
             place: "Madrid, España.",
           },
         ],
@@ -814,23 +818,23 @@ export const events = [
         month: "JULY",
         activities: [
           {
-            event: "1. Festival Mirabilia.",
+            event: "1st Mirabilia Festival",
             place: "Fossano, Italia.",
           },
           {
-            event: "14. Festival Nocte Graus.",
+            event: "14th Nocte Graus Festival",
             place: "Graus, España.",
           },
           {
-            event: "20 - 24. Festival Art ort.",
+            event: "20th - 24th Art ort Festival",
             place: "Heidelberg, Alemania.",
           },
           {
-            event: "27. MyL . Dance Days Chania Festival.",
-            place: "Creta. Grecia.",
+            event: "27th MyL . Dance Days Chania Festival",
+            place: "Creta, Grecia.",
           },
           {
-            event: "28 - 30. Festival Sarnico.",
+            event: "28th - 30th Sarnico Festival",
             place: "Brescia, Italia.",
           },
         ],
@@ -839,8 +843,8 @@ export const events = [
         month: "AUGUST",
         activities: [
           {
-            event: "5 y 6.  Theaterfestival Boulevard.",
-            place: "Holanda.",
+            event: "5th and 6th Theaterfestival Boulevard",
+            place: "Países Bajos.",
           },
         ],
       },
@@ -848,16 +852,16 @@ export const events = [
         month: "SEPTEMBER",
         activities: [
           {
-            event: "8 y 9. Pflasterzauber Festival.",
+            event: "8th and 9th Pflasterzauber Festival",
             place: "Hildesheim, Alemania.",
           },
           {
             event:
-              "13 al 20. Proceso de Creación del Solo de Pauline Derbau. Dirección y coreografía.",
+              "13th to 20th Creation Process of Pauline Derbau's Solo. Direction and Choreography",
             place: "Barcelona, España.",
           },
           {
-            event: "30. International Travelling Theatre Festival.",
+            event: "30th International Travelling Theatre Festival",
             place: "Redebeul, Alemania.",
           },
         ],
@@ -866,26 +870,27 @@ export const events = [
         month: "OCTOBER",
         activities: [
           {
-            event: "1. International Travelling Theatre Festival.",
+            event: "1st International Travelling Theatre Festival",
             place: "Redebeul, Alemania.",
           },
           {
-            event: "11. Y generation Festival.",
+            event: "11th Y Generation Festival",
             place: "Trento, Italia.",
           },
           {
             event:
-              "21. COS XIX Festival internacional de moviment i teatre gestual.",
-            place: "Reus - Tarragona, España",
+              "21st COS XIX International Movement and Gestural Theatre Festival",
+            place: "Reus - Tarragona, España.",
           },
           {
-            event: "28. Festival Bucelsl.",
+            event: "28th Bucelsl Festival",
             place: "Valencia, España.",
           },
         ],
       },
     ],
   },
+
   {
     year: "2016",
     months: [
@@ -893,11 +898,11 @@ export const events = [
         month: "APRIL",
         activities: [
           {
-            event: "8 y 9. Certamen Coreográfico del Distrito de Tetuán.",
+            event: "8 and 9. Choreographic Contest of Tetuán District.",
             place: "Madrid, España.",
           },
           {
-            event: "22 y 23. BETA Pública.",
+            event: "22 and 23. BETA Public.",
             place: "Madrid, España.",
           },
         ],
@@ -906,12 +911,12 @@ export const events = [
         month: "MAY",
         activities: [
           {
-            event: "14. Festival «Tapas y danza».",
+            event: "14. «Tapas y danza» Festival.",
             place: "Villanueva de gallego, España.",
           },
           {
-            event: "28 y 29. Fries Straat Festival.",
-            place: "Holanda.",
+            event: "28 and 29. Fries Straat Festival.",
+            place: "Países Bajos.",
           },
         ],
       },
@@ -919,16 +924,17 @@ export const events = [
         month: "JUNE",
         activities: [
           {
-            event: "6 y 7. Festival Cadiz en danza. Red «A cielo abierto».",
-            place: "Cadiz, España",
+            event:
+              "6 and 7. Cadiz en danza Festival. «A cielo abierto» Network.",
+            place: "Cadiz, España.",
           },
           {
-            event: "17. FAM Festival. Red «A cielo abierto».",
-            place: "Tenerife, Islas Canarias, España.",
+            event: "17. FAM Festival. «A cielo abierto» Network.",
+            place: "Tenerife, Canary Islands, España.",
           },
           {
-            event: "18 y 19. Workshop Teatro Victoria.",
-            place: "Santa Cruz de Tenerife, España",
+            event: "18 and 19. Teatro Victoria Workshop.",
+            place: "Santa Cruz de Tenerife, España.",
           },
         ],
       },
@@ -936,7 +942,7 @@ export const events = [
         month: "JULY",
         activities: [
           {
-            event: "6 - 8. Corpo a terra. Red «A cielo abierto».",
+            event: "6 - 8. Corpo a terra. «A cielo abierto» Network.",
             place: "Ourense, España.",
           },
           {
@@ -944,8 +950,8 @@ export const events = [
             place: "Madrid, España.",
           },
           {
-            event: "30 y 31. Santorini Arts Factory.",
-            place: "Santorini, Grecia",
+            event: "30 and 31. Santorini Arts Factory.",
+            place: "Santorini, Grecia.",
           },
         ],
       },
@@ -953,8 +959,8 @@ export const events = [
         month: "AUGUST",
         activities: [
           {
-            event: "26 - 28. Festival Spoffin.",
-            place: "Holanda.",
+            event: "26 - 28. Spoffin Festival.",
+            place: "Países Bajos.",
           },
         ],
       },
@@ -962,7 +968,7 @@ export const events = [
         month: "SEPTEMBER",
         activities: [
           {
-            event: "1. Festival Costa Contemporánea.",
+            event: "1. Costa Contemporánea Festival.",
             place: "Almería, España.",
           },
           {
@@ -973,6 +979,7 @@ export const events = [
       },
     ],
   },
+
   {
     year: "2015",
     months: [
@@ -980,27 +987,27 @@ export const events = [
         month: "",
         activities: [
           {
-            event: "Festival Umore Azoka. Leioa.",
+            event: "Umore Azoka Festival. Leioa.",
             place: "País Vasco, España.",
           },
           {
-            event: "Festival TAC.",
+            event: "TAC Festival.",
             place: "Valladolid, España.",
           },
           {
-            event: "Festival Reuring.",
-            place: "Holanda.",
+            event: "Reuring Festival.",
+            place: "Países Bajos.",
           },
           {
-            event: "Festival Kunsten op.",
-            place: "Straat, Holanda.",
+            event: "Kunsten op Festival.",
+            place: "Straat, Países Bajos.",
           },
           {
             event: "«Viaje al centro de la danza». Teatros del Canal.",
             place: "Madrid, España.",
           },
           {
-            event: "Festival “Mes de la danza”.",
+            event: "Dance Month Festival.",
             place: "Sevilla, España.",
           },
         ],
