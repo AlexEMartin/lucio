@@ -207,7 +207,7 @@ export const events = [
           },
           {
             event: "26 to 2. Direction of Dukto Company.",
-            place: "Mallorca, España",
+            place: "Mallorca, España.",
           },
         ],
       },

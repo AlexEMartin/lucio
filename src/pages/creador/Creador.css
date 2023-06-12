@@ -74,6 +74,7 @@
 @media only screen and (min-width: 950px) {
   .creator-container {
     width: 85%;
+    padding: 14px 0px;
   }
 
   .creator-btn {
