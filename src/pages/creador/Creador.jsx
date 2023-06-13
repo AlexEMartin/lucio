@@ -19,6 +19,7 @@ import noland from "../../img/noland.jpeg";
 import holaquetal from "../../img/holaquetal.png";
 import recuerdosmargaritas from "../../img/recuerdosmargaritas.jpg";
 import representante from "../../img/representante.png";
+import fani from "../../img/logo-fani.jpg";
 import {
   melasbailotodasText,
   mientrasTantoText,
@@ -72,6 +73,24 @@ const Creador = () => {
               {t}
             </p>
           ))}
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <a
+              className="managerLogo"
+              href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img style={{ width: "100%" }} src={representante} alt="" />
+            </a>
+            <img className="managerLogo" src={fani} alt="" />
+          </div>
         </div>
       ) : (
         <div>
@@ -81,6 +100,9 @@ const Creador = () => {
               {t}
             </p>
           ))}
+          <div className="creator-container withLogo">
+            <img className="managerLogo" src={fani} alt="" />
+          </div>
         </div>
       )}
       <div data-aos="fade-up" className="creator-container">
@@ -149,19 +171,24 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <a
-            href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
           >
-            <div className="creator-container withLogo">
-              <img
-                style={{ marginBottom: "20px", width: "200px" }}
-                src={representante}
-                alt=""
-              />
-            </div>
-          </a>
+            <a
+              className="managerLogo"
+              href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img style={{ width: "100%" }} src={representante} alt="" />
+            </a>
+            <img className="managerLogo" src={fani} alt="" />
+          </div>
         </div>
       ) : (
         <div>
@@ -170,6 +197,9 @@ const Creador = () => {
               {t}
             </p>
           ))}
+          <div className="creator-container withLogo">
+            <img className="managerLogo" src={fani} alt="" />
+          </div>
         </div>
       )}
       <div data-aos="fade-up" className="creator-container">
@@ -287,19 +317,24 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <a
-            href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
           >
-            <div className="creator-container withLogo">
-              <img
-                style={{ marginBottom: "20px", width: "200px" }}
-                src={representante}
-                alt=""
-              />
-            </div>
-          </a>
+            <a
+              className="managerLogo"
+              href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img style={{ width: "100%" }} src={representante} alt="" />
+            </a>
+            <img className="managerLogo" src={fani} alt="" />
+          </div>
         </div>
       ) : (
         <div>
@@ -308,6 +343,9 @@ const Creador = () => {
               {t}
             </p>
           ))}
+          <div className="creator-container withLogo">
+            <img className="managerLogo" src={fani} alt="" />
+          </div>
         </div>
       )}
       <div data-aos="fade-up" className="creator-container">
