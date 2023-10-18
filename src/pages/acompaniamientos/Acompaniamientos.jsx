@@ -15,6 +15,7 @@ import irakurriz from "../../img/irakurriz.jpg";
 import iam from "../../img/iam.png";
 import spazio from "../../img/spazio.png";
 import ara from "../../img/ara.png";
+import simehacebien from "../../img/simehacebien.png";
 
 const Acompaniamientos = () => {
   useEffect(() => {
@@ -153,6 +154,40 @@ const Acompaniamientos = () => {
                 }}
                 className="colab-img"
                 src={acompanamientoImg3}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="colab-block">
+            <div className="colab-desc">
+              <a
+                href="https://malditascirco.com/si-me-hace-bien-no-puede-estar-mal/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="colab-subtitle">Cia Niñas Malditas</h3>
+              </a>
+              <ArrowLongRightIcon className="right-arrow" />
+            </div>
+            <div className="colab-spans">
+              <span>(2022)</span>
+              {/* <a
+                style={{ color: "#003a39", textDecoration: "none" }}
+                href="https://www.instagram.com/reel/CoXW7m8gTuI/?utm_source=ig_web_copy_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              > */}
+              <span>Si me hace bien no puede estar mal</span>
+              {/* </a> */}
+              <span>Madrid - España</span>
+              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
+              <img
+                onClick={() => {
+                  setImg(simehacebien);
+                  setModal(!modal);
+                }}
+                className="colab-img"
+                src={simehacebien}
                 alt=""
               />
             </div>

@@ -2,6 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useNavigate } from "react-router-dom";
 import HeartHr from "../../utils/creator/HeartHr";
 import "./Creador.css";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
@@ -54,6 +55,8 @@ const Creador = () => {
     AOS.init({ duration: 1200 });
   }, []);
 
+  const navigate = useNavigate();
+
   const { language } = useContext(LanguageContext);
 
   const [video, setVideo] = useState("https://youtu.be/bphJLHzqGoo");
@@ -105,6 +108,30 @@ const Creador = () => {
           </div>
         </div>
       )}
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <button
+          style={{
+            margin: "30px 0px",
+            borderRadius: "4px",
+            border: "none",
+            padding: "15px 50px",
+            backgroundColor: "#003a39",
+            color: "white",
+            fontWeight: "bold",
+            cursor: "pointer",
+          }}
+          onClick={() => navigate("/dossierMargaritas")}
+        >
+          Dossier
+        </button>
+      </div>
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={recuerdosmargaritas} alt="" />
       </div>
@@ -230,6 +257,30 @@ const Creador = () => {
           ))}
         </div>
       )}
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <button
+          style={{
+            margin: "30px 0px",
+            borderRadius: "4px",
+            border: "none",
+            padding: "15px 50px",
+            backgroundColor: "#003a39",
+            color: "white",
+            fontWeight: "bold",
+            cursor: "pointer",
+          }}
+          onClick={() => navigate("/dossierMientrasTanto")}
+        >
+          Dossier
+        </button>
+      </div>
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={mientrastanto} alt="" />
       </div>

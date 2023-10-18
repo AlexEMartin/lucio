@@ -6,6 +6,8 @@ import Home from "./pages/inicio/Home";
 import Error404 from "./pages/error/Error404";
 import Navbar from "./components/navbar/Navbar";
 import LanguageProvider from "./context/LanguageContext";
+import MargaritasDossier from "./utils/creator/DossierMargaritas";
+import MientrasTantoDossier from "./utils/creator/DossierMientrasTanto";
 
 const Acompaniamientos = lazy(() =>
   import("./pages/acompaniamientos/Acompaniamientos")
@@ -77,6 +79,22 @@ function App() {
             element={
               <Suspense fallback={<BeatLoader color="#36d7b7" />}>
                 <Pdfviewer />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/dossierMargaritas"
+            element={
+              <Suspense fallback={<BeatLoader color="#36d7b7" />}>
+                <MargaritasDossier />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/dossierMientrasTanto"
+            element={
+              <Suspense fallback={<BeatLoader color="#36d7b7" />}>
+                <MientrasTantoDossier />
               </Suspense>
             }
           />

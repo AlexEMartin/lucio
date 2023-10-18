@@ -47,6 +47,7 @@ const Pdfviewer = () => {
         justifyContent: "center",
         marginTop: "120px",
         flexDirection: "column",
+        minHeight: "100vh",
       }}
     >
       <div
