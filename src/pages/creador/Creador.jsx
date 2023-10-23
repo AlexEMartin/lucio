@@ -32,6 +32,7 @@ import {
   holaquetalText,
   ciclonText,
   recuerdosmargaritasText,
+  hoyNoEsUnDiaCualquieraText,
 } from "../../utils/creator/descripcionesCreador";
 import {
   enmelasbailotodasText,
@@ -63,10 +64,32 @@ const Creador = () => {
   const [video2, setVideo2] = useState(
     "https://www.youtube.com/watch?v=yL-qo8MW44k&t=68s"
   );
-  const [video3, setVideo3] = useState("https://youtu.be/OzqhXJ5XdrM");
+  const [video3, setVideo3] = useState(
+    "https://www.youtube.com/watch?v=Q5WA-HShdGs"
+  );
 
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
+      <Iframe
+        url="https://www.youtube.com/watch?v=mRu3UkPcbGY"
+        status={false}
+      />
+      <h3 className="creator-title">HOy nO eS uN DíA CuAlQuieRa (2023)</h3>
+
+      <div>
+        {hoyNoEsUnDiaCualquieraText.map((t) => (
+          <p key={t} className="creator-description">
+            {t}
+          </p>
+        ))}
+      </div>
+
+      {/* <div data-aos="fade-up" className="creator-container">
+        <img className="creator-img" src={noland} alt="" />
+      </div> */}
+
+      <HeartHr />
+
       <Iframe url="https://youtu.be/9LgYoDon-hI" status={true} />
       {language ? (
         <div>
@@ -336,6 +359,14 @@ const Creador = () => {
       <Iframe url={video3} status={false} />
       <h3 className="creator-title">MyL (2019)</h3>
       <div className="creator-buttons">
+        <button
+          className="creator-btn"
+          onClick={() =>
+            setVideo3("https://www.youtube.com/watch?v=Q5WA-HShdGs")
+          }
+        >
+          MyL (2023)
+        </button>
         <button
           className="creator-btn"
           onClick={() => setVideo3("https://youtu.be/OzqhXJ5XdrM")}

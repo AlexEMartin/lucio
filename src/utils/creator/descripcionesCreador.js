@@ -50,6 +50,37 @@ const holaquetalText = [
   "Un hombre atrapado en una búsqueda. Una búsqueda no premeditada de la que no puede escapar y que eventualmente tendrá que enfrentar.  Una búsqueda de su identidad, de su propio ser. A través del movimiento, del silencio espiamos el mundo donde éste se expresa, deja salir sus sentimientos casi sin controlarlos ni desearlos. No hay nada que esté demás, todo está en su posición correcta.",
 ];
 
+const hoyNoEsUnDiaCualquieraText = [
+  "Se dice que cuando recordamos solo es verdadera una pequeña parte de lo que logramos alcanzar con nuestra mente. Si lo que vivo y recuerdo sólo es real según mi propia percepción, entonces ¿qué es real?¿cómo podemos asegurar que algo es verdadero, que realmente ocurrió?¿Sólo con nombrarlo alcanza?¿Y si jugamos a que todo lo que nombramos es real?¿Hasta dónde podemos llegar?",
+  "Diez jóvenes artistas de circo se embarcan en este viaje que bucea con el surrealismo, el delirio , el absurdo, lo imposible y lo posible. Y como dice Roberto Juarroz: 'Un salto siempre más allá, el salto que nos hace posibles.'",
+  "Vídeo documental en imágenes de este espectáculo dirigido por Lucio A. Baglivo y su proceso de creación; dentro del proyecto CRECE, en el Teatro Circo Price. ",
+  "CRECE: Un proyecto de la Escuela de Circo Carampa.",
+  "Un gran equipo:",
+  "Dirección artística: Lucio A. Baglivo @lucio.a.baglivo",
+  "Ayte. Dirección Amaya Goñi @amayuscula_",
+  "Iluminación: Juan Carlos Menor",
+  "Diseño sonoro y música original: Fernando Adrián Nequecaur @fernandonequecaur",
+  "Especialista Rigger: Jesús Aragonés",
+  "Video: Juan Carlos Toledo @jcartoledo y Danilo Moroni @danilomoroni_ph",
+  "Fotografía: Gaby Merz",
+  "Producción: Marisa Agostini",
+  "Producción Ejecutiva: Eslinga Producciones",
+  "Dirección CRECE: Javier Jiménez",
+  "Artistas:  ",
+  "Sofía Núñez - Trapecio @sophie__nr",
+  "Nicolás Palma - Straps @filthycreaturess",
+  "Clara Bernet - Rueda Cyr @_clara_bernet",
+  "Pablo Cierzo Delgado - Portes/Verticales/Malabares/cuerda @cierzo_delgado",
+  "Cam Ducuing - Portes/Cuerda @moves.cam",
+  "Anna Kapp - Mástil @anna__kapp",
+  "Danielo Amaya - Malabares @danielo_amaya",
+  "Ania Giannattasio - Aro/Suspensión capilar @ania_msb",
+  "Eva Morais - Verticales/Contorsión @evitapperoni",
+  "Alicia Luque - Trapecio @ali.luque",
+  "Teatro Circo Price @circoprice",
+  "Madrid 2023",
+]
+
 export {
   melasbailotodasText,
   mientrasTantoText,
@@ -61,4 +92,5 @@ export {
   holaquetalText,
   ciclonText,
   recuerdosmargaritasText,
+  hoyNoEsUnDiaCualquieraText
 };
