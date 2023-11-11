@@ -38,13 +38,13 @@ const Navbar = () => {
           <p>
             <a
               style={{ textDecoration: "none" }}
-              href="mailto:luciobag@gmail.com"
+              href="mailto:lucioabaglivo@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FiMail className="nav-info-icon" />{" "}
+              <FiMail style={{ marginBottom: "-2px" }} className="nav-info-icon" />{" "}
               <span style={{ marginLeft: "10px", color: "#003a39" }}>
-                luciobag@gmail.com
+                lucioabaglivo@gmail.com
               </span>
             </a>
           </p>
@@ -53,7 +53,7 @@ const Navbar = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="mailto:luciobag@gmail.com"
+            href="mailto:lucioabaglivo@gmail.com"
           >
             <FiMail className="nav-info-icon" />
           </a>

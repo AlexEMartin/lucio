@@ -37,17 +37,17 @@ const Maestro = () => {
 
   return (
     <div style={{ width: "100%", overflow: "hidden" }}>
+      {language ? (
+        <h1 className="master-title">Maestro</h1>
+      ) : (
+        <h1 className="master-title">Teacher</h1>
+      )}
+      <Iframe url="https://www.youtube.com/watch?v=6Z_LKjHsIKQ" status={true} />
       <div className="master-container">
-        {language ? (
-          <h1 className="master-title">Maestro</h1>
-        ) : (
-          <h1 className="master-title">Teacher</h1>
-        )}
-        <Iframe url="https://vimeo.com/581104691" status={true} />
         <div className="master-block">
           <div className="master-text">
             {language ? (
-              <p data-aos="zoom-in" className="master-p">
+              <p style={{marginTop: "-70px"}} data-aos="zoom-in" className="master-p">
                 {shorter ? master1[0].substring(0, 151) + "..." : master1[0]}
                 {shorter && (
                   <button

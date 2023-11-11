@@ -48,13 +48,13 @@ const Footer = () => {
           </div>
         </a>
         <a
-          href="mailto:luciobag@gmail.com"
+          href="mailto:lucioabaglivo@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className="footer-icon">
             <FiMail />
-            <span className="footer-span">luciobag@gmail.com</span>
+            <span className="footer-span">lucioabaglivo@gmail.com</span>
           </div>
         </a>
         <a
