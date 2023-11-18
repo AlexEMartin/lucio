@@ -10,8 +10,8 @@ import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import agenda from "../../img/agenda.jpeg";
 import { meses } from "../../utils/schedule/meses";
 import { months } from "../../utils/schedule/months";
-import { agendas } from "../../utils/schedule/mes-data";
-import { schedules } from "../../utils/schedule/month-data";
+// import { agendas } from "../../utils/schedule/mes-data";
+// import { schedules } from "../../utils/schedule/month-data";
 import { eventos } from "../../utils/schedule/eventos-pasados";
 import { events } from "../../utils/schedule/past-events";
 
@@ -68,9 +68,9 @@ const Schedule = () => {
       </div>
       <div data-aos="zoom-in" className="info-container">
         {language ? (
-          <div className="info">{agendas[mes]}</div>
+          <div style={{ fontSize: '20px', textAlign: 'center' }} className="info">Para tener información actualizada de la agenda enviar un mail a luciobag@gmail.com</div>
         ) : (
-          <div className="info">{schedules[mes]}</div>
+          <div style={{ fontSize: '20px', textAlign: 'center' }} className="info">For updated information please send an email to luciobag@gmail.com</div>
         )}
       </div>
       {language ? (
