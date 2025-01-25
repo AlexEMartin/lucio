@@ -81,7 +81,31 @@ const hoyNoEsUnDiaCualquieraText = [
   "Madrid 2023",
 ]
 
+const enLaRevolucion = [
+  "Hermaphrodites, animal rights activists, and revolutionaries.",
+  "Tired of the excessive abuse and constant harassment we endure, we, the flowers, proclaim:",
+  "Freedom, equality, and fraternity for all living beings on this Earth, with the exception and against human beings.",
+  "Let us sing, dance, and shout all together,",
+  "Don't pluck us!",
+  "Don't trample on us!",
+  "Don't grope us!",
+  " ",
+   "Time as a source of inspiration, the search for a scenic poetry that shakes the understanding and perception of time, the absurd as a resource that gives life to the flowers, and the parallel between the mistreatment of nature and humans gives life to this revolution.",
+];
+
+const hey = [
+  "Un salón de fiesta itinerante. El hit del verano. Esa canción que siempre te hace llorar. Un sonido se rebela, una voz que te llama, un baile que viene y va. Dos anfitriones un tanto peculiares te llevarán a una fiesta imprevisible.",
+  "Este espectáculo fue pre-estrenado en la primera edición del Festival Danzahra en Zahara de los Atunes, Cádiz en Mayo de 2024."
+];
+
+const simplesmortales = [
+  "Simples mortales es un recorrido circense por las calles de Madrid que busca impactar y alterar el cotidiano de la ciudad de manera esporádica y sorpresiva.",
+  "Esta propuesta fue estrenada en el marco de la Muestra Escénica Surge Madrid."
+];
+
 export {
+  hey,
+  enLaRevolucion,
   melasbailotodasText,
   mientrasTantoText,
   apparentlyAloneText,
@@ -92,5 +116,6 @@ export {
   holaquetalText,
   ciclonText,
   recuerdosmargaritasText,
-  hoyNoEsUnDiaCualquieraText
+  hoyNoEsUnDiaCualquieraText,
+  simplesmortales,
 };

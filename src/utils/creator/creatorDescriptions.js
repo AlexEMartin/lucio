@@ -47,10 +47,65 @@ const enholaquetalText = [
   "A man trapped in a quest. An unpremeditated quest from which he cannot escape and which he will eventually have to face. A search for his identity, for his own being. Through movement, through silence, we spy on the world where it expresses itself, letting out its feelings almost without controlling or wanting them.",
 ];
 
+const enHoyNoEsUnDiaCualquieraText = [
+  "It is said that when we remember, only a small part of what we achieve with our mind is true. If what I live and remember is only real according to my own perception, then what is real? How can we ensure that something is true, that it really happened? Does just naming it make it real? And what if we play with the idea that everything we name is real? How far can we go?",
+  "Ten young circus artists embark on this journey that dives into surrealism, delirium, the absurd, the impossible, and the possible. And as Roberto Juarroz says: 'A leap always beyond, the leap that makes us possible.'",
+  "Documentary video in images of this show directed by Lucio A. Baglivo and his creative process; part of the CRECE project at the Teatro Circo Price.",
+  "CRECE: A project by the Carampa Circus School.",
+  "A great team:",
+  "Artistic direction: Lucio A. Baglivo @lucio.a.baglivo",
+  "Assistant direction: Amaya Goñi @amayuscula_",
+  "Lighting: Juan Carlos Menor",
+  "Sound design and original music: Fernando Adrián Nequecaur @fernandonequecaur",
+  "Rigger Specialist: Jesús Aragonés",
+  "Video: Juan Carlos Toledo @jcartoledo and Danilo Moroni @danilomoroni_ph",
+  "Photography: Gaby Merz",
+  "Production: Marisa Agostini",
+  "Executive Production: Eslinga Producciones",
+  "CRECE direction: Javier Jiménez",
+  "Artists:",
+  "Sofía Núñez - Trapeze @sophie__nr",
+  "Nicolás Palma - Straps @filthycreaturess",
+  "Clara Bernet - Cyr Wheel @_clara_bernet",
+  "Pablo Cierzo Delgado - Lifting/Verticals/Juggling/rope @cierzo_delgado",
+  "Cam Ducuing - Lifting/Rope @moves.cam",
+  "Anna Kapp - Pole @anna__kapp",
+  "Danielo Amaya - Juggling @danielo_amaya",
+  "Ania Giannattasio - Hoop/Capillary Suspension @ania_msb",
+  "Eva Morais - Verticals/Contortion @evitapperoni",
+  "Alicia Luque - Trapeze @ali.luque",
+  "Teatro Circo Price @circoprice",
+  "Madrid 2023",
+]
+
+const laRevolucion = [
+  "Hermafroditas, animalistas y revolucionarias.",
+  "Cansadas del abuso desmedido y del acoso constante que sufrimos, nosotras, las flores, proclamamos:",
+  "Libertad, igualdad y fraternidad para todos los seres vivos de esta Tierra, con excepción y en contra de los seres humanos.",
+  "Cantemos, bailemos y gritemos todas juntas,",
+  "¡No nos deshojen!",
+  "¡No nos pisoteen!",
+  "¡No nos manoseen!",
+  " ",
+  "El tiempo como fuente de inspiración, La búsqueda de una poesía escénica que tambalea la comprensión y percepción del tiempo, el absurdo como recurso que da vida a las flores y el paralelismo entre el maltrato a la naturaleza y entre los seres humanos dan vida a esta revolución.",
+];
+
+const enHey = [
+  "An itinerant party hall. The summer hit. That song that always makes you cry. A sound rebels, a voice calls you, a dance comes and goes. Two somewhat peculiar hosts will take you to an unpredictable party.",
+  "This show was pre-premiered in the first edition of the Danzahra Festival in Zahara de los Atunes, Cádiz in May 2024."
+];
+
+const enSimplesmortales = [
+  "Simples mortales is a circus journey through the streets of Madrid that seeks to impact and alter the daily life of the city in a sporadic and surprising way.",
+  "This proposal was premiered as part of the Muestra Escénica Surge Madrid."
+];
+
 export {
+  enHey,
   enmelasbailotodasText,
   enmientrasTantoText,
   enapparentlyAloneText,
+  enHoyNoEsUnDiaCualquieraText,
   eniamtheotherText,
   enmyl20Text,
   ensolojuntosText,
@@ -58,4 +113,6 @@ export {
   enholaquetalText,
   enciclonText,
   enrecuerdosmargaritasText,
+  laRevolucion,
+  enSimplesmortales,
 };

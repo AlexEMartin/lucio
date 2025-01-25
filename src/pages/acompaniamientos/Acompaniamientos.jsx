@@ -13,6 +13,8 @@ import acompanamientoImg3 from "../../img/acompanamiento3.jpg";
 import irenepaz from "../../img/irenepaz.jpg";
 import irakurriz from "../../img/irakurriz.jpg";
 import iam from "../../img/iam.png";
+import larendicion from "../../img/la-rendicion.jpg";
+import larendicionpreview from "../../img/larendicionpreview.png";
 import spazio from "../../img/spazio.png";
 import ara from "../../img/ara.png";
 import simehacebien from "../../img/simehacebien.png";
@@ -88,6 +90,40 @@ const Acompaniamientos = () => {
           </div>
         )}
         <div className="colab-cards">
+        <div className="colab-block">
+            <div className="colab-desc">
+              {/* <a
+                href="https://www.youtube.com/watch?v=Pm9KdAreCls"
+                target="_blank"
+                rel="noopener noreferrer"
+              > */}
+                <h3 className="colab-subtitle">Cia Alberto Quirós</h3>
+              {/* </a> */}
+              <ArrowLongRightIcon className="right-arrow" />
+            </div>
+            <div className="colab-spans">
+              <span>(2024)</span>
+              <a
+                style={{ color: "#003a39", textDecoration: "none" }}
+                href="https://www.youtube.com/watch?v=Pm9KdAreCls"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>La rendición</span>
+              </a>
+              <span>Madrid, España</span>
+              <span>{language ? <i>Codirección y coreografía</i> : <i>Co-direction & choreography</i>}</span>
+              <img
+                onClick={() => {
+                  setImg(larendicion);
+                  setModal(!modal);
+                }}
+                className="colab-img"
+                src={larendicionpreview}
+                alt=""
+              />
+            </div>
+          </div>
           <div className="colab-block">
             <div className="colab-desc">
               <a
@@ -146,7 +182,7 @@ const Acompaniamientos = () => {
                 <span>A Rienda suelta</span>
               </a>
               <span>Mataró - Cataluña</span>
-              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
+              <span>{language ? <i>Dirección y colaboración coreográfica</i> : <i>Direction & choreographic collaboration</i>}</span>
               <img
                 onClick={() => {
                   setImg(acompanamientoImg3);
@@ -171,16 +207,9 @@ const Acompaniamientos = () => {
             </div>
             <div className="colab-spans">
               <span>(2022)</span>
-              {/* <a
-                style={{ color: "#003a39", textDecoration: "none" }}
-                href="https://www.instagram.com/reel/CoXW7m8gTuI/?utm_source=ig_web_copy_link"
-                target="_blank"
-                rel="noopener noreferrer"
-              > */}
               <span>Si me hace bien no puede estar mal</span>
-              {/* </a> */}
               <span>Madrid - España</span>
-              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
+              <span>{language ? <i>Dirección y colaboración coreográfica</i> : <i>Direction & choreographic collaboration</i>}</span>
               <img
                 onClick={() => {
                   setImg(simehacebien);
@@ -277,7 +306,7 @@ const Acompaniamientos = () => {
                 {language ? (
                   <i>Asistencia de dirección y coreografía</i>
                 ) : (
-                  <i>Direction and choreography</i>
+                  <i>Direction & choreography</i>
                 )}
               </span>
               <img
@@ -310,7 +339,7 @@ const Acompaniamientos = () => {
                 <span>Irakurriz</span>
               )}
               <span>País Vasco / España</span>
-              <span>{language ? <i>Dirección</i> : <i>Direction</i>}</span>
+              <span>{language ? <i>Dirección y coreografía</i> : <i>Direction & choreography</i>}</span>
               <img
                 onClick={() => {
                   setImg(irakurriz);
@@ -342,7 +371,7 @@ const Acompaniamientos = () => {
               )}
               <span>País Vasco - España</span>
               <span>
-                {language ? <i>Mirada externa</i> : <i>Artistic assessment</i>}
+                {language ? <i>Direccion y coreografia</i> : <i>Direction & choreography</i>}
               </span>
               <img
                 onClick={() => {
@@ -374,7 +403,7 @@ const Acompaniamientos = () => {
                 {language ? (
                   <i>Coreografia y mirada externa</i>
                 ) : (
-                  <i>Choreography and artistic assessment</i>
+                  <i>Choreography & artistic assessment</i>
                 )}
               </span>
               <img

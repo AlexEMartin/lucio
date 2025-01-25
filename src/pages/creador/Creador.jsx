@@ -21,6 +21,10 @@ import holaquetal from "../../img/holaquetal.png";
 import recuerdosmargaritas from "../../img/recuerdosmargaritas.jpg";
 import representante from "../../img/representante.png";
 import fani from "../../img/logo-fani.jpg";
+import larevolucionimage from "../../img/larevolucionimage.jpg";
+import logoexpresarte from "../../img/logo-expresarte.jpg";
+import simplesmortalesimg from "../../img/simplemortales.jpg";
+import teatrosdelcanal from "../../img/teatros-del-canal.png";
 import {
   melasbailotodasText,
   mientrasTantoText,
@@ -33,6 +37,9 @@ import {
   ciclonText,
   recuerdosmargaritasText,
   hoyNoEsUnDiaCualquieraText,
+  enLaRevolucion,
+  hey,
+  simplesmortales,
 } from "../../utils/creator/descripcionesCreador";
 import {
   enmelasbailotodasText,
@@ -45,6 +52,10 @@ import {
   enholaquetalText,
   enciclonText,
   enrecuerdosmargaritasText,
+  enHoyNoEsUnDiaCualquieraText,
+  laRevolucion,
+  enHey,
+  enSimplesmortales,
 } from "../../utils/creator/creatorDescriptions";
 
 const Creador = () => {
@@ -71,22 +82,112 @@ const Creador = () => {
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
       <Iframe
+        url="https://youtu.be/5dV6tl3iyls?si=i_85Kc52_dFvjabh"
+        status={true}
+      />
+      <h3 className="creator-title">LA REVOLUCIÓN... de las flores   (2024) </h3>
+      {language ? <h4 className="creator-title">Co-produccion con los Teatros del Canal de Madrid</h4> : <h4 className="creator-title">Co-production with the Teatros del Canal of Madrid</h4>}
+
+      <div>
+      { language ? (
+           laRevolucion.map((t) => (
+             <p key={t} className="creator-description">
+               {t}
+             </p>
+       ))
+        ) : (
+           enLaRevolucion.map((t) => (
+             <p key={t} className="creator-description">
+              {t}
+             </p>
+       ))
+      )}
+      </div>
+      <div className="creator-container withLogo">
+        <img style={{ marginBottom: "20px" }} src={logoexpresarte} alt="" />
+      </div>
+      <div className="creator-container withLogo">
+        <img style={{ marginBottom: "20px" }} src={teatrosdelcanal} alt="" />
+      </div>
+      <div data-aos="fade-up" className="creator-container">
+        <img className="creator-img" src={larevolucionimage} alt="" />
+      </div>
+
+      <HeartHr />
+
+      <Iframe
+        url="https://youtube.com/shorts/g4Xn4n11I_I?si=gpdj5nAC2FXolOqe"
+        status={true}
+      />
+      <h3 className="creator-title">Simples mortales (2024) </h3>
+
+      <div>
+      { language ? (
+           simplesmortales.map((t) => (
+             <p key={t} className="creator-description">
+               {t}
+             </p>
+       ))
+        ) : (
+           enSimplesmortales.map((t) => (
+             <p key={t} className="creator-description">
+              {t}
+             </p>
+       ))
+      )}
+      </div>
+
+      <div data-aos="fade-up" className="creator-container">
+        <img className="creator-img" src={simplesmortalesimg} alt="" />
+      </div>
+
+      <HeartHr />
+
+      <Iframe
+        url="https://youtu.be/eDIsAanEEmg?si=tdJiUkz1WIAfvJSz"
+        status={true}
+      />
+      <h3 className="creator-title">Hey! (2024) </h3>
+
+      <div>
+      { language ? (
+           hey.map((t) => (
+             <p key={t} className="creator-description">
+               {t}
+             </p>
+       ))
+        ) : (
+           enHey.map((t) => (
+             <p key={t} className="creator-description">
+              {t}
+             </p>
+       ))
+      )}
+      </div>
+
+      <HeartHr />
+
+      <Iframe
         url="https://www.youtube.com/watch?v=mRu3UkPcbGY"
         status={true}
       />
       <h3 className="creator-title">HOy nO eS uN DíA CuAlQuieRa (2023)</h3>
 
       <div>
-        {hoyNoEsUnDiaCualquieraText.map((t) => (
-          <p key={t} className="creator-description">
-            {t}
-          </p>
-        ))}
+      { language ? (
+           hoyNoEsUnDiaCualquieraText.map((t) => (
+             <p key={t} className="creator-description">
+               {t}
+             </p>
+       ))
+        ) : (
+          enHoyNoEsUnDiaCualquieraText.map((t) => (
+             <p key={t} className="creator-description">
+              {t}
+             </p>
+       ))
+      )}
       </div>
-
-      {/* <div data-aos="fade-up" className="creator-container">
-        <img className="creator-img" src={noland} alt="" />
-      </div> */}
 
       <HeartHr />
 
