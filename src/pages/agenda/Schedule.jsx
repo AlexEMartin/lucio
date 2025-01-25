@@ -68,9 +68,9 @@ const Schedule = () => {
       </div>
       <div data-aos="zoom-in" className="info-container">
         {language ? (
-          <div style={{ fontSize: '20px', textAlign: 'center' }} className="info">Para tener información actualizada de la agenda enviar un mail a luciobag@gmail.com</div>
+          <div style={{ textAlign: 'center' }} className="info">Para tener información actualizada de la agenda enviar un mail a luciobag@gmail.com</div>
         ) : (
-          <div style={{ fontSize: '20px', textAlign: 'center' }} className="info">For updated information please send an email to luciobag@gmail.com</div>
+          <div style={{ textAlign: 'center' }} className="info">For updated information please send an email to luciobag@gmail.com</div>
         )}
       </div>
       {language ? (
