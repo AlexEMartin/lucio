@@ -86,7 +86,7 @@ const Creador = () => {
         status={true}
       />
       <h3 className="creator-title">LA REVOLUCIÓN... de las flores   (2024) </h3>
-      {language ? <h4 className="creator-title">Co-produccion con los Teatros del Canal de Madrid</h4> : <h4 className="creator-title">Co-production with the Teatros del Canal of Madrid</h4>}
+      {language ? <h5 className="creator-title">Co-produccion con los Teatros del Canal de Madrid</h5> : <h5 className="creator-title">Co-production with the Teatros del Canal of Madrid</h5>}
 
       <div>
       { language ? (
@@ -107,7 +107,7 @@ const Creador = () => {
         <img style={{ marginBottom: "20px" }} src={logoexpresarte} alt="" />
       </div>
       <div className="creator-container withLogo">
-        <img style={{ marginBottom: "20px" }} src={teatrosdelcanal} alt="" />
+        <img style={{ width: "100%", marginBottom: "20px" }} src={teatrosdelcanal} alt="" />
       </div>
       <div data-aos="fade-up" className="creator-container">
         <img className="creator-img" src={larevolucionimage} alt="" />
@@ -117,7 +117,7 @@ const Creador = () => {
 
       <Iframe
         url="https://youtube.com/shorts/g4Xn4n11I_I?si=gpdj5nAC2FXolOqe"
-        status={true}
+        status={false}
       />
       <h3 className="creator-title">Simples mortales (2024) </h3>
 
@@ -145,7 +145,7 @@ const Creador = () => {
 
       <Iframe
         url="https://youtu.be/eDIsAanEEmg?si=tdJiUkz1WIAfvJSz"
-        status={true}
+        status={false}
       />
       <h3 className="creator-title">Hey! (2024) </h3>
 
@@ -169,7 +169,7 @@ const Creador = () => {
 
       <Iframe
         url="https://www.youtube.com/watch?v=mRu3UkPcbGY"
-        status={true}
+        status={false}
       />
       <h3 className="creator-title">HOy nO eS uN DíA CuAlQuieRa (2023)</h3>
 
@@ -357,6 +357,7 @@ const Creador = () => {
         <img className="creator-img" src={MyL2} alt="" />
       </div>
       <HeartHr />
+
       <Iframe url="https://youtu.be/oX3J5Bqqbk8" status={false} />
       {language ? (
         <div>
@@ -433,6 +434,7 @@ const Creador = () => {
         <img className="creator-img" src={apparentlyalone} alt="" />
       </div>
       <HeartHr />
+
       <Iframe url="https://youtu.be/EetEfWttC6w" status={false} />
       {language ? (
         <div>
@@ -457,6 +459,7 @@ const Creador = () => {
         <img className="creator-img" src={iamtheother} alt="" />
       </div>
       <HeartHr />
+
       <Iframe url={video3} status={false} />
       <h3 className="creator-title">MyL (2019)</h3>
       <div className="creator-buttons">
@@ -535,6 +538,7 @@ const Creador = () => {
         <img className="creator-img" src={MyL} alt="" />
       </div>
       <HeartHr />
+
       <Iframe url={video2} status={false} />
       <h3 className="creator-title">Solo Juntos (2015)</h3>
       <div className="creator-buttons">
@@ -584,6 +588,7 @@ const Creador = () => {
         <img className="creator-img" src={solojuntos} alt="" />
       </div>
       <HeartHr />
+
       <Iframe url="https://youtu.be/5d4mOd3xjMY" status={false} />
       <h3 className="creator-title">No land (2013)</h3>
       {language ? (
@@ -607,6 +612,7 @@ const Creador = () => {
         <img className="creator-img" src={noland} alt="" />
       </div>
       <HeartHr />
+
       <Iframe url="https://youtu.be/02gNwR8UFY8" status={false} />
       {language ? (
         <div>
@@ -628,6 +634,7 @@ const Creador = () => {
         </div>
       )}
       <HeartHr />
+
       <Iframe url="https://youtu.be/UKTUgDfuE3A" status={false} />
       <h3 className="creator-title">Holaquétal! (2009)</h3>
       {language ? (
