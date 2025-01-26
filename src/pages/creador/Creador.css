@@ -70,6 +70,37 @@
   margin: 30px 10px;
 }
 
+.logo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px; 
+  width: 100%;
+  padding: 20px; 
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.logo-container .logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px;
+  padding: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-container .logo-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px; 
+  object-fit: contain;
+}
+
 @media only screen and (min-width: 850px) {
   .creator-container {
     margin: 0 auto 20px auto;

@@ -25,6 +25,9 @@ import larevolucionimage from "../../img/larevolucionimage.jpg";
 import logoexpresarte from "../../img/logo-expresarte.jpg";
 import simplesmortalesimg from "../../img/simplemortales.jpg";
 import teatrosdelcanal from "../../img/teatros-del-canal.png";
+import atopemonos from "../../img/atopemonos.png";
+import centrocanal from "../../img/centrocanal.jpeg";
+import pacorabal from "../../img/pacorabal.jpg";
 import {
   melasbailotodasText,
   mientrasTantoText,
@@ -85,31 +88,58 @@ const Creador = () => {
         url="https://youtu.be/5dV6tl3iyls?si=i_85Kc52_dFvjabh"
         status={true}
       />
-      <h3 className="creator-title">LA REVOLUCIÓN... de las flores   (2024) </h3>
-      {language ? <h5 className="creator-title">Co-produccion con los Teatros del Canal de Madrid</h5> : <h5 className="creator-title">Co-production with the Teatros del Canal of Madrid</h5>}
+      <h3 className="creator-title">LA REVOLUCIÓN... de las flores (2024) </h3>
+      {language ? (
+        <h5 className="creator-title">
+          Co-produccion con los Teatros del Canal de Madrid
+        </h5>
+      ) : (
+        <h5 className="creator-title">
+          Co-production with the Teatros del Canal of Madrid
+        </h5>
+      )}
 
       <div>
-      { language ? (
-           laRevolucion.map((t) => (
-             <p key={t} className="creator-description">
-               {t}
-             </p>
-       ))
-        ) : (
-           enLaRevolucion.map((t) => (
-             <p key={t} className="creator-description">
-              {t}
-             </p>
-       ))
-      )}
+        {language
+          ? laRevolucion.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))
+          : enLaRevolucion.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))}
       </div>
-      <div className="creator-container withLogo">
-        <img style={{ marginBottom: "20px" }} src={logoexpresarte} alt="" />
+      <div className="logo-container">
+        <div className="logo-item">
+          <img src={logoexpresarte} alt="" />
+        </div>
+        <div className="logo-item">
+          <img src={teatrosdelcanal} alt="" />
+        </div>
+        <div className="logo-item">
+          <img src={fani} alt="" />
+        </div>
+        <div className="logo-item">
+          <img src={representante} alt="" />
+        </div>
+        <div className="logo-item">
+          <img src={atopemonos} alt="" />
+        </div>
+        <div className="logo-item">
+          <img src={centrocanal} alt="" />
+        </div>
+        <div className="logo-item">
+          <img src={pacorabal} alt="" />
+        </div>
       </div>
-      <div className="creator-container withLogo">
-        <img style={{ width: "100%", marginBottom: "20px" }} src={teatrosdelcanal} alt="" />
-      </div>
-      <div data-aos="fade-up" className="creator-container">
+      <div
+        style={{ marginTop: "2rem" }}
+        data-aos="fade-up"
+        className="creator-container"
+      >
         <img className="creator-img" src={larevolucionimage} alt="" />
       </div>
 
@@ -122,19 +152,17 @@ const Creador = () => {
       <h3 className="creator-title">Simples mortales (2024) </h3>
 
       <div>
-      { language ? (
-           simplesmortales.map((t) => (
-             <p key={t} className="creator-description">
-               {t}
-             </p>
-       ))
-        ) : (
-           enSimplesmortales.map((t) => (
-             <p key={t} className="creator-description">
-              {t}
-             </p>
-       ))
-      )}
+        {language
+          ? simplesmortales.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))
+          : enSimplesmortales.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))}
       </div>
 
       <div data-aos="fade-up" className="creator-container">
@@ -150,19 +178,17 @@ const Creador = () => {
       <h3 className="creator-title">Hey! (2024) </h3>
 
       <div>
-      { language ? (
-           hey.map((t) => (
-             <p key={t} className="creator-description">
-               {t}
-             </p>
-       ))
-        ) : (
-           enHey.map((t) => (
-             <p key={t} className="creator-description">
-              {t}
-             </p>
-       ))
-      )}
+        {language
+          ? hey.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))
+          : enHey.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))}
       </div>
 
       <HeartHr />
@@ -174,19 +200,17 @@ const Creador = () => {
       <h3 className="creator-title">HOy nO eS uN DíA CuAlQuieRa (2023)</h3>
 
       <div>
-      { language ? (
-           hoyNoEsUnDiaCualquieraText.map((t) => (
-             <p key={t} className="creator-description">
-               {t}
-             </p>
-       ))
-        ) : (
-          enHoyNoEsUnDiaCualquieraText.map((t) => (
-             <p key={t} className="creator-description">
-              {t}
-             </p>
-       ))
-      )}
+        {language
+          ? hoyNoEsUnDiaCualquieraText.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))
+          : enHoyNoEsUnDiaCualquieraText.map((t) => (
+              <p key={t} className="creator-description">
+                {t}
+              </p>
+            ))}
       </div>
 
       <HeartHr />
@@ -200,23 +224,18 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <div
-            style={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <a
-              className="managerLogo"
-              href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img style={{ width: "100%" }} src={representante} alt="" />
-            </a>
-            <img className="managerLogo" src={fani} alt="" />
+          <div className="logo-container">
+            <div className="logo-item">
+              <a
+                style={{ marginRight: "20px" }}
+                href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={representante} alt="" />
+              </a>
+              <img src={fani} alt="" />
+            </div>
           </div>
         </div>
       ) : (
@@ -227,8 +246,10 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <div className="creator-container withLogo">
-            <img className="managerLogo" src={fani} alt="" />
+          <div className="logo-container">
+            <div className="logo-item">
+              <img src={fani} alt="" />
+            </div>
           </div>
         </div>
       )}
@@ -284,10 +305,16 @@ const Creador = () => {
           ))}
         </div>
       )}
-      <div className="creator-container withLogo">
-        <img style={{ marginBottom: "20px" }} src={logosurge} alt="" />
+      <div className="logo-container">
+        <div className="logo-item">
+          <img src={logosurge} alt="" />
+        </div>
       </div>
-      <div data-aos="fade-up" className="creator-container">
+      <div
+        style={{ marginTop: "2rem" }}
+        data-aos="fade-up"
+        className="creator-container"
+      >
         <img className="creator-img" src={melasbailotodas} alt="" />
       </div>
       <HeartHr />
@@ -322,23 +349,18 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <div
-            style={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <a
-              className="managerLogo"
-              href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img style={{ width: "100%" }} src={representante} alt="" />
-            </a>
-            <img className="managerLogo" src={fani} alt="" />
+          <div className="logo-container">
+            <div className="logo-item">
+              <a
+                style={{ marginRight: "20px" }}
+                href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={representante} alt="" />
+              </a>
+              <img src={fani} alt="" />
+            </div>
           </div>
         </div>
       ) : (
@@ -348,12 +370,18 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <div className="creator-container withLogo">
-            <img className="managerLogo" src={fani} alt="" />
+          <div className="logo-container">
+            <div className="logo-item">
+              <img src={fani} alt="" />
+            </div>
           </div>
         </div>
       )}
-      <div data-aos="fade-up" className="creator-container">
+      <div
+        style={{ marginTop: "2rem" }}
+        data-aos="fade-up"
+        className="creator-container"
+      >
         <img className="creator-img" src={MyL2} alt="" />
       </div>
       <HeartHr />
@@ -503,23 +531,18 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <div
-            style={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <a
-              className="managerLogo"
-              href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img style={{ width: "100%" }} src={representante} alt="" />
-            </a>
-            <img className="managerLogo" src={fani} alt="" />
+          <div className="logo-container">
+            <div className="logo-item">
+              <a
+                style={{ marginRight: "20px" }}
+                href="https://www.elenacarrascal.com/web/distribucion/danza/m-y-l/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={representante} alt="" />
+              </a>
+              <img src={fani} alt="" />
+            </div>
           </div>
         </div>
       ) : (
@@ -529,12 +552,18 @@ const Creador = () => {
               {t}
             </p>
           ))}
-          <div className="creator-container withLogo">
-            <img className="managerLogo" src={fani} alt="" />
+          <div className="logo-container">
+            <div className="logo-item">
+              <img src={fani} alt="" />
+            </div>
           </div>
         </div>
       )}
-      <div data-aos="fade-up" className="creator-container">
+      <div
+        style={{ marginTop: "2rem" }}
+        data-aos="fade-up"
+        className="creator-container"
+      >
         <img className="creator-img" src={MyL} alt="" />
       </div>
       <HeartHr />
