@@ -18,6 +18,7 @@ import larendicionpreview from "../../img/larendicionpreview.png";
 import spazio from "../../img/spazio.png";
 import ara from "../../img/ara.png";
 import simehacebien from "../../img/simehacebien.png";
+import yugen from "../../img/yugen.jpg";
 
 const Acompaniamientos = () => {
   useEffect(() => {
@@ -90,6 +91,46 @@ const Acompaniamientos = () => {
           </div>
         )}
         <div className="colab-cards">
+          <div className="colab-block">
+            <div className="colab-desc">
+              <a
+                href="https://labandateatrocirco.com/2024/01/20/yugen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="colab-subtitle">Cia La banda teatro circo</h3>
+              </a>
+              <ArrowLongRightIcon className="right-arrow" />
+            </div>
+            <div className="colab-spans">
+              <span>(2024)</span>
+              <a
+                style={{ color: "#003a39", textDecoration: "none" }}
+                href="https://labandateatrocirco.com/2024/01/20/yugen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Yûgen</span>
+              </a>
+              <span>Pamplona, España</span>
+              <span>
+                {language ? (
+                  <i>Supervisión de movimiento</i>
+                ) : (
+                  <i>Movement monitoring</i>
+                )}
+              </span>
+              <img
+                onClick={() => {
+                  setImg(yugen);
+                  setModal(!modal);
+                }}
+                className="colab-img"
+                src={yugen}
+                alt=""
+              />
+            </div>
+          </div>
           <div className="colab-block">
             <div className="colab-desc">
               <a
