@@ -1,19 +1,33 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import "./Home.css";
 import Footer from "../../components/footer/Footer";
 import Iframe from "../..//components/iframes/Iframe";
 import Intro from "../../components/text/Intro";
 import WhappBtn from "../../utils/whatsapp/WhappBtn";
 import MyL from "../../img/MyL.jpg";
+import { LanguageContext } from "../../context/LanguageContext.jsx";
 
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+    const { language } = useContext(LanguageContext);
+  
+
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
-      <Iframe url="https://youtu.be/9LgYoDon-hI" status={true} />
+      {language ? (
+        <Iframe
+          url="https://www.youtube.com/watch?v=QAgiZ2V8noA"
+          status={true}
+        />
+      ) : (
+        <Iframe
+          url="https://www.youtube.com/watch?v=rgZSYXCK5cs"
+          status={true}
+        />
+      )}
       <Intro />
       <div
         style={{
